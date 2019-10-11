@@ -10,7 +10,7 @@ One library can be mapped to one single language only, but have multiple import 
 An example entry looks like:
 ```
 	"Express": {
-        "language": "Javascript"
+        "language": "JavaScript"
 		"imports": ["express"],
 		"technologies": ["MVC", "Web Development"],
 		"description": "Express is a minimal Node.js framework for web and mobile applications.",
