@@ -13,11 +13,39 @@
 		"image": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png",
 		"language": "JavaScript"
 	},
-	"Express": {
+	"Express.js": {
 		"imports": ["express"],
-		"technologies": ["Web Development"],
+		"technologies": ["Web Development", ""],
 		"description": "Express is a minimal Node.js framework for web and mobile applications.",
 		"image": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/express/express.png",
+		"language": "JavaScript"
+	},
+	"Meteor.js": {
+		"imports": ["meteor"],
+		"technologies": ["Web Development", "SPA", "Full Stack"],
+		"description": "Meteor.js is a full stack framework. It means that you can control everything from the database to the UI with the same language and the same framework, and it is one of Meteor’s primary advantages.",
+		"image": "https://user-images.githubusercontent.com/841294/26841702-0902bbee-4af3-11e7-9805-0618da66a246.png",
+		"language": "JavaScript"
+	},
+	"React.js": {
+		"imports": ["react"],
+		"technologies": ["Web Development", "SPA"],
+		"description": "A JavaScript library for building user interfaces",
+		"image": "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
+		"language": "JavaScript"
+	},
+	"Svelte": {
+		"imports": ["svelte"],
+		"technologies": ["Web Development", "SPA"],
+		"description": "Svelte is a radical new approach to building user interfaces. Whereas traditional frameworks like React and Vue do the bulk of their work in the browser, Svelte shifts that work into a compile step that happens when you build your app.",
+		"image": "https://raw.githubusercontent.com/sveltejs/branding/master/svelte-logo.png",
+		"language": "JavaScript"
+	},
+	"Vue.js": {
+		"imports": ["vue"],
+		"technologies": ["Web Development", "SPA"],
+		"description": "The Progressive JavaScript Framework",
+		"image": "https://raw.githubusercontent.com/vuejs/art/master/logo.png",
 		"language": "JavaScript"
 	},
 	"Go Micro": {
