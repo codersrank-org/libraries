@@ -20,6 +20,13 @@
 		"image": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/express/express.png",
 		"language": "JavaScript"
 	},
+	"Flask": {
+		"import": ["flask"],
+		"technologies": ["Web Development"],
+		"description": "Flask is a lightweight WSGI web application framework. It is designed to make getting started quick and easy, with the ability to scale up to complex applications.",
+		"image": "",
+		"language": "Python"
+	},
 	"MeteorJS": {
 		"imports": ["meteor"],
 		"technologies": ["Web Development", "SPA", "Full Stack"],
