@@ -1,4 +1,10 @@
 {
+	"AfterJS": {
+		"imports": ["@jaredpalmer/after"],
+		"technologies": ["Server side rendering"],
+		"description": "After.js enables Next.js-like data fetching with any React SSR app that uses React Router 4.",
+		"language": "JavaScript"
+	},
 	"Angular": {
 		"imports": ["@angular", "angular2"],
 		"technologies": ["Frontend", "Web Development", "SPA"],
@@ -13,6 +19,43 @@
 		"image": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png",
 		"language": "JavaScript"
 	},
+	"BabylonJS": {
+		"imports": ["babylonjs"],
+		"technologies": ["WebGL"],
+		"description": "Powerful, beautiful, simple, open, web-based 3d at its best",
+		"language": "JavaScript"
+	},
+	"Bootstrap": {
+		"imports": ["bootstrap"],
+		"technologies": ["CSS frameworks"],
+		"description": "Bootstrap is an open source toolkit for developing with HTML, CSS, and JS.",
+		"image": "https://mdbootstrap.com/img/logo/brands/bootstrap.jpg",
+		"language": "JavaScript"
+	},
+	"Carlo": {
+		"imports": ["carlo"],
+		"technologies": ["Desktop applications"],
+		"description": "Carlo provides Node applications with Google Chrome rendering capabilities, communicates with the locally-installed browser instance using the Puppeteer project, and implements a remote call infrastructure for communication between Node and the browser.",
+		"language": "JavaScript"
+	},
+	"Cypress": {
+		"imports": ["cypress"],
+		"technologies": ["Testing"],
+		"description": "Cypress is a Javascript End to End testing framework",
+		"language": "JavaScript"
+	},
+	"Electron": {
+		"imports": ["electron"],
+		"technologies": ["Desktop applications"],
+		"description": "Build cross platform desktop apps with JavaScript, HTML, and CSS",
+		"language": "JavaScript"
+	},
+	"Enzyme": {
+		"imports": ["enzyme"],
+		"technologies": ["Testing"],
+		"description": "Enzyme is a JavaScript Testing utility for React that makes it easier to test your React Components' output",
+		"language": "JavaScript"
+	},
 	"ExpressJS": {
 		"imports": ["express"],
 		"technologies": ["Web Development"],
@@ -20,12 +63,49 @@
 		"image": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/express/express.png",
 		"language": "JavaScript"
 	},
-	"Flask": {
+		"Flask": {
 		"import": ["flask"],
 		"technologies": ["Web Development"],
 		"description": "Flask is a lightweight WSGI web application framework. It is designed to make getting started quick and easy, with the ability to scale up to complex applications.",
 		"image": "",
 		"language": "Python"
+	},
+
+	"Framework7": {
+		"imports": ["framework7"],
+		"technologies": ["Mobile applications", "Desktop applications", "Progressive Web Apps", "CSS frameworks"],
+		"description": "A free and open source framework to develop mobile, desktop or web apps with native look and feel",
+		"language": "JavaScript"
+	},
+	"Go Micro": {
+		"imports": ["github.com/micro/go-micro"],
+		"technologies": ["microservice"],
+		"description": "Go Micro provides the core requirements for distributed systems development including RPC and Event driven communication.",
+		"language": "Go"
+	},
+	"Gulp": {
+		"imports": ["gulp"],
+		"technologies": ["microservice"],
+		"description": "Go Micro provides the core requirements for distributed systems development including RPC and Event driven communication.",
+		"language": "Go"
+	},
+	"Ionic": {
+		"imports": ["@ionic/"],
+		"technologies": ["Mobile applications"],
+		"description": "Ionic is the app development platform for web developers",
+		"language": "JavaScript"
+	},
+	"Jest": {
+		"imports": ["jest"],
+		"technologies": ["Testing"],
+		"description": "Jest is a delightful JavaScript Testing Framework with a focus on simplicity",
+		"language": "JavaScript"
+	},
+	"Materialize CSS": { 
+		"imports": ["materialize-css"],
+		"technologies": ["CSS frameworks"],
+		"description": "A modern responsive front-end framework based on Material Design",
+		"language": "JavaScript"
 	},
 	"MeteorJS": {
 		"imports": ["meteor"],
@@ -34,32 +114,101 @@
 		"image": "https://user-images.githubusercontent.com/841294/26841702-0902bbee-4af3-11e7-9805-0618da66a246.png",
 		"language": "JavaScript"
 	},
+	"MobX": { 
+		"imports": ["mobx"],
+		"technologies": ["Web Development", "SPA"],
+		"description": "MobX is a battle tested library that makes state management simple and scalable by transparently applying functional reactive programming (TFRP)",
+		"language": "JavaScript"
+	},
+	"NativeScript": {
+		"imports": ["nativescript"],
+		"technologies": ["Mobile applications"],
+		"description": "Open source framework for building truly native mobile apps with Angular, Vue.js, TypeScript, or JavaScript.",
+		"language": "JavaScript"
+	},
+	"NextJS": {
+		"imports": ["nextjs"],
+		"technologies": ["Web Development", "SPA", "Server side rendering"],
+		"description": "Production grade React applications that scale. The world's leading companies use Next.js to build server-rendered applications, static websites, and more.",
+		"language": "JavaScript"
+	},
+	"NgRx": { 
+		"imports": ["@ngrx/core"],
+		"technologies": ["Web Development", "SPA"],
+		"description": "RxJS powered state management for Angular applications, inspired by Redux",
+		"language": "JavaScript"
+	},
+	"NuxtJS": {
+		"imports": ["nuxtjs"],
+		"technologies": ["Web Development", "SPA", "Server side rendering"],
+		"description": "Nuxt.js is a free and open source web application framework based on Vue.js, Node.js, Webpack and Babel.js.",
+		"language": "JavaScript"
+	},
+	"Proton Native": {
+		"imports": ["proton-native"],
+		"technologies": ["Desktop applications"],
+		"description": "Create native desktop applications through a React syntax, on all platforms",
+		"image": "????",
+		"language": "JavaScript"
+	},
 	"ReactJS": {
 		"imports": ["react"],
-		"technologies": ["Web Development", "SPA"],
+		"technologies": ["Web Development", "SPA", "JavaScript Frameworks"],
 		"description": "A JavaScript library for building user interfaces",
 		"image": "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
 		"language": "JavaScript"
 	},
-	"Svelte": {
+	"React Native": {
+		"imports": ["react-native"],
+		"technologies": ["Mobile applications"],
+		"description": "React Native combines the best parts of native development with React, a best-in-class JavaScript library for building user interfaces.",
+		"language": "JavaScript"
+	},
+	"Redux": { 
+		"imports": ["redux"],
+		"technologies": ["Web Development"],
+		"description": "A predictable state container for JavaScript apps.",
+		"image": "????",
+		"language": "JavaScript"
+	},
+	"RxJS": {
+		"imports": ["rxjs"],
+		"technologies": ["Web Development"],
+		"description": "Reactive Extensions Library for JavaScript",
+		"image": "????",
+		"language": "JavaScript"
+	},
+		"Svelte": {
 		"imports": ["svelte"],
 		"technologies": ["Web Development", "SPA"],
 		"description": "Svelte is a radical new approach to building user interfaces. Whereas traditional frameworks like React and Vue do the bulk of their work in the browser, Svelte shifts that work into a compile step that happens when you build your app.",
 		"image": "https://raw.githubusercontent.com/sveltejs/branding/master/svelte-logo.png",
 		"language": "JavaScript"
 	},
+	"ThreeJS": {
+		"imports": ["threejs"],
+		"technologies": ["WebGL"],
+		"description": "DescriptionThree.js is a cross-browser JavaScript library and Application Programming Interface used to create and display animated 3D computer graphics in a web browser.",
+		"language": "JavaScript"
+	},
+	"Universal": {
+		"imports": ["@nguniversal/"],
+		"technologies": ["Web Development", "SPA", "Server side rendering"],
+		"description": "A technology that renders Angular applications on the server.",
+		"language": "JavaScript"
+	},
 	"VueJS": {
 		"imports": ["vue"],
-		"technologies": ["Web Development", "SPA"],
+		"technologies": ["Web Development", "SPA", "JavaScript Frameworks"],
 		"description": "The Progressive JavaScript Framework",
 		"image": "https://raw.githubusercontent.com/vuejs/art/master/logo.png",
 		"language": "JavaScript"
 	},
-	"Go Micro": {
-		"imports": ["github.com/micro/go-micro"],
-		"technologies": ["microservice"],
-		"description": "Go Micro provides the core requirements for distributed systems development including RPC and Event driven communication.",
-		"image": "",
-		"language": "Go"
+	"VueX": {
+		"imports": ["vuex"],
+		"technologies": ["Web Development", "SPA", "JavaScript Frameworks"],
+		"description": "Centralized State Management for Vue.js.",
+		"image": "????",
+		"language": "JavaScript"
 	}
 }
