@@ -197,7 +197,7 @@
 		"language": "JavaScript"
 	},
 	"ThreeJS": {
-		"imports": ["threejs"],
+		"imports": ["three"],
 		"technologies": ["WebGL"],
 		"description": "DescriptionThree.js is a cross-browser JavaScript library and Application Programming Interface used to create and display animated 3D computer graphics in a web browser.",
 		"language": "JavaScript"
