@@ -85,9 +85,9 @@
 	},
 	"Gulp": {
 		"imports": ["gulp"],
-		"technologies": ["microservice"],
-		"description": "Go Micro provides the core requirements for distributed systems development including RPC and Event driven communication.",
-		"language": "Go"
+		"technologies": ["Build tools"],
+		"description": "Gulp is an open-source JavaScript toolkit created by Eric Schoffstall used as a streaming build system in front-end web development.",
+		"language": "JavaScript"
 	},
 	"Ionic": {
 		"imports": ["@ionic/"],
@@ -144,11 +144,16 @@
 		"description": "Nuxt.js is a free and open source web application framework based on Vue.js, Node.js, Webpack and Babel.js.",
 		"language": "JavaScript"
 	},
+	"Parcel": {
+		"imports": ["parcel"],
+		"technologies": ["Build tools"],
+		"description": "Blazing fast, zero configuration web application bundler.",
+		"language": "JavaScript"
+	},
 	"Proton Native": {
 		"imports": ["proton-native"],
 		"technologies": ["Desktop applications"],
 		"description": "Create native desktop applications through a React syntax, on all platforms",
-		"image": "????",
 		"language": "JavaScript"
 	},
 	"ReactJS": {
@@ -169,6 +174,12 @@
 		"technologies": ["Web Development"],
 		"description": "A predictable state container for JavaScript apps.",
 		"image": "????",
+		"language": "JavaScript"
+	},
+	"Rollup": {
+		"imports": ["rollup"],
+		"technologies": ["Build tools"],
+		"description": "Parcel is a web application bundler, differentiated by its developer experience. It offers blazing fast performance utilizing multicore processing, and requires zero configuration.",
 		"language": "JavaScript"
 	},
 	"RxJS": {
@@ -208,7 +219,12 @@
 		"imports": ["vuex"],
 		"technologies": ["Web Development", "SPA", "JavaScript Frameworks"],
 		"description": "Centralized State Management for Vue.js.",
-		"image": "????",
+		"language": "JavaScript"
+	},
+	"Webpack": {
+		"imports": ["webpack"],
+		"technologies": ["Build tools"],
+		"description": "DescriptionWebpack is an open-source JavaScript module bundler. It is a module bundler primarily for JavaScript, but it can transform front-end assets like HTML, CSS, and images if the corresponding loaders are included.",
 		"language": "JavaScript"
 	}
 }
