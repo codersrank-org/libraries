@@ -27,7 +27,7 @@
 	},
 	"Bootstrap": {
 		"imports": ["bootstrap"],
-		"technologies": ["CSS frameworks"],
+		"technologies": ["Frontend", "CSS frameworks"],
 		"description": "Bootstrap is an open source toolkit for developing with HTML, CSS, and JS.",
 		"image": "https://mdbootstrap.com/img/logo/brands/bootstrap.jpg",
 		"language": "JavaScript"
@@ -158,7 +158,7 @@
 	},
 	"ReactJS": {
 		"imports": ["react"],
-		"technologies": ["Web Development", "SPA", "JavaScript Frameworks"],
+		"technologies": ["Frontend", "Web Development", "SPA", "JavaScript Frameworks"],
 		"description": "A JavaScript library for building user interfaces",
 		"image": "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
 		"language": "JavaScript"
@@ -208,7 +208,7 @@
 	},
 	"VueJS": {
 		"imports": ["vue"],
-		"technologies": ["Web Development", "SPA", "JavaScript Frameworks"],
+		"technologies": ["Frontend", "Web Development", "SPA", "JavaScript Frameworks"],
 		"description": "The Progressive JavaScript Framework",
 		"image": "https://raw.githubusercontent.com/vuejs/art/master/logo.png",
 		"language": "JavaScript"
