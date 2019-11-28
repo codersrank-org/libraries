@@ -22,7 +22,7 @@
 	"BabylonJS": {
 		"imports": ["babylonjs"],
 		"technologies": ["WebGL"],
-		"description": "Powerful, beautiful, simple, open, web-based 3d at its best",
+		"description": "Powerful, beautiful, simple, open, web-based 3D at its best",
 		"language": "JavaScript"
 	},
 	"Bootstrap": {
@@ -133,7 +133,7 @@
 		"language": "JavaScript"
 	},
 	"NgRx": { 
-		"imports": ["@ngrx/core"],
+		"imports": ["@ngrx"],
 		"technologies": ["Web Development", "SPA"],
 		"description": "RxJS powered state management for Angular applications, inspired by Redux",
 		"language": "JavaScript"
@@ -173,7 +173,6 @@
 		"imports": ["redux"],
 		"technologies": ["Web Development"],
 		"description": "A predictable state container for JavaScript apps.",
-		"image": "????",
 		"language": "JavaScript"
 	},
 	"Rollup": {
@@ -186,7 +185,6 @@
 		"imports": ["rxjs"],
 		"technologies": ["Web Development"],
 		"description": "Reactive Extensions Library for JavaScript",
-		"image": "????",
 		"language": "JavaScript"
 	},
 		"Svelte": {
@@ -199,10 +197,10 @@
 	"ThreeJS": {
 		"imports": ["three"],
 		"technologies": ["WebGL"],
-		"description": "DescriptionThree.js is a cross-browser JavaScript library and Application Programming Interface used to create and display animated 3D computer graphics in a web browser.",
+		"description": "Three.js is a cross-browser JavaScript library and Application Programming Interface used to create and display animated 3D computer graphics in a web browser.",
 		"language": "JavaScript"
 	},
-	"Universal": {
+	"Angular Universal": {
 		"imports": ["@nguniversal/"],
 		"technologies": ["Web Development", "SPA", "Server side rendering"],
 		"description": "A technology that renders Angular applications on the server.",
@@ -224,7 +222,7 @@
 	"Webpack": {
 		"imports": ["webpack"],
 		"technologies": ["Build tools"],
-		"description": "DescriptionWebpack is an open-source JavaScript module bundler. It is a module bundler primarily for JavaScript, but it can transform front-end assets like HTML, CSS, and images if the corresponding loaders are included.",
+		"description": "Webpack is an open-source JavaScript module bundler. It is a module bundler primarily for JavaScript, but it can transform front-end assets like HTML, CSS, and images if the corresponding loaders are included.",
 		"language": "JavaScript"
 	}
 }
