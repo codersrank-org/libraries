@@ -187,13 +187,13 @@
 		"description": "Reactive Extensions Library for JavaScript",
 		"language": "JavaScript"
   },
-  "Spring": {
+    "Spring": {
     "imports": ["org.springframework"],
     "technologies": ["Web Development", "Java Frameworks"],
     "description": "Java's MVC framework",
     "language": "Java"
   },
-  "Spring Boot": {
+    "Spring Boot": {
     "imports": ["org.springframework.boot"],
     "technologies": ["Web Development", "Java Frameworks"],
     "description": "Bootstrap a Spring application with little or no configuration",
