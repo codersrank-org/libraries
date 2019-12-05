@@ -70,7 +70,6 @@
 		"image": "",
 		"language": "Python"
 	},
-
 	"Framework7": {
 		"imports": ["framework7"],
 		"technologies": ["Mobile applications", "Desktop applications", "Progressive Web Apps", "CSS frameworks"],
@@ -219,10 +218,10 @@
 		"description": "Centralized State Management for Vue.js.",
 		"language": "JavaScript"
 	},
-	"Webpack": {
-		"imports": ["webpack"],
-		"technologies": ["Build tools"],
-		"description": "Webpack is an open-source JavaScript module bundler. It is a module bundler primarily for JavaScript, but it can transform front-end assets like HTML, CSS, and images if the corresponding loaders are included.",
+	"Socket.io": {
+		"imports": ["socket.io"],
+		"technologies": ["Websockets"],
+		"description": "Featuring the fastest and most reliable real-time engine.",
 		"language": "JavaScript"
 	}
 }
