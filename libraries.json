@@ -26,7 +26,7 @@
 		"language": "JavaScript"
 	},
 	"Bootstrap": {
-		"imports": ["Bootstrap.css", "boostrap.min.css"],
+		"imports": ["bootstrap.css", "boostrap.min.css"],
 		"technologies": ["Frontend", "CSS frameworks"],
 		"description": "Bootstrap is an open source toolkit for developing with HTML, CSS, and JS.",
 		"image": "https://mdbootstrap.com/img/logo/brands/bootstrap.jpg",
@@ -79,8 +79,14 @@
 		"import": ["flask"],
 		"technologies": ["Web Development"],
 		"description": "Flask is a lightweight WSGI web application framework. It is designed to make getting started quick and easy, with the ability to scale up to complex applications.",
-		"image": "",
 		"language": "Python"
+	},
+	"Flow": {
+		"import": ["flowjs"],
+		"_comment": "This is a special keyword, see repo info extractor JavaScript parser",
+		"technologies": ["Web Development"],
+		"description": "Flow is a static type checker for JavaScript, it works in a similar way that a linter does.",
+		"language": "JavaScript"
 	},
 	"Framework7": {
 		"imports": ["framework7"],
