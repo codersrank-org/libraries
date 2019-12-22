@@ -167,6 +167,13 @@
 		"description": "Create native desktop applications through a React syntax, on all platforms",
 		"language": "JavaScript"
 	},
+	"Rails": {
+		"imports": ["rails"],
+		"technologies": ["Web Development", "MVC"],
+		"description": "Rails is a web application development framework written in the Ruby programming language. It is designed to make programming web applications easier by making assumptions about what every developer needs to get started.",
+		"image": "https://upload.wikimedia.org/wikipedia/commons/6/62/Ruby_On_Rails_Logo.svg",
+		"language": "Ruby"
+	},
 	"ReactJS": {
 		"imports": ["react"],
 		"technologies": ["Frontend", "Web Development", "SPA", "JavaScript Frameworks"],
