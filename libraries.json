@@ -119,7 +119,7 @@
 		"description": "Jest is a delightful JavaScript Testing Framework with a focus on simplicity",
 		"language": "JavaScript"
 	},
-	"Materialize CSS": { 
+	"Materialize CSS": {
 		"imports": ["materialize-css"],
 		"technologies": ["CSS frameworks"],
 		"description": "A modern responsive front-end framework based on Material Design",
@@ -132,7 +132,7 @@
 		"image": "https://user-images.githubusercontent.com/841294/26841702-0902bbee-4af3-11e7-9805-0618da66a246.png",
 		"language": "JavaScript"
 	},
-	"MobX": { 
+	"MobX": {
 		"imports": ["mobx"],
 		"technologies": ["Web Development", "SPA"],
 		"description": "MobX is a battle tested library that makes state management simple and scalable by transparently applying functional reactive programming (TFRP)",
@@ -150,7 +150,7 @@
 		"description": "Production grade React applications that scale. The world's leading companies use Next.js to build server-rendered applications, static websites, and more.",
 		"language": "JavaScript"
 	},
-	"NgRx": { 
+	"NgRx": {
 		"imports": ["@ngrx"],
 		"technologies": ["Web Development", "SPA"],
 		"description": "RxJS powered state management for Angular applications, inspired by Redux",
@@ -187,7 +187,7 @@
 		"description": "React Native combines the best parts of native development with React, a best-in-class JavaScript library for building user interfaces.",
 		"language": "JavaScript"
 	},
-	"Redux": { 
+	"Redux": {
 		"imports": ["redux"],
 		"technologies": ["Web Development"],
 		"description": "A predictable state container for JavaScript apps.",
@@ -242,5 +242,12 @@
 		"technologies": ["Build tools"],
 		"description": "Webpack is an open-source JavaScript module bundler. It is a module bundler primarily for JavaScript, but it can transform front-end assets like HTML, CSS, and images if the corresponding loaders are included.",
 		"language": "JavaScript"
+	},
+	"Phalcon": {
+		"imports": ["Phalcon\\"],
+		"technologies": ["Web Development", "PHP Frameworks"],
+		"description": "High performance, full-stack PHP framework delivered as a C extension.",
+		"image": "https://raw.githubusercontent.com/phalcon/assets/master/phalcon/images/svg/phalcon-logo-300x300.svg",
+		"language": "PHP"
 	}
 }
