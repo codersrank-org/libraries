@@ -31,6 +31,13 @@
 		"description": "Powerful, beautiful, simple, open, web-based 3D at its best",
 		"language": "JavaScript"
 	},
+	"Blazor": {
+		"imports": ["Microsoft.AspNetCore.Components.Web"],
+		"technologies": ["Frontend", "WebAssembly"],
+		"description": "Blazor is a framework for building interactive client-side web UI with .NET",
+		"image": "https://devblogs.microsoft.com/aspnet/wp-content/uploads/sites/16/2019/04/BrandBlazor_nohalo_1000x.png",
+		"language": "C#"
+	},
 	"Bootstrap": {
 		"imports": ["bootstrap"],
 		"technologies": ["Frontend", "CSS frameworks"],
@@ -173,6 +180,13 @@
 		"technologies": ["Build tools"],
 		"description": "Blazing fast, zero configuration web application bundler.",
 		"language": "JavaScript"
+	},
+	"PatternFly": {
+		"imports": ["@patternfly/patternfly"],
+		"technologies": ["Frontend", "CSS frameworks"],
+		"description": "PatternFly is an open source design system created to enable consistency and usability across a wide range of applications and use cases.",
+		"image": "https://i.github-camo.com/8b1315539cf8078c2d44644f312d8e0f09225361/68747470733a2f2f7777772e7061747465726e666c792e6f72672f6173736574732f696d672f7061747465726e666c792d6f72622e737667",
+		"language": "CSS"
 	},
 	"Proton Native": {
 		"imports": ["proton-native"],
