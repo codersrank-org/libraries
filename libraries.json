@@ -82,6 +82,13 @@
 		"description": "Flow is a static type checker for javascript.",
 		"language": "JavaScript"
 	},
+	"Flutter": {
+		"import": ["package:flutter"],
+		"technologies": [ "Mobile Development"],
+		"description": "Flutter is Google's UI toolkit for crafting beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.",
+		"image": "https://upload.wikimedia.org/wikipedia/commons/1/17/Google-flutter-logo.png",
+		"language": "Dart"
+	},
 	"Framework7": {
 		"imports": ["framework7"],
 		"technologies": ["Mobile applications", "Desktop applications", "Progressive Web Apps", "CSS frameworks"],
