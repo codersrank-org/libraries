@@ -50,6 +50,12 @@
 		"description": "Cypress is a Javascript End to End testing framework",
 		"language": "JavaScript"
 	},
+	"Django": {
+		"imports": ["django"],
+		"technologies": ["Web Development"],
+		"description": "Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design.",
+		"language": "Python"
+	},
 	"Electron": {
 		"imports": ["electron"],
 		"technologies": ["Desktop applications"],
