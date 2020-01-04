@@ -63,6 +63,12 @@
 		"description": "Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design.",
 		"language": "Python"
 	},
+	"Effector": {
+                "imports": ["effector"],
+		"technologies": ["Web Development", "SPA"],
+		"description": "Effective multi-store state manager for Javascript apps",
+		"language": "JavaScript"
+	},
 	"Electron": {
 		"imports": ["electron"],
 		"technologies": ["Desktop applications"],
