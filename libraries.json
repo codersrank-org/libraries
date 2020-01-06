@@ -39,11 +39,17 @@
 		"language": "C#"
 	},
 	"Bootstrap": {
-		"imports": ["bootstrap"],
+		"imports": ["bootstrap.css", "boostrap.min.css"],
 		"technologies": ["Frontend", "CSS frameworks"],
 		"description": "Bootstrap is an open source toolkit for developing with HTML, CSS, and JS.",
 		"image": "https://mdbootstrap.com/img/logo/brands/bootstrap.jpg",
-		"language": "JavaScript"
+		"language": "CSS"
+	},
+	"Bulma": {
+		"imports": ["bulma.css"],
+		"technologies": ["Frontend", "CSS frameworks"],
+		"description": "Bulma is a free, open source CSS framework based on Flexbox and used by more than 200,000 developers.",
+		"language": "CSS"
 	},
 	"Carlo": {
 		"imports": ["carlo"],
@@ -75,6 +81,12 @@
 		"description": "Build cross platform desktop apps with JavaScript, HTML, and CSS",
 		"language": "JavaScript"
 	},
+	"Emotion": {
+		"imports": ["@emotion/"],
+		"technologies": ["Frontend", "CSS frameworks"],
+		"description": "Emotion is a library designed for writing css styles with JavaScript.",
+		"language": "CSS"
+	},
 	"Enzyme": {
 		"imports": ["enzyme"],
 		"technologies": ["Testing"],
@@ -92,14 +104,7 @@
 		"import": ["flask"],
 		"technologies": ["Web Development"],
 		"description": "Flask is a lightweight WSGI web application framework. It is designed to make getting started quick and easy, with the ability to scale up to complex applications.",
-		"image": "",
 		"language": "Python"
-	},
-	"Flow": {
-		"import": ["flowjs"],
-		"technologies": ["Web Development"],
-		"description": "Flow is a static type checker for javascript.",
-		"language": "JavaScript"
 	},
 	"Flutter": {
 		"import": ["package:flutter"],
@@ -108,11 +113,24 @@
 		"image": "https://upload.wikimedia.org/wikipedia/commons/1/17/Google-flutter-logo.png",
 		"language": "Dart"
 	},
+	"Flow": {
+		"import": ["flowjs"],
+		"_comment": "This is a special keyword, see repo info extractor JavaScript parser",
+		"technologies": ["Web Development"],
+		"description": "Flow is a static type checker for JavaScript, it works in a similar way that a linter does.",
+		"language": "JavaScript"
+	},
 	"Framework7": {
 		"imports": ["framework7"],
 		"technologies": ["Mobile applications", "Desktop applications", "Progressive Web Apps", "CSS frameworks"],
 		"description": "A free and open source framework to develop mobile, desktop or web apps with native look and feel",
 		"language": "JavaScript"
+	},
+	"Glamorous": {
+		"imports": ["glamorous"],
+		"technologies": ["Frontend", "CSS frameworks"],
+		"description": "Maintainable CSS with React.",
+		"language": "CSS"
 	},
 	"Go Micro": {
 		"imports": ["github.com/micro/go-micro"],
@@ -138,11 +156,11 @@
 		"description": "Jest is a delightful JavaScript Testing Framework with a focus on simplicity",
 		"language": "JavaScript"
 	},
-	"Materialize CSS": {
-		"imports": ["materialize-css"],
+	"Materialize CSS": { 
+		"imports": ["materialize.min.css", "materialize.css"],
 		"technologies": ["CSS frameworks"],
 		"description": "A modern responsive front-end framework based on Material Design",
-		"language": "JavaScript"
+		"language": "CSS"
 	},
 	"MeteorJS": {
 		"imports": ["meteor"],
@@ -200,6 +218,12 @@
 		"description": "Create native desktop applications through a React syntax, on all platforms",
 		"language": "JavaScript"
 	},
+	"Radium": {
+		"imports": ["radium"],
+		"technologies": ["Frontend", "Web Development", "CSS Frameworks"],
+		"description": "A set of tools to manage inline styles on React elements, giving you powerful styling capabilities without CSS",
+		"language": "CSS"
+	},
 	"Rails": {
 		"imports": ["rails"],
 		"technologies": ["Web Development", "MVC"],
@@ -249,6 +273,12 @@
     "technologies": ["Web Development", "Java Frameworks"],
     "description": "Bootstrap a Spring application with little or no configuration",
     "language": "Java"
+	},
+	"Semantic UI": {
+		"imports": ["semantic.min.css", "semantic.css"],
+		"technologies": ["Web Development", "SPA"],
+		"description": "User Interface is the language of the web.",
+		"language": "CSS"
 	},
 	"Socket.io": {
 		"imports": ["socket.io"],
