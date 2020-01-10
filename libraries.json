@@ -149,6 +149,12 @@
     "description": "High performance, minimalist Go web framework.",
     "language": "Go"
   },
+  "Ponzu": {
+    "imports": ["github.com/ponzu-cms/ponzu"],
+    "technologies": ["CMS"],
+    "description": "Headless CMS with automatic JSON API. Featuring auto-HTTPS from Let's Encrypt, HTTP/2 Server Push, and flexible server framework written in Go.",
+    "language": "Go"
+  },
   "Gulp": {
     "imports": ["gulp"],
     "technologies": ["Build tools"],
