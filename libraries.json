@@ -93,6 +93,12 @@
     "description": "Emotion is a library designed for writing css styles with JavaScript.",
     "language": "CSS"
   },
+  "Entity Framework": {
+    "imports": ["Microsoft.EntityFrameworkCore"],
+    "technologies": ["ORM"],
+    "description": "Entity Framework Core is a modern object-database mapper for .NET. It supports LINQ queries, change tracking, updates, and schema migrations.",
+    "language": "C#"
+  },
   "Enzyme": {
     "imports": ["enzyme"],
     "technologies": ["Testing"],
