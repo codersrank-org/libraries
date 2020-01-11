@@ -204,6 +204,12 @@
     "description": "RxJS powered state management for Angular applications, inspired by Redux",
     "language": "TypeScript"
   },
+  "NUnit": {
+    "imports": ["jest"],
+    "technologies": ["Testing"],
+    "description": "Jest is a delightful JavaScript Testing Framework with a focus on simplicity",
+    "language": "JavaScript"
+  },
   "NuxtJS": {
     "imports": ["nuxtjs"],
     "technologies": ["Web Development", "SPA", "Server side rendering"],
