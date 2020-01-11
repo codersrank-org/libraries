@@ -357,5 +357,11 @@
     "technologies": ["Build tools"],
     "description": "Webpack is an open-source JavaScript module bundler. It is a module bundler primarily for JavaScript, but it can transform front-end assets like HTML, CSS, and images if the corresponding loaders are included.",
     "language": "JavaScript"
+  },
+  "Wpf": {
+    "imports": ["System.Windows"],
+    "technologies": ["Desktop applications"],
+    "description": "Windows Presentation Foundation (WPF) is a UI framework for building Windows desktop applications. WPF supports a broad set of application development features, including an application model, resources, controls, graphics, layout, data binding and documents.",
+    "language": "C#"
   }
 }
