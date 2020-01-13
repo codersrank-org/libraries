@@ -1,0 +1,4 @@
+language: node_js
+
+script:
+    - node tools/ci-checks.js
