@@ -346,6 +346,13 @@
     "description": "Centralized State Management for Vue.js.",
     "language": "JavaScript"
   },
+  "a": {
+    "imports": ["webpack"],
+    "technologies": ["Build tools"],
+    "description": "Webpack is an open-source JavaScript module bundler. It is a module bundler primarily for JavaScript, but it can transform front-end assets like HTML, CSS, and images if the corresponding loaders are included.",
+    "language": "JavaScript"
+  }
+  ,
   "Webpack": {
     "imports": ["webpack"],
     "technologies": ["Build tools"],
