@@ -12,17 +12,17 @@
     "image": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png",
     "language": "TypeScript"
   },
+  "Angular Universal": {
+    "imports": ["@nguniversal/"],
+    "technologies": ["Web Development", "SPA", "Server side rendering"],
+    "description": "A technology that renders Angular applications on the server.",
+    "language": "JavaScript"
+  },
   "AngularJS": {
     "imports": ["angular"],
     "technologies": ["Frontend", "Web Development", "SPA"],
     "description": "AngularJS is a predecessor of Angular, an open source web application platform.",
     "image": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png",
-    "language": "JavaScript"
-  },
-  "Angular Universal": {
-    "imports": ["@nguniversal/"],
-    "technologies": ["Web Development", "SPA", "Server side rendering"],
-    "description": "A technology that renders Angular applications on the server.",
     "language": "JavaScript"
   },
   "BabylonJS": {
@@ -112,19 +112,19 @@
     "description": "Flask is a lightweight WSGI web application framework. It is designed to make getting started quick and easy, with the ability to scale up to complex applications.",
     "language": "Python"
   },
-  "Flutter": {
-    "import": ["package:flutter"],
-    "technologies": ["Mobile Development"],
-    "description": "Flutter is Google's UI toolkit for crafting beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.",
-    "image": "https://upload.wikimedia.org/wikipedia/commons/1/17/Google-flutter-logo.png",
-    "language": "Dart"
-  },
   "Flow": {
     "import": ["flowjs"],
     "_comment": "This is a special keyword, see repo info extractor JavaScript parser",
     "technologies": ["Web Development"],
     "description": "Flow is a static type checker for JavaScript, it works in a similar way that a linter does.",
     "language": "JavaScript"
+  },
+  "Flutter": {
+    "import": ["package:flutter"],
+    "technologies": ["Mobile Development"],
+    "description": "Flutter is Google's UI toolkit for crafting beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.",
+    "image": "https://upload.wikimedia.org/wikipedia/commons/1/17/Google-flutter-logo.png",
+    "language": "Dart"
   },
   "Framework7": {
     "imports": ["framework7"],
@@ -223,6 +223,13 @@
     "image": "https://i.github-camo.com/8b1315539cf8078c2d44644f312d8e0f09225361/68747470733a2f2f7777772e7061747465726e666c792e6f72672f6173736574732f696d672f7061747465726e666c792d6f72622e737667",
     "language": "CSS"
   },
+  "Phalcon": {
+    "imports": ["Phalcon\\"],
+    "technologies": ["Web Development", "PHP Frameworks"],
+    "description": "High performance, full-stack PHP framework delivered as a C extension.",
+    "image": "https://raw.githubusercontent.com/phalcon/assets/master/phalcon/images/svg/phalcon-logo-300x300.svg",
+    "language": "PHP"
+  },
   "Ponzu": {
     "imports": ["github.com/ponzu-cms/ponzu"],
     "technologies": ["CMS"],
@@ -248,6 +255,12 @@
     "image": "https://upload.wikimedia.org/wikipedia/commons/6/62/Ruby_On_Rails_Logo.svg",
     "language": "Ruby"
   },
+  "React Native": {
+    "imports": ["react-native"],
+    "technologies": ["Mobile applications"],
+    "description": "React Native combines the best parts of native development with React, a best-in-class JavaScript library for building user interfaces.",
+    "language": "JavaScript"
+  },
   "ReactJS": {
     "imports": ["react"],
     "technologies": [
@@ -258,12 +271,6 @@
     ],
     "description": "A JavaScript library for building user interfaces",
     "image": "https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png",
-    "language": "JavaScript"
-  },
-  "React Native": {
-    "imports": ["react-native"],
-    "technologies": ["Mobile applications"],
-    "description": "React Native combines the best parts of native development with React, a best-in-class JavaScript library for building user interfaces.",
     "language": "JavaScript"
   },
   "Redux": {
@@ -284,18 +291,6 @@
     "description": "Reactive Extensions Library for JavaScript",
     "language": "JavaScript"
   },
-  "Spring": {
-    "imports": ["org.springframework"],
-    "technologies": ["Web Development", "Java Frameworks"],
-    "description": "Java's MVC framework",
-    "language": "Java"
-  },
-  "Spring Boot": {
-    "imports": ["org.springframework.boot"],
-    "technologies": ["Web Development", "Java Frameworks"],
-    "description": "Bootstrap a Spring application with little or no configuration",
-    "language": "Java"
-  },
   "Semantic UI": {
     "imports": ["semantic.min.css", "semantic.css"],
     "technologies": ["Web Development", "SPA"],
@@ -307,6 +302,18 @@
     "technologies": ["Websockets"],
     "description": "Featuring the fastest and most reliable real-time engine.",
     "language": "JavaScript"
+  },
+  "Spring": {
+    "imports": ["org.springframework"],
+    "technologies": ["Web Development", "Java Frameworks"],
+    "description": "Java's MVC framework",
+    "language": "Java"
+  },
+  "Spring Boot": {
+    "imports": ["org.springframework.boot"],
+    "technologies": ["Web Development", "Java Frameworks"],
+    "description": "Bootstrap a Spring application with little or no configuration",
+    "language": "Java"
   },
   "Svelte": {
     "imports": ["svelte"],
@@ -344,12 +351,5 @@
     "technologies": ["Build tools"],
     "description": "Webpack is an open-source JavaScript module bundler. It is a module bundler primarily for JavaScript, but it can transform front-end assets like HTML, CSS, and images if the corresponding loaders are included.",
     "language": "JavaScript"
-  },
-  "Phalcon": {
-    "imports": ["Phalcon\\"],
-    "technologies": ["Web Development", "PHP Frameworks"],
-    "description": "High performance, full-stack PHP framework delivered as a C extension.",
-    "image": "https://raw.githubusercontent.com/phalcon/assets/master/phalcon/images/svg/phalcon-logo-300x300.svg",
-    "language": "PHP"
   }
 }
