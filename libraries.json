@@ -5,13 +5,13 @@
     "description": "After.js enables Next.js-like data fetching with any React SSR app that uses React Router 4.",
     "language": "JavaScript"
   },
-  	"Angular": {
-		"imports": ["@angular/", "angular2"],
-		"technologies": ["Frontend", "Web Development", "SPA"],
-		"description": "Angular is an open source web application platform.",
-		"image": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png",
-		"language": "TypeScript"
-	  },
+  "Angular": {
+    "imports": ["@angular/", "angular2"],
+    "technologies": ["Frontend", "Web Development", "SPA"],
+    "description": "Angular is an open source web application platform.",
+    "image": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png",
+    "language": "TypeScript"
+  },
   "Angular Universal": {
     "imports": ["@nguniversal/"],
     "technologies": ["Web Development", "SPA", "Server side rendering"],
@@ -230,7 +230,7 @@
     "image": "https://raw.githubusercontent.com/phalcon/assets/master/phalcon/images/svg/phalcon-logo-300x300.svg",
     "language": "PHP"
   },
-  "zPonzu": {
+  "Ponzu": {
     "imports": ["github.com/ponzu-cms/ponzu"],
     "technologies": ["CMS"],
     "description": "Headless CMS with automatic JSON API. Featuring auto-HTTPS from Let's Encrypt, HTTP/2 Server Push, and flexible server framework written in Go.",
