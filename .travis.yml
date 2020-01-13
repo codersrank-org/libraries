@@ -1,4 +1,7 @@
 language: node_js
-
+node_js:
+    - 7
 script:
     - node tools/ci-checks.js
+cache:
+    npm: false
