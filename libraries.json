@@ -205,10 +205,11 @@
     "language": "TypeScript"
   },
   "NUnit": {
-    "imports": ["jest"],
+    "imports": ["NUnit.Framework"],
     "technologies": ["Testing"],
-    "description": "Jest is a delightful JavaScript Testing Framework with a focus on simplicity",
-    "language": "JavaScript"
+    "description": "NUnit is a unit-testing framework for all .Net languages.",
+    "image": "https://nunit.org/img/nunit_logo_128.png",
+    "language": "C#"
   },
   "NuxtJS": {
     "imports": ["nuxtjs"],
