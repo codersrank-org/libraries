@@ -210,6 +210,13 @@
     "description": "RxJS powered state management for Angular applications, inspired by Redux",
     "language": "TypeScript"
   },
+  "NUnit": {
+    "imports": ["NUnit.Framework"],
+    "technologies": ["Testing"],
+    "description": "NUnit is a unit-testing framework for all .Net languages.",
+    "image": "https://nunit.org/img/nunit_logo_128.png",
+    "language": "C#"
+  },
   "NuxtJS": {
     "imports": ["nuxtjs"],
     "technologies": ["Web Development", "SPA", "Server side rendering"],
