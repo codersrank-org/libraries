@@ -328,6 +328,12 @@
     "description": "Featuring the fastest and most reliable real-time engine.",
     "language": "JavaScript"
   },
+  "SpeedScript": {
+    "imports": ["OpenEdge"],
+    "technologies": ["Web Development"],
+    "description": "SpeedScript is a subset of OpenEdge ABL language used in the development of web applications",
+    "language": "OpenEdge ABL"
+  },
   "Spring": {
     "imports": ["org.springframework"],
     "technologies": ["Web Development", "Java Frameworks"],
