@@ -229,6 +229,12 @@
     "description": "Nuxt.js is a free and open source web application framework based on Vue.js, Node.js, Webpack and Babel.js.",
     "language": "JavaScript"
   },
+  "OpenEdge ABL": {
+    "imports": ["OpenEdge"],
+    "technologies": ["Desktop Applications", "Web Development", "Databases"],
+    "description": "Business application development language created and maintained by Progress Software Corporation",
+    "language": "OpenEdge ABL"
+  },
   "Parcel": {
     "imports": ["parcel"],
     "technologies": ["Build tools"],
