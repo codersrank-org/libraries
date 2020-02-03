@@ -179,6 +179,16 @@
     "description": "Jest is a delightful JavaScript Testing Framework with a focus on simplicity",
     "language": "JavaScript"
   },
+  "Kivy": {
+    "imports": ["kivy"],
+    "technologies": [
+      "Desktop applications",
+      "Mobile applications"
+    ],
+    "description": "Kivy - Open source Python library for rapid development of applications that make use of innovative user interfaces, such as multi-touch apps.",
+    "image": "https://kivy.org/logos/kivy-logo-black-256.png",
+    "language": "Python"
+  },
   "Materialize CSS": {
     "imports": ["materialize.min.css", "materialize.css"],
     "technologies": ["CSS frameworks"],
