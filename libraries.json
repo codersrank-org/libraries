@@ -278,10 +278,17 @@
     "description": "Create native desktop applications through a React syntax, on all platforms",
     "language": "JavaScript"
   },
+  "Pygame": {
+    "imports": ["pygame"],
+    "technologies": ["Desktop applications"],
+    "description": "Pygame is a cross-platform set of Python modules designed for writing video games. It includes computer graphics and sound libraries designed to be used with the Python programming language.",
+    "image": "http://www.pygame.org/docs/pygame_small.gif",
+    "language": "Python"
+  },
   "Pyglet": {
     "imports": ["pyglet"],
     "technologies": ["Desktop applications"],
-    "description": "Pyglet is a cross-platform windowing and multimedia library for Python, intended for developing games and other visually rich applications",
+    "description": "Pyglet is a cross-platform windowing and multimedia library for Python, intended for developing games and other visually rich applications.",
     "image": "https://pyglet.readthedocs.io/en/stable/_static/logo.png",
     "language": "Python"
   },
