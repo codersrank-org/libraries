@@ -75,6 +75,12 @@
     "description": "Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design.",
     "language": "Python"
   },
+  "Docker": {
+    "imports": ["Dockerfile"],
+    "technologies": ["Web Development", "Virtualization"],
+    "description": "Docker helps developers bring their ideas to life by conquering the complexity of app development.",
+    "language": "Shell"
+  },
   "Echo": {
     "imports": ["github.com/labstack/echo"],
     "technologies": ["framework"],
