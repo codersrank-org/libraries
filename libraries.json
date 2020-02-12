@@ -179,8 +179,18 @@
     "description": "Jest is a delightful JavaScript Testing Framework with a focus on simplicity",
     "language": "JavaScript"
   },
+  "Kivy": {
+    "imports": ["kivy"],
+    "technologies": [
+      "Desktop applications",
+      "Mobile applications"
+    ],
+    "description": "Kivy - Open source Python library for rapid development of applications that make use of innovative user interfaces, such as multi-touch apps.",
+    "image": "https://kivy.org/logos/kivy-logo-black-256.png",
+    "language": "Python"
+  },
   "Laravel": {
-    "imports": ["Illuminate\\", "laravel/laravel", "laravel/framework"],
+    "imports": ["Illuminate\\", "laravel/laravel", "laravel/framework", "MVC"],
     "technologies": ["Web Development", "PHP Frameworks"],
     "description": "A PHP framework for web artisans.",
     "image": "https://user-images.githubusercontent.com/10347617/73778440-479a8280-479c-11ea-8446-1ab4b0f5c7fd.png",
@@ -274,6 +284,20 @@
     "technologies": ["Desktop applications"],
     "description": "Create native desktop applications through a React syntax, on all platforms",
     "language": "JavaScript"
+  },
+  "Pygame": {
+    "imports": ["pygame"],
+    "technologies": ["Desktop applications", "Game development"],
+    "description": "Pygame is a cross-platform set of Python modules designed for writing video games. It includes computer graphics and sound libraries designed to be used with the Python programming language.",
+    "image": "http://www.pygame.org/docs/pygame_small.gif",
+    "language": "Python"
+  },
+  "Pyglet": {
+    "imports": ["pyglet"],
+    "technologies": ["Desktop applications"],
+    "description": "Pyglet is a cross-platform windowing and multimedia library for Python, intended for developing games and other visually rich applications.",
+    "image": "https://pyglet.readthedocs.io/en/stable/_static/logo.png",
+    "language": "Python"
   },
   "Radium": {
     "imports": ["radium"],
