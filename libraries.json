@@ -189,6 +189,13 @@
     "image": "https://kivy.org/logos/kivy-logo-black-256.png",
     "language": "Python"
   },
+  "Laravel": {
+    "imports": ["Illuminate\\", "laravel/laravel", "laravel/framework", "MVC"],
+    "technologies": ["Web Development", "PHP Frameworks"],
+    "description": "A PHP framework for web artisans.",
+    "image": "https://user-images.githubusercontent.com/10347617/73778440-479a8280-479c-11ea-8446-1ab4b0f5c7fd.png",
+    "language": "PHP"
+  },
   "Materialize CSS": {
     "imports": ["materialize.min.css", "materialize.css"],
     "technologies": ["CSS frameworks"],
