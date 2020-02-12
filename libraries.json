@@ -253,6 +253,12 @@
     "description": "Nuxt.js is a free and open source web application framework based on Vue.js, Node.js, Webpack and Babel.js.",
     "language": "JavaScript"
   },
+  "OpenEdge ABL": {
+    "imports": ["OpenEdge"],
+    "technologies": ["Desktop Applications", "Web Development", "Databases"],
+    "description": "Business application development language created and maintained by Progress Software Corporation",
+    "language": "OpenEdge ABL"
+  },
   "Parcel": {
     "imports": ["parcel"],
     "technologies": ["Build tools"],
@@ -359,6 +365,12 @@
     "technologies": ["Websockets"],
     "description": "Featuring the fastest and most reliable real-time engine.",
     "language": "JavaScript"
+  },
+  "SpeedScript": {
+    "imports": ["OpenEdge"],
+    "technologies": ["Web Development"],
+    "description": "SpeedScript is a subset of OpenEdge ABL language used in the development of web applications",
+    "language": "OpenEdge ABL"
   },
   "Spring": {
     "imports": ["org.springframework"],
