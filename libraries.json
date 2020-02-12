@@ -280,7 +280,7 @@
   },
   "Pygame": {
     "imports": ["pygame"],
-    "technologies": ["Desktop applications"],
+    "technologies": ["Desktop applications", "Game development"],
     "description": "Pygame is a cross-platform set of Python modules designed for writing video games. It includes computer graphics and sound libraries designed to be used with the Python programming language.",
     "image": "http://www.pygame.org/docs/pygame_small.gif",
     "language": "Python"
