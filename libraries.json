@@ -426,5 +426,12 @@
     "technologies": ["Desktop applications"],
     "description": "Windows Presentation Foundation (WPF) is a UI framework for building Windows desktop applications. WPF supports a broad set of application development features, including an application model, resources, controls, graphics, layout, data binding and documents.",
     "language": "C#"
+  },
+  "XUnit.NET": {
+    "imports": ["XUnit"],
+    "technologies": ["Testing"],
+    "description": "xUnit.net is a free, open source, community-focused unit testing tool for the .NET Framework.",
+    "image": "https://avatars2.githubusercontent.com/u/2092016?s=200&v=4",
+    "language": "C#"
   }
 }
