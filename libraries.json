@@ -433,5 +433,12 @@
     "description": "xUnit.net is a free, open source, community-focused unit testing tool for the .NET Framework.",
     "image": "https://avatars2.githubusercontent.com/u/2092016?s=200&v=4",
     "language": "C#"
+  },
+  "Yii": {
+    "imports": ["yii\\", "yiisoft/yii"],
+    "technologies": ["Web Development", "PHP Frameworks"],
+    "description": "Yii is a fast, secure, and efficient PHP framework.",
+    "image": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/yii/yii.png",
+    "language": "PHP"
   }
 }
