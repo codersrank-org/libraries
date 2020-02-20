@@ -190,8 +190,8 @@
     "language": "Python"
   },
   "Laravel": {
-    "imports": ["Illuminate\\", "laravel/laravel", "laravel/framework", "MVC"],
-    "technologies": ["Web Development", "PHP Frameworks"],
+    "imports": ["Illuminate\\", "laravel/laravel", "laravel/framework"],
+    "technologies": ["Web Development", "PHP Frameworks", "MVC"],
     "description": "A PHP framework for web artisans.",
     "image": "https://user-images.githubusercontent.com/10347617/73778440-479a8280-479c-11ea-8446-1ab4b0f5c7fd.png",
     "language": "PHP"
