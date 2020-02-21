@@ -149,18 +149,6 @@
     "description": "A free and open source framework to develop mobile, desktop or web apps with native look and feel",
     "language": "JavaScript"
   },
-  "Gatsby": {
-    "imports": ["gatsby"],
-    "technologies": [
-      "Frontend",
-      "Web Development",
-      "SPA",
-      "JavaScript Frameworks"
-    ],
-    "description": "Gatsby is a free and open source framework based on React that helps developers build blazing fast websites and apps",
-    "image": "https://www.gatsbyjs.org/Gatsby-Monogram.svg",
-    "language": "JavaScript"
-  },
   "Glamorous": {
     "imports": ["glamorous"],
     "technologies": ["Frontend", "CSS frameworks"],
