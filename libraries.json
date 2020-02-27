@@ -399,8 +399,8 @@
   },
   "Ts.ED": {
     "imports": ["@tsed/"],
-    "technologies": ["Web Development"],
-    "description": "A Node.js and TypeScript Framework on top of Express",
+    "technologies": ["Web Development", "MVC"],
+    "description": "A Node.js and TypeScript Framework on top of ExpressJS.",
     "language": "TypeScript"
   },
   "VueJS": {
