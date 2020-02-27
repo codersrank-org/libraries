@@ -397,6 +397,12 @@
     "description": "Three.js is a cross-browser JavaScript library and Application Programming Interface used to create and display animated 3D computer graphics in a web browser.",
     "language": "JavaScript"
   },
+  "Ts.ED": {
+    "imports": ["@tsed/"],
+    "technologies": ["Web Development"],
+    "description": "A Node.js and TypeScript Framework on top of Express",
+    "language": "TypeScript"
+  },
   "VueJS": {
     "imports": ["vue"],
     "technologies": [
