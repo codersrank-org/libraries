@@ -240,6 +240,12 @@
     "description": "RxJS powered state management for Angular applications, inspired by Redux",
     "language": "TypeScript"
   },
+  "Salesforce Apex": {
+    "imports": ["salesforce-apex"],
+    "technologies": ["Cloud Development"],
+    "description": "The native programming language for the Force.com platform.",
+    "language": "Salesforce Apex"
+  },
   "NUnit": {
     "imports": ["NUnit.Framework"],
     "technologies": ["Testing"],
