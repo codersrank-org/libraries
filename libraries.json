@@ -25,6 +25,13 @@
     "image": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png",
     "language": "JavaScript"
   },
+  "AnimeJS": {
+    "imports": ["chartjs"],
+    "technologies": ["Frontend", "Web Animation"],
+    "description": "ChartJS is a free, open source lightweight JavaScript animation library with a simple yet powerful API. It works with CSS properties, SVG, DOM attributes and Javascript Objects.",
+    "image": "https://animejs.com/documentation/assets/img/anime-mini-logo.svg",
+    "language": "JavaScript"
+  },
   "ASP.NET": {
     "imports": ["Microsoft.AspNetCore.Mvc"],
     "technologies": ["Web Development", "SPA", "Server side rendering"],
@@ -63,6 +70,13 @@
     "description": "Carlo provides Node applications with Google Chrome rendering capabilities, communicates with the locally-installed browser instance using the Puppeteer project, and implements a remote call infrastructure for communication between Node and the browser.",
     "language": "JavaScript"
   },
+  "ChartJS": {
+    "imports": ["chart.js"],
+    "technologies": ["Frontend", "Data Visualization"],
+    "description": "A simple yet flexible Javascript charting library for Designers and Developers.",
+    "image": "https://www.chartjs.org/media/logo-title.svg",
+    "language": "JavaScript"
+  },
   "Cypress": {
     "imports": ["cypress"],
     "technologies": ["Testing"],
@@ -74,6 +88,13 @@
     "technologies": ["Web Development"],
     "description": "Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design.",
     "language": "Python"
+  },
+  "D3": {
+    "imports": ["d3"],
+    "technologies": ["Frontend", "Data Visualization"],
+    "description": "D3 (or D3.js) is a JavaScript library for visualizing data using web standards. D3 helps you bring data to life using SVG, Canvas and HTML DOM manipulation.",
+    "image": "https://d3js.org/logo.svg",
+    "language": "JavaScript"
   },
   "Echo": {
     "imports": ["github.com/labstack/echo"],
