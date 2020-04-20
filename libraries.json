@@ -448,13 +448,13 @@
     "language": "PHP"
   },
    "Xtend": {
-    "imports": [org.eclipse.xtend"],
+    "imports": ["org.eclipse.xtend"],
     "technologies": ["Java", "DSL", "Eclipse RCP","Desktop Tool Development"],
     "description": "Xtend is a statically-typed programming language which translates to comprehensible Java source code. Syntactically and semantically Xtend has its roots in the Java programming language but improves on many aspects",
     "language": "Xtend"
   },
   "Xtext": {
-    "imports": [org.eclipse.xtend"],
+    "imports": ["org.eclipse.xtend"],
     "technologies": ["DSL", "Language Development", "Xtend"],
     "description": "Xtext is DSL language framwork",
     "language": "Xtext"
