@@ -241,7 +241,7 @@
     "language": "TypeScript"
   },
   "NodeJS": {
-    "imports": ["child_process", "cluster", "crypto", "dns", "events", "fs", "http", "http2", "https", "net", "os", "path", "stream", "tls", "udp",  "url", "util", "v8",  "vm", "wirker_threads", "zlib"],
+    "imports": ["child_process", "cluster", "crypto", "dns", "events", "fs", "http", "http2", "https", "net", "os", "path", "stream", "tls", "udp",  "url", "util", "v8",  "vm", "worker_threads", "zlib"],
     "technologies": ["Frontend", "Backend"],
     "description": "JavaScript runtime built on V8 engine and libuv",
     "image": "https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg",
