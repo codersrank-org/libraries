@@ -232,10 +232,10 @@
   },
   "Micronaut": {
     "language": "Java",
-	"imports": ["io.micronaut"],
-	"technologies": ["Web Development", "Microservices", "Java Frameworks"],
-	"description": "Micronaut is a modern, JVM-based, full-stack framework for building modular, easily testable microservice and serverless applications.",
-	"image": "https://raw.githubusercontent.com/micronaut-projects/static-website/master/main/src/main/resources/assets/images/micronaut_mini.svg",
+	  "imports": ["io.micronaut"],
+	  "technologies": ["Web Development", "Microservices", "Java Frameworks"],
+	  "description": "Micronaut is a modern, JVM-based, full-stack framework for building modular, easily testable microservice and serverless applications.",
+	  "image": "https://raw.githubusercontent.com/micronaut-projects/static-website/master/main/src/main/resources/assets/images/micronaut_mini.svg"
   },
   "MobX": {
     "imports": ["mobx"],
