@@ -398,6 +398,12 @@
     "description": "A predictable state container for JavaScript apps.",
     "language": "JavaScript"
   },
+  "Redux Saga": {
+    "imports": ["redux"],
+    "technologies": ["Web Development"],
+    "description": "An alternative side effect model for Redux apps.",
+    "language": "JavaScript"
+  },
   "Rollup": {
     "imports": ["rollup"],
     "technologies": ["Build tools"],
