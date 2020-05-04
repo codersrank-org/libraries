@@ -209,7 +209,7 @@
     "description": "libGDX is a free and open-source game-development application framework written in the Java programming language with some C and C++ components for performance dependent code. It allows for the development of desktop and mobile games by using the same code base. It is cross-platform, supporting Windows, Linux, Mac OS X, Android, iOS, BlackBerry and web browsers with WebGL support.",
     "image": "https://www.badlogicgames.com/wordpress/wp-content/uploads/2011/05/libGDX-RedGlossyNoReflection.png",
     "language": "Java"
-  }
+  },
   "Materialize CSS": {
     "imports": ["materialize.min.css", "materialize.css"],
     "technologies": ["CSS frameworks"],
