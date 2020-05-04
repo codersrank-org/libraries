@@ -217,7 +217,7 @@
     "language": "JavaScript"
   },
   "Micronaut": {
-    "language": "Java"
+    "language": "Java",
 		"imports": ["io.micronaut"],
 		"technologies": ["Web Development", "Microservices", "Java Frameworks],
 		"description": "Micronaut is a modern, JVM-based, full-stack framework for building modular, easily testable microservice and serverless applications.",
