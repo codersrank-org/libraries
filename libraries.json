@@ -27,7 +27,7 @@
   },
   "AnimeJS": {
     "imports": ["chartjs"],
-    "technologies": ["Frontend", "Web Animation"],
+    "technologies": ["Frontend", "Data Visualization"],
     "description": "ChartJS is a free, open source lightweight JavaScript animation library with a simple yet powerful API. It works with CSS properties, SVG, DOM attributes and Javascript Objects.",
     "image": "https://animejs.com/documentation/assets/img/anime-mini-logo.svg",
     "language": "JavaScript"
@@ -83,18 +83,18 @@
     "description": "Cypress is a Javascript End to End testing framework",
     "language": "JavaScript"
   },
-  "Django": {
-    "imports": ["django"],
-    "technologies": ["Web Development"],
-    "description": "Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design.",
-    "language": "Python"
-  },
   "D3": {
     "imports": ["d3"],
     "technologies": ["Frontend", "Data Visualization"],
     "description": "D3 (or D3.js) is a JavaScript library for visualizing data using web standards. D3 helps you bring data to life using SVG, Canvas and HTML DOM manipulation.",
     "image": "https://d3js.org/logo.svg",
     "language": "JavaScript"
+  },
+  "Django": {
+    "imports": ["django"],
+    "technologies": ["Web Development"],
+    "description": "Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design.",
+    "language": "Python"
   },
   "Echo": {
     "imports": ["github.com/labstack/echo"],
