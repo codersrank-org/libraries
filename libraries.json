@@ -196,12 +196,26 @@
     "image": "https://kivy.org/logos/kivy-logo-black-256.png",
     "language": "Python"
   },
+  "KiwiJS": {
+    "imports": ["kiwi-js"],
+    "technologies": ["Web Development", "Mobile Development", "Game Development"],
+    "description": "Kiwi.js is a mobile first HTML5 and Javascript game engine supporting both Canvas and WebGL rendering.",
+    "image": "http://www.kiwijs.org/wp-content/themes/kiwijs/assets/logo.png",
+    "language": "JavaScript"
+  },
   "Laravel": {
     "imports": ["Illuminate\\", "laravel/laravel", "laravel/framework"],
     "technologies": ["Web Development", "PHP Frameworks", "MVC"],
     "description": "A PHP framework for web artisans.",
     "image": "https://user-images.githubusercontent.com/10347617/73778440-479a8280-479c-11ea-8446-1ab4b0f5c7fd.png",
     "language": "PHP"
+  },
+  "LibGDX": {
+    "imports": ["com.badlogic.gdx"],
+    "technologies": ["Java Frameworks", "Mobile Development", "Game Development", "Desktop Development", "Desktop Applications", "Mobile Applications"],
+    "description": "libGDX is a free and open-source game-development application framework written in the Java programming language with some C and C++ components for performance dependent code. It allows for the development of desktop and mobile games by using the same code base. It is cross-platform, supporting Windows, Linux, Mac OS X, Android, iOS, BlackBerry and web browsers with WebGL support.",
+    "image": "https://www.badlogicgames.com/wordpress/wp-content/uploads/2011/05/libGDX-RedGlossyNoReflection.png",
+    "language": "Java"
   },
   "Materialize CSS": {
     "imports": ["materialize.min.css", "materialize.css"],
@@ -217,12 +231,12 @@
     "language": "JavaScript"
   },
   "Micronaut": {
-    "language": "Java"
-		"imports": ["io.micronaut"],
-		"technologies": ["Web Development", "Microservices", "Java Frameworks],
-		"description": "Micronaut is a modern, JVM-based, full-stack framework for building modular, easily testable microservice and serverless applications.",
-		"image": "https://raw.githubusercontent.com/micronaut-projects/static-website/master/main/src/main/resources/assets/images/micronaut_mini.svg",
-	},
+    "language": "Java",
+	"imports": ["io.micronaut"],
+	"technologies": ["Web Development", "Microservices", "Java Frameworks"],
+	"description": "Micronaut is a modern, JVM-based, full-stack framework for building modular, easily testable microservice and serverless applications.",
+	"image": "https://raw.githubusercontent.com/micronaut-projects/static-website/master/main/src/main/resources/assets/images/micronaut_mini.svg",
+  },
   "MobX": {
     "imports": ["mobx"],
     "technologies": ["Web Development", "SPA"],
