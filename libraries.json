@@ -230,18 +230,18 @@
     "image": "https://user-images.githubusercontent.com/841294/26841702-0902bbee-4af3-11e7-9805-0618da66a246.png",
     "language": "JavaScript"
   },
-  "MobX": {
-    "imports": ["mobx"],
-    "technologies": ["Web Development", "SPA"],
-    "description": "MobX is a battle tested library that makes state management simple and scalable by transparently applying functional reactive programming (TFRP)",
-    "language": "JavaScript"
-  },
   "Micronaut": {
     "language": "Java",
 	  "imports": ["io.micronaut"],
 	  "technologies": ["Web Development", "Microservices", "Java Frameworks"],
 	  "description": "Micronaut is a modern, JVM-based, full-stack framework for building modular, easily testable microservice and serverless applications.",
 	  "image": "https://raw.githubusercontent.com/micronaut-projects/static-website/master/main/src/main/resources/assets/images/micronaut_mini.svg"
+  },
+  "MobX": {
+    "imports": ["mobx"],
+    "technologies": ["Web Development", "SPA"],
+    "description": "MobX is a battle tested library that makes state management simple and scalable by transparently applying functional reactive programming (TFRP)",
+    "language": "JavaScript"
   },
   "NativeScript": {
     "imports": ["nativescript"],
