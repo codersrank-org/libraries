@@ -161,6 +161,13 @@
     "description": "Go Micro provides the core requirements for distributed systems development including RPC and Event driven communication.",
     "language": "Go"
   },
+  "Grails": {
+    "imports": ["grails"],
+    "technologies": ["Web Development", "Java Frameworks"],
+    "description": "A powerful Groovy-based web application framework for the JVM built on top of Spring Boot",
+    "image": "https://raw.githubusercontent.com/apache/groovy-website/asf-site/site/src/site/assets/img/groovy-logo-colored.svg",
+    "language": "Groovy"
+  },
   "Gulp": {
     "imports": ["gulp"],
     "technologies": ["Build tools"],
