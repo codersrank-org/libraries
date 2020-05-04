@@ -241,7 +241,7 @@
     "imports": ["mobx"],
     "technologies": ["Web Development", "SPA"],
     "description": "MobX is a battle tested library that makes state management simple and scalable by transparently applying functional reactive programming (TFRP)",
-    "language": "JavaScript"
+    "language": "JavaScript",
   },
   "NativeScript": {
     "imports": ["nativescript"],
