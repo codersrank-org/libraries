@@ -26,9 +26,9 @@
     "language": "JavaScript"
   },
   "AnimeJS": {
-    "imports": ["chartjs"],
-    "technologies": ["Frontend", "Data Visualization"],
-    "description": "ChartJS is a free, open source lightweight JavaScript animation library with a simple yet powerful API. It works with CSS properties, SVG, DOM attributes and Javascript Objects.",
+    "imports": ["anime.js"],
+    "technologies": ["Frontend", "Animation"],
+    "description": "Anime.js is a lightweight JavaScript animation library with a simple, yet powerful API. It works with CSS properties, SVG, DOM attributes and JavaScript Objects.",
     "image": "https://animejs.com/documentation/assets/img/anime-mini-logo.svg",
     "language": "JavaScript"
   },
