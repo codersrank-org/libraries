@@ -96,6 +96,12 @@
     "description": "Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design.",
     "language": "Python"
   },
+  "Django REST framework": {
+    "imports": ["rest_framework"],
+    "technologies": ["Web Development"],
+    "description": "Django REST framework is a powerful and flexible toolkit for building Web APIs.",
+    "language": "Python"
+  },
   "Echo": {
     "imports": ["github.com/labstack/echo"],
     "technologies": ["framework"],
