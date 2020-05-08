@@ -416,6 +416,12 @@
     "description": "Parcel is a web application bundler, differentiated by its developer experience. It offers blazing fast performance utilizing multicore processing, and requires zero configuration.",
     "language": "JavaScript"
   },
+  "RxJava": {
+    "imports": ["io.reactivex"],
+    "technologies": ["Web Development"],
+    "description": "Reactive Extensions for the JVM – a library for composing asynchronous and event-based programs using observable sequences for the Java VM",
+    "language": "Java"
+  },
   "RxJS": {
     "imports": ["rxjs"],
     "technologies": ["Web Development"],
