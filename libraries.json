@@ -146,20 +146,20 @@
     "language": "JavaScript"
   },
   "Flask": {
-    "import": ["flask"],
+    "imports": ["flask"],
     "technologies": ["Web Development"],
     "description": "Flask is a lightweight WSGI web application framework. It is designed to make getting started quick and easy, with the ability to scale up to complex applications.",
     "language": "Python"
   },
   "Flow": {
-    "import": ["flowjs"],
+    "imports": ["flowjs"],
     "_comment": "This is a special keyword, see repo info extractor JavaScript parser",
     "technologies": ["Web Development"],
     "description": "Flow is a static type checker for JavaScript, it works in a similar way that a linter does.",
     "language": "JavaScript"
   },
   "Flutter": {
-    "import": ["package:flutter"],
+    "imports": ["package:flutter"],
     "technologies": ["Mobile Development"],
     "description": "Flutter is Google's UI toolkit for crafting beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.",
     "image": "https://upload.wikimedia.org/wikipedia/commons/1/17/Google-flutter-logo.png",
@@ -478,8 +478,8 @@
     "language": "TypeScript"
   },
   "Unity3D": {
-    "imports": "UnityEngine",
-    "technologies": "Game Development",
+    "imports": ["UnityEngine"],
+    "technologies": ["Game Development"],
     "description": "Unity is a real-time 3D development platform for creating games and other 3D graphics.",
     "language": "C#"
   },
