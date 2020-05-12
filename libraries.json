@@ -230,6 +230,13 @@
     "image": "http://www.kiwijs.org/wp-content/themes/kiwijs/assets/logo.png",
     "language": "JavaScript"
   },
+  "Koa": {
+    "imports": ["koa"],
+    "technologies": ["Web Development"],
+    "description": "Next generation web framework for Node.js",
+    "image": "https://raw.githubusercontent.com/koajs/koa/f3ede44ffa6b59dcdc4d94d1faaa223aa6c60a51/docs/logo.png",
+    "language": "JavaScript"
+  },
   "Laravel": {
     "imports": ["Illuminate\\", "laravel/laravel", "laravel/framework"],
     "technologies": ["Web Development", "PHP Frameworks", "MVC"],
