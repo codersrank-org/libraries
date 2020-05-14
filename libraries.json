@@ -441,6 +441,13 @@
     "description": "User Interface is the language of the web.",
     "language": "CSS"
   },
+  "Sequelize": {
+    "imports": ["sequelize"],
+    "technologies": ["ORM", "NodeJS"],
+    "description": "Sequelize is a promise-based Node.js ORM for Postgres, MySQL, MariaDB, SQLite and Microsoft SQL Server.",
+    "image": "https://avatars1.githubusercontent.com/u/3591786",
+    "language": "JavaScript"
+  },
   "Socket.io": {
     "imports": ["socket.io"],
     "technologies": ["Websockets"],
