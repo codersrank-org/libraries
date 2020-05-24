@@ -52,7 +52,7 @@ mapped to one of more technologies, as in the original example.
 All contributions are welcome, and CodersRank relies on such support. The rules are few, but essential:
 
 - All fields apart of `description` and `image` are required.
-- Please group Libraries by languages and maintain alphabetical order for both `libraries` and `languages`. Think SQL `ORDER BY language, library`.
+- Maintain alphabetical order for `libraries`. Think SQL `ORDER BY library`.
 - If providing description, make sure to include the dot `.` at the end of the line. Also make sure the spelling is correct and the description is accurate.
 
 ## TODO
