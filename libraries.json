@@ -462,14 +462,16 @@
   },
   "Spring": {
     "imports": ["org.springframework"],
-    "technologies": ["Web Development", "Java Frameworks"],
-    "description": "Java's MVC framework",
+    "technologies": ["Web Development", "Java Frameworks", "Backend"],
+    "description": "Comprehensive programming and configuration model for modern Java-based enterprise applications.",
+    "image": "https://spring.io/images/spring-logo-9146a4d3298760c2e7e49595184e1975.svg",
     "language": "Java"
   },
   "Spring Boot": {
     "imports": ["org.springframework.boot"],
-    "technologies": ["Web Development", "Java Frameworks"],
-    "description": "Bootstrap a Spring application with little or no configuration",
+    "technologies": ["Web Development", "Java Frameworks", "Backend"],
+    "description": "Bootstrap a Spring application with little or no configuration.",
+    "image": "https://spring.io/images/spring-logo-9146a4d3298760c2e7e49595184e1975.svg",
     "language": "Java"
   },
   "Svelte": {
