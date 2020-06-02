@@ -32,6 +32,13 @@
     "image": "https://animejs.com/documentation/assets/img/anime-mini-logo.svg",
     "language": "JavaScript"
   },
+  "Apache Spark": {
+    "imports": ["org.apache.spark"],
+    "technologies": ["Data Processing", "Backend"],
+    "description": "Unified analytics engine for large-scale data processing.",
+    "image": "https://spark.apache.org/images/spark-logo-trademark.png",
+    "language": "Java"
+  },
   "ASP.NET": {
     "imports": ["Microsoft.AspNetCore.Mvc"],
     "technologies": ["Web Development", "SPA", "Server side rendering"],
@@ -195,11 +202,31 @@
     "image": "https://raw.githubusercontent.com/apache/groovy-website/asf-site/site/src/site/assets/img/groovy-logo-colored.svg",
     "language": "Groovy"
   },
+  "Gson": {
+    "imports": ["com.google.gson"],
+    "technologies": ["JSon"],
+    "description": "Gson is a Java library that can be used to convert Java Objects into their JSON representation.",
+    "image": "https://s.appbrain.com/static/202005201421235/blob/sdk-logos/google_gson.png",
+    "language": "Java"
+  },
   "Gulp": {
     "imports": ["gulp"],
     "technologies": ["Build tools"],
     "description": "Gulp is an open-source JavaScript toolkit created by Eric Schoffstall used as a streaming build system in front-end web development.",
     "language": "JavaScript"
+  },
+  "GWT": {
+    "imports": ["com.google.gwt"],
+    "technologies": ["Web Development", "Java Frameworks", "Backend"],
+    "description": "Development toolkit for building and optimizing complex browser-based applications..",
+    "image": "http://www.gwtproject.org/assets/build/img/navLogoBig.png",
+    "language": "Java"
+  },
+  "Hibernate": {
+    "imports": ["org.hibernate"],
+    "technologies": ["ORM"],
+    "description": "Domain model persistence and Data library for Java.",
+    "language": "Java"
   },
   "Ionic": {
     "imports": ["@ionic/"],
@@ -207,11 +234,32 @@
     "description": "Ionic is the app development platform for web developers",
     "language": "JavaScript"
   },
+  "Jakarta Server Faces (JSF)": {
+    "imports": ["javax.faces", "com.sun.faces"],
+    "technologies": ["Web Development", "Java Frameworks", "Frontend", "Backend"],
+    "description": "MVC framework for building user interfaces for web applications.",
+    "image": "https://jakarta.ee/images/jakarta/jakarta-ee-logo.svg",
+    "language": "Java"
+  },
+  "Jersey": {
+    "imports": ["org.glassfish.jersey"],
+    "technologies": ["Web Development", "Java Frameworks", "Backend", "REST"],
+    "description": "Web services framework to create RESTful services.",
+    "image": "https://eclipse-ee4j.github.io/jersey.github.io/images/jersey_logo.png",
+    "language": "Java"
+  },
   "Jest": {
     "imports": ["jest"],
     "technologies": ["Testing"],
     "description": "Jest is a delightful JavaScript Testing Framework with a focus on simplicity",
     "language": "JavaScript"
+  },
+  "JUnit": {
+    "imports": ["org.junit", "junit"],
+    "technologies": ["Testing"],
+    "description": "JUnit is a unit-testing framework for Java.",
+    "image": "https://junit.org/junit4/images/junit-logo.png",
+    "language": "Java"
   },
   "Kivy": {
     "imports": ["kivy"],
@@ -276,6 +324,13 @@
     "technologies": ["Web Development", "SPA"],
     "description": "MobX is a battle tested library that makes state management simple and scalable by transparently applying functional reactive programming (TFRP)",
     "language": "JavaScript"
+  },
+  "Mockito": {
+    "imports": ["org.mockito"],
+    "technologies": ["Testing"],
+    "description": "Mocking framework for unit tests in Java",
+    "image": "https://raw.githubusercontent.com/mockito/mockito.github.io/master/img/logo%402x.png", 
+    "language": "Java"
   },
   "NativeScript": {
     "imports": ["nativescript"],
@@ -455,11 +510,25 @@
     "image": "https://avatars1.githubusercontent.com/u/3591786",
     "language": "JavaScript"
   },
+  "SLF4J": {
+    "imports": ["org.slf4j"],
+    "technologies": ["Logging"],
+    "description": "Simple facade or abstraction for various logging frameworks.",
+    "image" : "http://www.slf4j.org/images/logos/slf4j-logo.jpg",
+    "language": "Java"
+  },
   "Socket.io": {
     "imports": ["socket.io"],
     "technologies": ["Websockets"],
     "description": "Featuring the fastest and most reliable real-time engine.",
     "language": "JavaScript"
+  },
+  "Spark Java": {
+    "imports": ["spark"],
+    "technologies": ["Web Development", "Java Frameworks", "Backend"],
+    "description": "A micro framework for creating web applications with minimal effort.",
+    "image": "http://sparkjava.com/img/logo.svg",
+    "language": "Java"
   },
   "SpeedScript": {
     "imports": ["OpenEdge"],
@@ -479,6 +548,13 @@
     "technologies": ["Web Development", "Java Frameworks", "Backend"],
     "description": "Bootstrap a Spring application with little or no configuration.",
     "image": "https://spring.io/images/spring-logo-9146a4d3298760c2e7e49595184e1975.svg",
+    "language": "Java"
+  },
+  "Struts": {
+    "imports": ["org.apache.struts2", "org.apache.struts"],
+    "technologies": ["Web Development", "Java Frameworks", "Frontend", "Backend"],
+    "description": "MVC framework for creating elegant, modern Java web applications.",
+    "image": "https://struts.apache.org/img/struts-logo.svg",
     "language": "Java"
   },
   "Svelte": {
@@ -505,6 +581,20 @@
     "technologies": ["Game Development"],
     "description": "Unity is a real-time 3D development platform for creating games and other 3D graphics.",
     "language": "C#"
+  },
+  "Vaadin": {
+    "imports": ["com.vaadin"],
+    "technologies": ["Web Development", "Java Frameworks", "Frontend", "Backend"],
+    "description": "Full stack framework for building web apps in Java.",
+    "image": "https://vaadin.com/images/vaadin-logo.svg",
+    "language": "Java"
+  },
+  "Vert.x": {
+    "imports": ["io.vertx"],
+    "technologies": ["Web Development", "Java Frameworks", "Backend"],
+    "description": "Tool-kit for building reactive applications on the JVM.",
+    "image": "https://vertx.io/assets/logo-sm.png",
+    "language": "Java"
   },
   "VueJS": {
     "imports": ["vue"],
