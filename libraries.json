@@ -25,6 +25,20 @@
     "image": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png",
     "language": "JavaScript"
   },
+  "AnimeJS": {
+    "imports": ["anime.js"],
+    "technologies": ["Frontend", "Animation"],
+    "description": "Anime.js is a lightweight JavaScript animation library with a simple, yet powerful API. It works with CSS properties, SVG, DOM attributes and JavaScript Objects.",
+    "image": "https://animejs.com/documentation/assets/img/anime-mini-logo.svg",
+    "language": "JavaScript"
+  },
+  "Apache Spark": {
+    "imports": ["org.apache.spark"],
+    "technologies": ["Data Processing", "Backend"],
+    "description": "Unified analytics engine for large-scale data processing.",
+    "image": "https://spark.apache.org/images/spark-logo-trademark.png",
+    "language": "Java"
+  },
   "ASP.NET": {
     "imports": ["Microsoft.AspNetCore.Mvc"],
     "technologies": ["Web Development", "SPA", "Server side rendering"],
@@ -63,16 +77,36 @@
     "description": "Carlo provides Node applications with Google Chrome rendering capabilities, communicates with the locally-installed browser instance using the Puppeteer project, and implements a remote call infrastructure for communication between Node and the browser.",
     "language": "JavaScript"
   },
+  "ChartJS": {
+    "imports": ["chart.js"],
+    "technologies": ["Frontend", "Data Visualization"],
+    "description": "A simple yet flexible Javascript charting library for Designers and Developers.",
+    "image": "https://www.chartjs.org/media/logo-title.svg",
+    "language": "JavaScript"
+  },
   "Cypress": {
     "imports": ["cypress"],
     "technologies": ["Testing"],
     "description": "Cypress is a Javascript End to End testing framework",
     "language": "JavaScript"
   },
+  "D3": {
+    "imports": ["d3"],
+    "technologies": ["Frontend", "Data Visualization"],
+    "description": "D3 (or D3.js) is a JavaScript library for visualizing data using web standards. D3 helps you bring data to life using SVG, Canvas and HTML DOM manipulation.",
+    "image": "https://d3js.org/logo.svg",
+    "language": "JavaScript"
+  },
   "Django": {
     "imports": ["django"],
     "technologies": ["Web Development"],
     "description": "Django is a high-level Python Web framework that encourages rapid development and clean, pragmatic design.",
+    "language": "Python"
+  },
+  "Django REST framework": {
+    "imports": ["rest_framework"],
+    "technologies": ["Web Development"],
+    "description": "Django REST framework is a powerful and flexible toolkit for building Web APIs.",
     "language": "Python"
   },
   "Echo": {
@@ -114,25 +148,25 @@
   "ExpressJS": {
     "imports": ["express"],
     "technologies": ["Web Development"],
-    "description": "Express is a minimal Node.js framework for web and mobile applications.",
+    "description": "Express is a minimal Node.js framework for web.",
     "image": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/express/express.png",
     "language": "JavaScript"
   },
   "Flask": {
-    "import": ["flask"],
+    "imports": ["flask"],
     "technologies": ["Web Development"],
     "description": "Flask is a lightweight WSGI web application framework. It is designed to make getting started quick and easy, with the ability to scale up to complex applications.",
     "language": "Python"
   },
   "Flow": {
-    "import": ["flowjs"],
+    "imports": ["flowjs"],
     "_comment": "This is a special keyword, see repo info extractor JavaScript parser",
     "technologies": ["Web Development"],
     "description": "Flow is a static type checker for JavaScript, it works in a similar way that a linter does.",
     "language": "JavaScript"
   },
   "Flutter": {
-    "import": ["package:flutter"],
+    "imports": ["package:flutter"],
     "technologies": ["Mobile Development"],
     "description": "Flutter is Google's UI toolkit for crafting beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.",
     "image": "https://upload.wikimedia.org/wikipedia/commons/1/17/Google-flutter-logo.png",
@@ -161,11 +195,38 @@
     "description": "Go Micro provides the core requirements for distributed systems development including RPC and Event driven communication.",
     "language": "Go"
   },
+  "Grails": {
+    "imports": ["grails"],
+    "technologies": ["Web Development", "Java Frameworks"],
+    "description": "A powerful Groovy-based web application framework for the JVM built on top of Spring Boot",
+    "image": "https://raw.githubusercontent.com/apache/groovy-website/asf-site/site/src/site/assets/img/groovy-logo-colored.svg",
+    "language": "Groovy"
+  },
+  "Gson": {
+    "imports": ["com.google.gson"],
+    "technologies": ["JSon"],
+    "description": "Gson is a Java library that can be used to convert Java Objects into their JSON representation.",
+    "image": "https://s.appbrain.com/static/202005201421235/blob/sdk-logos/google_gson.png",
+    "language": "Java"
+  },
   "Gulp": {
     "imports": ["gulp"],
     "technologies": ["Build tools"],
     "description": "Gulp is an open-source JavaScript toolkit created by Eric Schoffstall used as a streaming build system in front-end web development.",
     "language": "JavaScript"
+  },
+  "GWT": {
+    "imports": ["com.google.gwt"],
+    "technologies": ["Web Development", "Java Frameworks", "Backend"],
+    "description": "Development toolkit for building and optimizing complex browser-based applications..",
+    "image": "http://www.gwtproject.org/assets/build/img/navLogoBig.png",
+    "language": "Java"
+  },
+  "Hibernate": {
+    "imports": ["org.hibernate"],
+    "technologies": ["ORM"],
+    "description": "Domain model persistence and Data library for Java.",
+    "language": "Java"
   },
   "Ionic": {
     "imports": ["@ionic/"],
@@ -173,11 +234,32 @@
     "description": "Ionic is the app development platform for web developers",
     "language": "JavaScript"
   },
+  "Jakarta Server Faces (JSF)": {
+    "imports": ["javax.faces", "com.sun.faces"],
+    "technologies": ["Web Development", "Java Frameworks", "Frontend", "Backend"],
+    "description": "MVC framework for building user interfaces for web applications.",
+    "image": "https://jakarta.ee/images/jakarta/jakarta-ee-logo.svg",
+    "language": "Java"
+  },
+  "Jersey": {
+    "imports": ["org.glassfish.jersey"],
+    "technologies": ["Web Development", "Java Frameworks", "Backend", "REST"],
+    "description": "Web services framework to create RESTful services.",
+    "image": "https://eclipse-ee4j.github.io/jersey.github.io/images/jersey_logo.png",
+    "language": "Java"
+  },
   "Jest": {
     "imports": ["jest"],
     "technologies": ["Testing"],
     "description": "Jest is a delightful JavaScript Testing Framework with a focus on simplicity",
     "language": "JavaScript"
+  },
+  "JUnit": {
+    "imports": ["org.junit", "junit"],
+    "technologies": ["Testing"],
+    "description": "JUnit is a unit-testing framework for Java.",
+    "image": "https://junit.org/junit4/images/junit-logo.png",
+    "language": "Java"
   },
   "Kivy": {
     "imports": ["kivy"],
@@ -189,12 +271,33 @@
     "image": "https://kivy.org/logos/kivy-logo-black-256.png",
     "language": "Python"
   },
+  "KiwiJS": {
+    "imports": ["kiwi-js"],
+    "technologies": ["Web Development", "Mobile Development", "Game Development"],
+    "description": "Kiwi.js is a mobile first HTML5 and Javascript game engine supporting both Canvas and WebGL rendering.",
+    "image": "http://www.kiwijs.org/wp-content/themes/kiwijs/assets/logo.png",
+    "language": "JavaScript"
+  },
+  "Koa": {
+    "imports": ["koa"],
+    "technologies": ["Web Development"],
+    "description": "Next generation web framework for Node.js",
+    "image": "https://raw.githubusercontent.com/koajs/koa/f3ede44ffa6b59dcdc4d94d1faaa223aa6c60a51/docs/logo.png",
+    "language": "JavaScript"
+  },
   "Laravel": {
     "imports": ["Illuminate\\", "laravel/laravel", "laravel/framework"],
     "technologies": ["Web Development", "PHP Frameworks", "MVC"],
     "description": "A PHP framework for web artisans.",
     "image": "https://user-images.githubusercontent.com/10347617/73778440-479a8280-479c-11ea-8446-1ab4b0f5c7fd.png",
     "language": "PHP"
+  },
+  "LibGDX": {
+    "imports": ["com.badlogic.gdx"],
+    "technologies": ["Java Frameworks", "Mobile Development", "Game Development", "Desktop Development", "Desktop Applications", "Mobile Applications"],
+    "description": "libGDX is a free and open-source game-development application framework written in the Java programming language with some C and C++ components for performance dependent code. It allows for the development of desktop and mobile games by using the same code base. It is cross-platform, supporting Windows, Linux, Mac OS X, Android, iOS, BlackBerry and web browsers with WebGL support.",
+    "image": "https://www.badlogicgames.com/wordpress/wp-content/uploads/2011/05/libGDX-RedGlossyNoReflection.png",
+    "language": "Java"
   },
   "Materialize CSS": {
     "imports": ["materialize.min.css", "materialize.css"],
@@ -209,11 +312,25 @@
     "image": "https://user-images.githubusercontent.com/841294/26841702-0902bbee-4af3-11e7-9805-0618da66a246.png",
     "language": "JavaScript"
   },
+  "Micronaut": {
+    "language": "Java",
+    "imports": ["io.micronaut"],
+    "technologies": ["Web Development", "Microservices", "Java Frameworks"],
+    "description": "Micronaut is a modern, JVM-based, full-stack framework for building modular, easily testable microservice and serverless applications.",
+    "image": "https://raw.githubusercontent.com/micronaut-projects/static-website/master/main/src/main/resources/assets/images/micronaut_mini.svg"
+  },
   "MobX": {
     "imports": ["mobx"],
     "technologies": ["Web Development", "SPA"],
     "description": "MobX is a battle tested library that makes state management simple and scalable by transparently applying functional reactive programming (TFRP)",
     "language": "JavaScript"
+  },
+  "Mockito": {
+    "imports": ["org.mockito"],
+    "technologies": ["Testing"],
+    "description": "Mocking framework for unit tests in Java",
+    "image": "https://raw.githubusercontent.com/mockito/mockito.github.io/master/img/logo%402x.png", 
+    "language": "Java"
   },
   "NativeScript": {
     "imports": ["nativescript"],
@@ -226,6 +343,13 @@
     "technologies": ["Java", "JavaScript", "Databases"],
     "description": "Neo4j is a graph database management system developed by Neo4j, Inc.",
     "image": "https://go.neo4j.com/rs/710-RRC-335/images/neo4j_logo_globe.png",
+    "language": "JavaScript"
+  },
+  "NativeScriptVue": {
+    "imports": ["nativescript-vue"],
+    "technologies": ["Mobile applications", "JavaScript Frameworks"],
+    "description": "Open source framework for building truly native mobile apps with Vue.js.",
+    "image": "https://art.nativescript-vue.org/NativeScript-Vue-White-Green.svg",
     "language": "JavaScript"
   },
   "NestJS": {
@@ -246,6 +370,13 @@
     "technologies": ["Web Development", "SPA"],
     "description": "RxJS powered state management for Angular applications, inspired by Redux",
     "language": "TypeScript"
+  },
+  "NodeJS": {
+    "imports": ["child_process", "cluster", "crypto", "dns", "events", "fs", "http", "http2", "https", "net", "os", "path", "stream", "tls", "udp",  "url", "util", "v8",  "vm", "worker_threads", "zlib"],
+    "technologies": ["Frontend", "Backend"],
+    "description": "JavaScript runtime built on V8 engine and libuv",
+    "image": "https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg",
+    "language": "JavaScript"
   },
   "NUnit": {
     "imports": ["NUnit.Framework"],
@@ -349,11 +480,23 @@
     "description": "A predictable state container for JavaScript apps.",
     "language": "JavaScript"
   },
+  "Redux Saga": {
+    "imports": ["redux"],
+    "technologies": ["Web Development"],
+    "description": "An alternative side effect model for Redux apps.",
+    "language": "JavaScript"
+  },
   "Rollup": {
     "imports": ["rollup"],
     "technologies": ["Build tools"],
     "description": "Parcel is a web application bundler, differentiated by its developer experience. It offers blazing fast performance utilizing multicore processing, and requires zero configuration.",
     "language": "JavaScript"
+  },
+  "RxJava": {
+    "imports": ["io.reactivex"],
+    "technologies": ["Web Development"],
+    "description": "Reactive Extensions for the JVM – a library for composing asynchronous and event-based programs using observable sequences for the Java VM",
+    "language": "Java"
   },
   "RxJS": {
     "imports": ["rxjs"],
@@ -367,11 +510,32 @@
     "description": "User Interface is the language of the web.",
     "language": "CSS"
   },
+  "Sequelize": {
+    "imports": ["sequelize"],
+    "technologies": ["ORM", "NodeJS"],
+    "description": "Sequelize is a promise-based Node.js ORM for Postgres, MySQL, MariaDB, SQLite and Microsoft SQL Server.",
+    "image": "https://avatars1.githubusercontent.com/u/3591786",
+    "language": "JavaScript"
+  },
+  "SLF4J": {
+    "imports": ["org.slf4j"],
+    "technologies": ["Logging"],
+    "description": "Simple facade or abstraction for various logging frameworks.",
+    "image" : "http://www.slf4j.org/images/logos/slf4j-logo.jpg",
+    "language": "Java"
+  },
   "Socket.io": {
     "imports": ["socket.io"],
     "technologies": ["Websockets"],
     "description": "Featuring the fastest and most reliable real-time engine.",
     "language": "JavaScript"
+  },
+  "Spark Java": {
+    "imports": ["spark"],
+    "technologies": ["Web Development", "Java Frameworks", "Backend"],
+    "description": "A micro framework for creating web applications with minimal effort.",
+    "image": "http://sparkjava.com/img/logo.svg",
+    "language": "Java"
   },
   "SpeedScript": {
     "imports": ["OpenEdge"],
@@ -381,14 +545,23 @@
   },
   "Spring": {
     "imports": ["org.springframework"],
-    "technologies": ["Web Development", "Java Frameworks"],
-    "description": "Java's MVC framework",
+    "technologies": ["Web Development", "Java Frameworks", "Backend"],
+    "description": "Comprehensive programming and configuration model for modern Java-based enterprise applications.",
+    "image": "https://spring.io/images/spring-logo-9146a4d3298760c2e7e49595184e1975.svg",
     "language": "Java"
   },
   "Spring Boot": {
     "imports": ["org.springframework.boot"],
-    "technologies": ["Web Development", "Java Frameworks"],
-    "description": "Bootstrap a Spring application with little or no configuration",
+    "technologies": ["Web Development", "Java Frameworks", "Backend"],
+    "description": "Bootstrap a Spring application with little or no configuration.",
+    "image": "https://spring.io/images/spring-logo-9146a4d3298760c2e7e49595184e1975.svg",
+    "language": "Java"
+  },
+  "Struts": {
+    "imports": ["org.apache.struts2", "org.apache.struts"],
+    "technologies": ["Web Development", "Java Frameworks", "Frontend", "Backend"],
+    "description": "MVC framework for creating elegant, modern Java web applications.",
+    "image": "https://struts.apache.org/img/struts-logo.svg",
     "language": "Java"
   },
   "Svelte": {
@@ -403,6 +576,32 @@
     "technologies": ["WebGL"],
     "description": "Three.js is a cross-browser JavaScript library and Application Programming Interface used to create and display animated 3D computer graphics in a web browser.",
     "language": "JavaScript"
+  },
+  "Ts.ED": {
+    "imports": ["@tsed/"],
+    "technologies": ["Web Development", "MVC"],
+    "description": "A Node.js and TypeScript Framework on top of ExpressJS.",
+    "language": "TypeScript"
+  },
+  "Unity3D": {
+    "imports": ["UnityEngine"],
+    "technologies": ["Game Development"],
+    "description": "Unity is a real-time 3D development platform for creating games and other 3D graphics.",
+    "language": "C#"
+  },
+  "Vaadin": {
+    "imports": ["com.vaadin"],
+    "technologies": ["Web Development", "Java Frameworks", "Frontend", "Backend"],
+    "description": "Full stack framework for building web apps in Java.",
+    "image": "https://vaadin.com/images/vaadin-logo.svg",
+    "language": "Java"
+  },
+  "Vert.x": {
+    "imports": ["io.vertx"],
+    "technologies": ["Web Development", "Java Frameworks", "Backend"],
+    "description": "Tool-kit for building reactive applications on the JVM.",
+    "image": "https://vertx.io/assets/logo-sm.png",
+    "language": "Java"
   },
   "VueJS": {
     "imports": ["vue"],
