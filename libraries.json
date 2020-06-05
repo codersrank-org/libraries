@@ -222,7 +222,7 @@
     "language": "JavaScript"
   },
   "Neo4j" : {
-    "imports": ["neo4j"],
+    "imports": ["neo4j", "neo4j-driver"],
     "technologies": ["Java", "JavaScript", "Databases"],
     "description": "Neo4j is a graph database management system developed by Neo4j, Inc.",
     "image": "https://go.neo4j.com/rs/710-RRC-335/images/neo4j_logo_globe.png",
