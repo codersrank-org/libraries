@@ -265,7 +265,7 @@
     "imports": ["keras", "tensorflow.keras"],
     "technologies": [
       "Machine Learning",
-      "Deep Learning"
+      "Deep Learning",
       "Backend"
     ],
     "description": "Keras is a deep learning API written in Python, running on top of the machine learning platform TensorFlow. It was developed with a focus on enabling fast experimentation. Being able to go from idea to result as fast as possible is key to doing good research.",
@@ -579,7 +579,7 @@
     "imports": ["tensorflow"],
     "technologies": [
       "Machine Learning",
-      "Deep Learning"
+      "Deep Learning",
       "Backend"
     ],
     "description": "TensorFlow is an end-to-end open source platform for machine learning. It has a comprehensive, flexible ecosystem of tools, libraries and community resources that lets researchers push the state-of-the-art in ML and developers easily build and deploy ML powered applications.",
