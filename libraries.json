@@ -309,7 +309,7 @@
     "imports": ["matplotlib"],
     "technologies": ["Data Visualization"],
     "description": "Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python.",
-    "image": "https://pandas.pydata.org/static/img/pandas_white.svg",
+    "image": "https://matplotlib.org/_static/logo2_compressed.svg",
     "language": "Python"
   },
   "MeteorJS": {
