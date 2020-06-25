@@ -209,6 +209,13 @@
     "image": "https://avatars2.githubusercontent.com/u/15002022?s=200&v=4",
     "language": "Python"
   },
+  "GraphQL": {
+    "imports": ["graphql-express", "graphql"],
+    "technologies": ["Web Development", "JavaScript Frameworks"],
+    "description": "A query language for your API",
+    "image": "https://uploads.getpop.org/wp-content/uploads/2019/07/graphql-480x480.png",
+    "language": "JavaScript"
+  },
   "Gson": {
     "imports": ["com.google.gson"],
     "technologies": ["JSon"],
