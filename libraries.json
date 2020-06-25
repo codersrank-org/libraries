@@ -77,6 +77,13 @@
     "description": "Carlo provides Node applications with Google Chrome rendering capabilities, communicates with the locally-installed browser instance using the Puppeteer project, and implements a remote call infrastructure for communication between Node and the browser.",
     "language": "JavaScript"
   },
+  "Chai": {
+    "imports": ["chai"],
+    "technologies": ["Testing"],
+    "description": "Chai is a BDD / TDD assertion library for Node.js and the browser.",
+    "image": "https://www.chaijs.com/img/chai-logo.png",
+    "language": "JavaScript"
+  },
   "ChartJS": {
     "imports": ["chart.js"],
     "technologies": ["Frontend", "Data Visualization"],
