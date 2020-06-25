@@ -489,6 +489,12 @@
     "image": "https://pyglet.readthedocs.io/en/stable/_static/logo.png",
     "language": "Python"
   },
+  "PyQt": {
+    "imports": ["PyQt5", "PyQt4"],
+    "technologies": ["Desktop applications"],
+    "description": "PyQt is one of the most popular Python bindings for the Qt cross-platform C++ framework",
+    "language": "Python"
+  },
   "Radium": {
     "imports": ["radium"],
     "technologies": ["Frontend", "Web Development", "CSS Frameworks"],
