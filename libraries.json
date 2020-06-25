@@ -195,6 +195,12 @@
     "description": "Go Micro provides the core requirements for distributed systems development including RPC and Event driven communication.",
     "language": "Go"
   },
+  "GORM": {
+    "imports": ["github.com/jinzhu/gorm"],
+    "technologies": ["ORM"],
+    "description": "GORM is a fully-featured ORM library for Golang supporting MySQL, SQLite3, PostgreSQL and Microsoft SQL Server.",
+    "language": "Go"
+  },
   "Grails": {
     "imports": ["grails"],
     "technologies": ["Web Development", "Java Frameworks"],
