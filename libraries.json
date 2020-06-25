@@ -236,6 +236,13 @@
     "image": "http://www.gwtproject.org/assets/build/img/navLogoBig.png",
     "language": "Java"
   },
+  "Hapi": {
+    "imports": ["@hapi/", "hapi"],
+    "technologies": ["Web Development", "JavaScript Frameworks", "Backend"],
+    "description": "Hapi is a simple, secure web framework for Node.js.",
+    "image": "https://raw.githubusercontent.com/hapijs/assets/master/images/hapi.png",
+    "language": "JavaScript"
+  },
   "Hibernate": {
     "imports": ["org.hibernate"],
     "technologies": ["ORM"],
@@ -361,7 +368,7 @@
     "imports": ["org.mockito"],
     "technologies": ["Testing"],
     "description": "Mocking framework for unit tests in Java",
-    "image": "https://raw.githubusercontent.com/mockito/mockito.github.io/master/img/logo%402x.png", 
+    "image": "https://raw.githubusercontent.com/mockito/mockito.github.io/master/img/logo%402x.png",
     "language": "Java"
   },
   "NativeScript": {
