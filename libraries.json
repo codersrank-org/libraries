@@ -553,8 +553,8 @@
     "language": "JavaScript"
   },
   "Redux Saga": {
-    "imports": ["redux"],
-    "technologies": ["Web Development"],
+    "imports": ["redux-saga"],
+    "technologies": ["Web Development", "Frontend"],
     "description": "An alternative side effect model for Redux apps.",
     "language": "JavaScript"
   },
