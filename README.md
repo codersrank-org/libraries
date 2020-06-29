@@ -9,13 +9,13 @@ One library can be mapped to one single language only, but have multiple import 
 
 An example entry looks like:
 ```
-	"Express": {
-        "language": "JavaScript",
-		"imports": ["express"],
-		"technologies": ["MVC", "Web Development"],
-		"description": "Express is a minimal Node.js framework for web and mobile applications.",
-		"image": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/express/express.png",
-	}
+"Express": {
+  "language": "JavaScript",
+  "imports": ["express"],
+  "technologies": ["MVC", "Web Development"],
+  "description": "Express is a minimal Node.js framework for web and mobile applications.",
+  "image": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/express/express.png",
+}
 ```
 
 ### Deep dive into structure
