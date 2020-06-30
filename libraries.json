@@ -344,6 +344,13 @@
     "image": "https://www.badlogicgames.com/wordpress/wp-content/uploads/2011/05/libGDX-RedGlossyNoReflection.png",
     "language": "Java"
   },
+  "Material UI": {
+    "imports": ["@material-ui"],
+    "technologies": ["Frontend"],
+    "description": "React components for faster and easier web development.",
+    "image": "https://material-ui.com/static/logo_raw.svg",
+    "language": "Javascript"
+  },
   "Materialize CSS": {
     "imports": ["materialize.min.css", "materialize.css"],
     "technologies": ["CSS frameworks"],
@@ -553,8 +560,8 @@
     "language": "JavaScript"
   },
   "Redux Saga": {
-    "imports": ["redux"],
-    "technologies": ["Web Development"],
+    "imports": ["redux-saga"],
+    "technologies": ["Web Development", "Frontend"],
     "description": "An alternative side effect model for Redux apps.",
     "language": "JavaScript"
   },
@@ -635,6 +642,12 @@
     "description": "MVC framework for creating elegant, modern Java web applications.",
     "image": "https://struts.apache.org/img/struts-logo.svg",
     "language": "Java"
+  },
+  "Styled Components": {
+    "imports": ["styled-components"],
+    "technologies": ["Frontend"],
+    "description": "Styled components is a way to write modular CSS in modern JavaScript.",
+    "language": "Javascript"
   },
   "Svelte": {
     "imports": ["svelte"],
