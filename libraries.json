@@ -262,6 +262,13 @@
     "description": "Domain model persistence and Data library for Java.",
     "language": "Java"
   },
+  "Impress": {
+    "imports": ["impress"],
+    "technologies": ["Backend", "Private Cloud", "Application Server"],
+    "description": "Application Server for Node.js Private Cloud",
+    "image": "https://github.com/metarhia/Metarhia/blob/master/Logos/impress-with-text.svg",
+    "language": "JavaScript"
+  },
   "Ionic": {
     "imports": ["@ionic/"],
     "technologies": ["Mobile applications"],
