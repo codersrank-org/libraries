@@ -700,6 +700,13 @@
     "description": "A Node.js and TypeScript Framework on top of ExpressJS.",
     "language": "TypeScript"
   },
+  "TYPO3": {
+    "imports": ["TYPO3\\", "typo3/cms"],
+    "technologies": ["Web Development", "Content Management System"],
+    "description": "TYPO3 CMS is a free open source Content Management Framework initially created by Kasper Skaarhoj and licensed under GNU/GPL.",
+    "image": "https://avatars0.githubusercontent.com/u/88698",
+    "language": "PHP"
+  },
   "Unity3D": {
     "imports": ["UnityEngine"],
     "technologies": ["Game Development"],
