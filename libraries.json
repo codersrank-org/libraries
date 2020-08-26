@@ -197,6 +197,13 @@
     "description": "A free and open source framework to develop mobile, desktop or web apps with native look and feel",
     "language": "JavaScript"
   },
+  "Gin": {
+    "imports": ["github.com/gin-gonic/gin"],
+    "technologies": ["Web Development"],
+    "description": "Gin is a HTTP web framework written in Go (Golang).",
+    "image": "https://raw.githubusercontent.com/gin-gonic/logo/master/color.png",
+    "language": "Go"
+  },
   "Glamorous": {
     "imports": ["glamorous"],
     "technologies": ["Frontend", "CSS frameworks"],
