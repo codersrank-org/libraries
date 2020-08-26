@@ -536,6 +536,13 @@
     "image": "https://trypyramid.com/img/pyramid-60x60.png",
     "language": "Python"
   },
+  "Pytest": {
+    "imports": ["pytest"],
+    "technologies": ["Testing"],
+    "description": "Pytest is a framework that makes building simple and scalable tests easy.",
+    "image": "https://docs.pytest.org/en/stable/_static/pytest1.png",
+    "language": "Python"
+  },
   "Radium": {
     "imports": ["radium"],
     "technologies": ["Frontend", "Web Development", "CSS Frameworks"],
