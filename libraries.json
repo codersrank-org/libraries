@@ -504,6 +504,13 @@
     "image": "https://raw.githubusercontent.com/phalcon/assets/master/phalcon/images/svg/phalcon-logo-300x300.svg",
     "language": "PHP"
   },
+  "Pimcore": {
+    "imports": ["Pimcore\\"],
+    "technologies": ["Web Development", "PHP Frameworks", "CMS"],
+    "description": "Open Source Digital Experience Platform: MDM/PIM, CDP, DAM, CMS/UX and eCommerce",
+    "image": "https://github.com/pimcore/pimcore/raw/master/doc/Development_Documentation/img/logo-readme.svg",
+    "language": "PHP"
+  },
   "Ponzu": {
     "imports": ["github.com/ponzu-cms/ponzu"],
     "technologies": ["CMS"],
