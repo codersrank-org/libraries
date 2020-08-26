@@ -529,6 +529,13 @@
     "description": "PyQt is one of the most popular Python bindings for the Qt cross-platform C++ framework",
     "language": "Python"
   },
+  "Pyramid": {
+    "imports": ["pyramid"],
+    "technologies": ["Web Development"],
+    "description": "Pyramid makes it easy to write web applications. You can start small with this \"hello world\" minimal request/response web app. This may take you far, especially while learning. As your application grows, Pyramid offers many features that make writing complex software take less effort.",
+    "image": "https://trypyramid.com/img/pyramid-60x60.png",
+    "language": "Python"
+  },
   "Radium": {
     "imports": ["radium"],
     "technologies": ["Frontend", "Web Development", "CSS Frameworks"],
