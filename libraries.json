@@ -51,6 +51,13 @@
     "description": "Powerful, beautiful, simple, open, web-based 3D at its best",
     "language": "JavaScript"
   },
+  "Behave": {
+    "imports": ["behave"],
+    "technologies": ["Testing"],
+    "description": "Behave is behaviour-driven development, Python style.",
+    "image": "https://camo.githubusercontent.com/cf89b9309dfd7ca1fa954bdd7f63ca29b6c4497c/68747470733a2f2f7261772e6769746875622e636f6d2f6265686176652f6265686176652f6d61737465722f646f63732f5f7374617469632f6265686176655f6c6f676f312e706e67",
+    "language": "Python"
+  },
   "Blazor": {
     "imports": ["Microsoft.AspNetCore.Components.Web"],
     "technologies": ["Frontend", "WebAssembly"],
@@ -214,6 +221,13 @@
     ],
     "description": "A free and open source framework to develop mobile, desktop or web apps with native look and feel",
     "language": "JavaScript"
+  },
+  "Gin": {
+    "imports": ["github.com/gin-gonic/gin"],
+    "technologies": ["Web Development", "Backend"],
+    "description": "Gin is a HTTP web framework written in Go (Golang).",
+    "image": "https://raw.githubusercontent.com/gin-gonic/logo/master/color.png",
+    "language": "Go"
   },
   "Glamorous": {
     "imports": ["glamorous"],
@@ -565,6 +579,13 @@
     "image": "https://raw.githubusercontent.com/phalcon/assets/master/phalcon/images/svg/phalcon-logo-300x300.svg",
     "language": "PHP"
   },
+  "Pimcore": {
+    "imports": ["Pimcore\\"],
+    "technologies": ["Web Development", "PHP Frameworks", "CMS"],
+    "description": "Open Source Digital Experience Platform: MDM/PIM, CDP, DAM, CMS/UX and eCommerce",
+    "image": "https://github.com/pimcore/pimcore/raw/master/doc/Development_Documentation/img/logo-readme.svg",
+    "language": "PHP"
+  },
   "POE": {
     "imports": ["POE"],
     "technologies": ["Async Programming"],
@@ -601,6 +622,20 @@
     "imports": ["PyQt5", "PyQt4"],
     "technologies": ["Desktop applications"],
     "description": "PyQt is one of the most popular Python bindings for the Qt cross-platform C++ framework",
+    "language": "Python"
+  },
+  "Pyramid": {
+    "imports": ["pyramid"],
+    "technologies": ["Web Development"],
+    "description": "Pyramid makes it easy to write web applications. You can start small with this \"hello world\" minimal request/response web app. This may take you far, especially while learning. As your application grows, Pyramid offers many features that make writing complex software take less effort.",
+    "image": "https://trypyramid.com/img/pyramid-60x60.png",
+    "language": "Python"
+  },
+  "Pytest": {
+    "imports": ["pytest"],
+    "technologies": ["Testing"],
+    "description": "Pytest is a framework that makes building simple and scalable tests easy.",
+    "image": "https://docs.pytest.org/en/stable/_static/pytest1.png",
     "language": "Python"
   },
   "Radium": {
@@ -792,6 +827,13 @@
     "technologies": ["Web Development", "MVC"],
     "description": "A Node.js and TypeScript Framework on top of ExpressJS.",
     "language": "TypeScript"
+  },
+  "Twisted": {
+    "imports": ["twisted"],
+    "technologies": ["Web Development", "Backend"],
+    "description": "Event-based framework for internet applications, supporting Python 3.5+.",
+    "image": "https://www.twistedmatrix.com/trac/chrome/common/trac_banner.png",
+    "language": "Python"
   },
   "Unity3D": {
     "imports": ["UnityEngine"],
