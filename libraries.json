@@ -98,6 +98,12 @@
     "image": "https://www.chartjs.org/media/logo-title.svg",
     "language": "JavaScript"
   },
+  "CHI": {
+    "imports": ["CHI"],
+    "technologies": ["Scalability"],
+    "description": "Unified cache handling interface.",
+    "language": "Perl"
+  },
   "Cypress": {
     "imports": ["cypress"],
     "technologies": ["Testing"],
@@ -110,6 +116,25 @@
     "description": "D3 (or D3.js) is a JavaScript library for visualizing data using web standards. D3 helps you bring data to life using SVG, Canvas and HTML DOM manipulation.",
     "image": "https://d3js.org/logo.svg",
     "language": "JavaScript"
+  },
+  "Dancer": {
+    "imports": ["Dancer"],
+    "technologies": ["Web Development", "MVC"],
+    "description": "Lightweight yet powerful web application framework.",
+    "image": "http://perldancer.org/images/dcr-header-logo.png",
+    "language": "Perl"
+  },
+  "DBI": {
+    "imports": ["DBI", "DBD"],
+    "technologies": ["Databases"],
+    "description": "Database independent interface for Perl.",
+    "language": "Perl"
+  },
+  "DBIx::Class": {
+    "imports": ["DBIx::Class"],
+    "technologies": ["ORM"],
+    "description": "Extensible and flexible object <-> relational mapper.",
+    "language": "Perl"
   },
   "Django": {
     "imports": ["django"],
@@ -199,7 +224,7 @@
   },
   "Gin": {
     "imports": ["github.com/gin-gonic/gin"],
-    "technologies": ["Web Development"],
+    "technologies": ["Web Development", "Backend"],
     "description": "Gin is a HTTP web framework written in Go (Golang).",
     "image": "https://raw.githubusercontent.com/gin-gonic/logo/master/color.png",
     "language": "Go"
@@ -283,6 +308,12 @@
     "image": "https://github.com/metarhia/Metarhia/blob/master/Logos/impress-with-text.svg",
     "language": "JavaScript"
   },
+  "IO::Async": {
+    "imports": ["IO::Async"],
+    "technologies": ["Async Programming"],
+    "description": "Asynchronous event-driven programming.",
+    "language": "Perl"
+  },
   "Ionic": {
     "imports": ["@ionic/"],
     "technologies": ["Mobile applications"],
@@ -365,6 +396,12 @@
     "image": "https://www.badlogicgames.com/wordpress/wp-content/uploads/2011/05/libGDX-RedGlossyNoReflection.png",
     "language": "Java"
   },
+  "Log::Log4perl": {
+    "imports": ["Log::Log4perl"],
+    "technologies": ["Logging"],
+    "description": "Log4j implementation for Perl.",
+    "language": "Perl"
+  },
   "Material UI": {
     "imports": ["@material-ui"],
     "technologies": ["Frontend"],
@@ -384,6 +421,12 @@
     "description": "Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python.",
     "image": "https://matplotlib.org/_static/logo2_compressed.svg",
     "language": "Python"
+  },
+  "MCE": {
+    "imports": ["MCE"],
+    "technologies": ["Parallel Computing"],
+    "description": "Many-Core Engine for Perl providing parallel processing capabilities.",
+    "language": "Perl"
   },
   "MeteorJS": {
     "imports": ["meteor"],
@@ -411,6 +454,25 @@
     "description": "Mocking framework for unit tests in Java",
     "image": "https://raw.githubusercontent.com/mockito/mockito.github.io/master/img/logo%402x.png",
     "language": "Java"
+  },
+  "Mojolicious": {
+    "imports": ["Mojolicious"],
+    "technologies": ["Web Development", "MVC"],
+    "description": "Real-time web framework.",
+    "image": "https://mojolicious.org/favicon.ico",
+    "language": "Perl"
+  },
+  "Moo": {
+    "imports": ["Moo"],
+    "technologies": ["Object Oriented Programming"],
+    "description": "Minimalist Object Orientation.",
+    "language": "Perl"
+  },
+  "Moose": {
+    "imports": ["Moose"],
+    "technologies": ["Object Oriented Programming"],
+    "description": "A postmodern object system for Perl 5.",
+    "language": "Perl"
   },
   "NativeScript": {
     "imports": ["nativescript"],
@@ -491,6 +553,12 @@
     "image": "https://pandas.pydata.org/static/img/pandas_white.svg",
     "language": "Python"
   },
+  "Parallel::ForkManager": {
+    "imports": ["Parallel::ForkManager"],
+    "technologies": ["Parallel Computing"],
+    "description": "A simple parallel processing fork manager.",
+    "language": "Perl"
+  },
   "Parcel": {
     "imports": ["parcel"],
     "technologies": ["Build tools"],
@@ -517,6 +585,12 @@
     "description": "Open Source Digital Experience Platform: MDM/PIM, CDP, DAM, CMS/UX and eCommerce",
     "image": "https://github.com/pimcore/pimcore/raw/master/doc/Development_Documentation/img/logo-readme.svg",
     "language": "PHP"
+  },
+  "POE": {
+    "imports": ["POE"],
+    "technologies": ["Async Programming"],
+    "description": "Portable multitasking and networking framework for any event loop.",
+    "language": "Perl"
   },
   "Ponzu": {
     "imports": ["github.com/ponzu-cms/ponzu"],
@@ -613,6 +687,13 @@
     "technologies": ["Web Development", "Frontend"],
     "description": "An alternative side effect model for Redux apps.",
     "language": "JavaScript"
+  },
+  "Rex": {
+    "imports": ["Rex"],
+    "technologies": ["Automation", "DevOps"],
+    "description": "Rex, the friendly automation framework.",
+    "image": "https://www.rexify.org/public/images/skin/rexify.org/favicon.png",
+    "language": "Perl"
   },
   "Rollup": {
     "imports": ["rollup"],
@@ -722,6 +803,18 @@
     "description": "TensorFlow is an end-to-end open source platform for machine learning. It has a comprehensive, flexible ecosystem of tools, libraries and community resources that lets researchers push the state-of-the-art in ML and developers easily build and deploy ML powered applications.",
     "image": "https://www.gstatic.com/devrel-devsite/prod/vbbb6dd37c071e57dbfce1249762e4d342b93b36af15e7676b1059db22e43eb43/tensorflow/images/lockup.svg?dcb_=0.830285463447934",
     "language": "Python"
+  },
+  "Test2": {
+    "imports": ["Test2"],
+    "technologies": ["Testing"],
+    "description": "Framework for writing test tools that all work together.",
+    "language": "Perl"
+  },
+  "Test::Simple": {
+    "imports": ["Test::Simple", "Test::More"],
+    "technologies": ["Testing"],
+    "description": "Basic utilities for writing tests.",
+    "language": "Perl"
   },
   "ThreeJS": {
     "imports": ["three"],
