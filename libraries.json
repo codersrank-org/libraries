@@ -540,6 +540,18 @@
     "description": "Nuxt.js is a free and open source web application framework based on Vue.js, Node.js, Webpack and Babel.js.",
     "language": "JavaScript"
   },
+  "OkHttp": {
+    "imports": ["com.squareup.okhttp"],
+    "technologies": ["Mobile Development", "Java Frameworks"],
+    "description": "OkHttp is an HTTP client that’s efficient by default: HTTP/2 support, reduces request latency... .",
+    "language": "Java"
+  },
+  "Okio": {
+    "imports": ["com.squareup.okio"],
+    "technologies": ["Mobile Development", "Java Frameworks", "Kotlin Frameworks"],
+    "description": "A modern I/O library for Android, Kotlin, and Java.",
+    "language": "Java"
+  },
   "OpenEdge ABL": {
     "imports": ["OpenEdge"],
     "technologies": ["Desktop Applications", "Web Development", "Databases"],
@@ -578,6 +590,12 @@
     "description": "High performance, full-stack PHP framework delivered as a C extension.",
     "image": "https://raw.githubusercontent.com/phalcon/assets/master/phalcon/images/svg/phalcon-logo-300x300.svg",
     "language": "PHP"
+  },
+  "Picasso": {
+    "imports": ["com.squareup.picasso"],
+    "technologies": ["Mobile Development"],
+    "description": "A powerful image downloading and caching library for Android.",
+    "language": "Java"
   },
   "Pimcore": {
     "imports": ["Pimcore\\", "pimcore/pimcore"],
@@ -709,7 +727,7 @@
   },
   "RxJava": {
     "imports": ["io.reactivex"],
-    "technologies": ["Web Development"],
+    "technologies": ["Web Development", "Mobile Development"],
     "description": "Reactive Extensions for the JVM – a library for composing asynchronous and event-based programs using observable sequences for the Java VM",
     "language": "Java"
   },
