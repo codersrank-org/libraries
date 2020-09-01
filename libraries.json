@@ -580,7 +580,7 @@
     "language": "PHP"
   },
   "Pimcore": {
-    "imports": ["Pimcore\\"],
+    "imports": ["Pimcore\\", "pimcore/pimcore"],
     "technologies": ["Web Development", "PHP Frameworks", "CMS"],
     "description": "Open Source Digital Experience Platform: MDM/PIM, CDP, DAM, CMS/UX and eCommerce",
     "image": "https://github.com/pimcore/pimcore/raw/master/doc/Development_Documentation/img/logo-readme.svg",
@@ -687,6 +687,12 @@
     "technologies": ["Web Development", "Frontend"],
     "description": "An alternative side effect model for Redux apps.",
     "language": "JavaScript"
+  },
+  "Retrofit": {
+    "imports": ["com.squareup.retrofit"],
+    "technologies": ["Mobile Development", "Java Frameworks"],
+    "description": "A type-safe HTTP client for Android and Java.",
+    "language": "Java"
   },
   "Rex": {
     "imports": ["Rex"],
@@ -878,6 +884,13 @@
     "technologies": ["Build tools"],
     "description": "Webpack is an open-source JavaScript module bundler. It is a module bundler primarily for JavaScript, but it can transform front-end assets like HTML, CSS, and images if the corresponding loaders are included.",
     "language": "JavaScript"
+  },
+  "Wordpress": {
+    "imports": ["WordPress"],
+    "technologies": ["Web Development", "CMS"],
+    "description": "WordPress is a free and open-source content management system written in PHP and paired with a MySQL or MariaDB database.",
+    "image": "https://s.w.org/style/images/about/wmark.png",
+    "language": "PHP"
   },
   "Wpf": {
     "imports": ["System.Windows"],
