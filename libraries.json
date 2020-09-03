@@ -903,13 +903,6 @@
     "description": "Webpack is an open-source JavaScript module bundler. It is a module bundler primarily for JavaScript, but it can transform front-end assets like HTML, CSS, and images if the corresponding loaders are included.",
     "language": "JavaScript"
   },
-  "Wordpress": {
-    "imports": ["WordPress"],
-    "technologies": ["Web Development", "CMS"],
-    "description": "WordPress is a free and open-source content management system written in PHP and paired with a MySQL or MariaDB database.",
-    "image": "https://s.w.org/style/images/about/wmark.png",
-    "language": "PHP"
-  },
   "Wpf": {
     "imports": ["System.Windows"],
     "technologies": ["Desktop applications"],
