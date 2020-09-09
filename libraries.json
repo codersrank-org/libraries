@@ -462,12 +462,12 @@
     "image": "https://mojolicious.org/favicon.ico",
     "languages": ["Perl"]
   },
-  "Mongoose": {
-    "imports": ["mongoose"],
+  "MongoDB": {
+    "imports": ["mongoose", "mongoose.h", "github.com/globalsign/mgo"],
     "technologies": ["Databases"],
     "description": "Mongoose is a MongoDB object modeling tool designed to work in an asynchronous environment.",
     "image": "https://mongoosejs.com/docs/images/favicon/apple-icon-72x72.png",
-    "languages": ["JavaScript"]
+    "languages": ["JavaScript", "TypeScript", "C", "Go"]
   },
   "Moo": {
     "imports": ["Moo"],
