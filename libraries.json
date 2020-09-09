@@ -209,6 +209,16 @@
       ],
       "description":"GORM is a fully-featured ORM library for Golang supporting MySQL, SQLite3, PostgreSQL and Microsoft SQL Server."
     },
+    "mgo": {
+      "imports":[
+        "github.com/globalsign/mgo"
+      ],
+      "technologies":[
+        "Databases",
+        "MongoDB"
+      ],
+      "description":"MongoDB driver for Go"
+    },
     "Ponzu":{
       "imports":[
         "github.com/ponzu-cms/ponzu"
