@@ -464,8 +464,8 @@
   },
   "Mongoose": {
     "imports": ["mongoose"],
-    "technologies": ["Databases", "MongoDB"],
-    "description": "Mongoose is a MongoDB object modeling tool designed to work in an asynchronous environment. Mongoose supports both promises and callbacks.",
+    "technologies": ["Databases"],
+    "description": "Mongoose is a MongoDB object modeling tool designed to work in an asynchronous environment.",
     "image": "https://mongoosejs.com/docs/images/favicon/apple-icon-72x72.png",
     "languages": ["JavaScript"]
   },
@@ -480,6 +480,13 @@
     "technologies": ["Object Oriented Programming"],
     "description": "A postmodern object system for Perl 5.",
     "languages": ["Perl"]
+  },
+  "MySQL": {
+    "imports": ["mysql", "github.com/go-sql-driver/mysql", "mysql.h", "mysql/mysql.h", "com.mysql"],
+    "technologies": ["Databases"],
+    "description": "MySQL is an open-source relational database management system (RDBMS).",
+    "image": "https://labs.mysql.com/common/themes/sakila/favicon.ico",
+    "languages": ["JavaScript", "TypeScript", "Python", "Perl", "Go", "C", "Java"]
   },
   "NativeScript": {
     "imports": ["nativescript"],
