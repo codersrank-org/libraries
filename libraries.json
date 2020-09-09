@@ -810,6 +810,13 @@
     "description": "Styled components is a way to write modular CSS in modern JavaScript.",
     "language": "Javascript"
   },
+  "SQLite": {
+    "imports": ["sqlite"],
+    "technologies": ["Databases"],
+    "description": "SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine.",
+    "image": "https://sqlite.org/images/sqlite370_banner.gif",
+    "language": "C"
+  },
   "Svelte": {
     "imports": ["svelte"],
     "technologies": ["Web Development", "SPA"],
