@@ -462,6 +462,13 @@
     "image": "https://mojolicious.org/favicon.ico",
     "language": "Perl"
   },
+  "Mongoose": {
+    "imports": ["mongoose"],
+    "technologies": ["Databases", "MongoDB"],
+    "description": "Mongoose is a MongoDB object modeling tool designed to work in an asynchronous environment. Mongoose supports both promises and callbacks.",
+    "image": "https://mongoosejs.com/docs/images/favicon/apple-icon-72x72.png",
+    "language": "JavaScript"
+  },
   "Moo": {
     "imports": ["Moo"],
     "technologies": ["Object Oriented Programming"],
