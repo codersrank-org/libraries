@@ -812,10 +812,10 @@
   },
   "SQLite": {
     "imports": ["sqlite"],
-    "technologies": ["Databases", "SQLite", "SQL"],
+    "technologies": ["Databases"],
     "description": "SQLite is a C-language library that implements a small, fast, self-contained, high-reliability, full-featured, SQL database engine.",
     "image": "https://sqlite.org/images/sqlite370_banner.gif",
-    "languages": ["C"]
+    "languages": ["Python", "JavaScript"]
   },
   "Svelte": {
     "imports": ["svelte"],
