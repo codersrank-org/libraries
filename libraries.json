@@ -402,6 +402,16 @@
       ],
       "description":"MongoDB object-document mapper in Java"
     },
+    "MySQL": {
+      "imports":[
+        "com.mysql"
+      ],
+      "technologies":[
+        "Databases",
+        "MySQL"
+      ],
+      "description":"MySQL driver for Java"
+    },
     "OkHttp":{
       "imports":[
         "com.squareup.okhttp"
