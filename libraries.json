@@ -487,6 +487,16 @@
       "description":"Bootstrap a Spring application with little or no configuration.",
       "image":"https://spring.io/images/spring-logo-9146a4d3298760c2e7e49595184e1975.svg"
     },
+    "spring-data-mongodb": {
+      "imports":[
+        "com.mongodb.client"
+      ],
+      "technologies":[
+        "Databases",
+        "MongoDB"
+      ],
+      "description":"Provide support to increase developer productivity in Java when using MongoDB."
+    },
     "Struts":{
       "imports":[
         "org.apache.struts2",
