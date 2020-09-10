@@ -1283,6 +1283,16 @@
       "description":"Lightweight yet powerful web application framework.",
       "image":"http://perldancer.org/images/dcr-header-logo.png"
     },
+    "DBD::Pg":{
+      "imports":[
+        "DBD::Pg"
+      ],
+      "technologies":[
+        "Databases",
+        "PostgreSQL"
+      ],
+      "description":"PostgreSQL database driver for the DBI module"
+    },
     "DBI":{
       "imports":[
         "DBI",
