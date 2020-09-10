@@ -474,6 +474,16 @@
       ],
       "description":"A powerful image downloading and caching library for Android."
     },
+    "PgJDBC":{
+      "imports":[
+        "org.postgresql"
+      ],
+      "technologies":[
+        "Databases",
+        "PostgreSQL"
+      ],
+      "description":"PostgreSQL JDBC Driver (PgJDBC for short) allows Java programs to connect to a PostgreSQL database using standard, database independent Java code."
+    },
     "Retrofit":{
       "imports":[
         "com.squareup.retrofit"
