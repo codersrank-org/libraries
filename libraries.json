@@ -872,6 +872,16 @@
       ],
       "description":"MongoDB object modeling designed to work in an asynchronous environment."
     },
+    "mysql":{
+      "imports":[
+        "mysql"
+      ],
+      "technologies":[
+        "Databases",
+        "MySQL"
+      ],
+      "description":"A pure node.js JavaScript Client implementing the MySQL protocol."
+    },
     "NativeScript":{
       "imports":[
         "nativescript"
