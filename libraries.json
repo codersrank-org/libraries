@@ -599,6 +599,16 @@
       ],
       "description":"Carlo provides Node applications with Google Chrome rendering capabilities, communicates with the locally-installed browser instance using the Puppeteer project, and implements a remote call infrastructure for communication between Node and the browser."
     },
+    "camo":{
+      "imports":[
+        "camo"
+      ],
+      "technologies":[
+        "Databases",
+        "MongoDB"
+      ],
+      "description":"A class-based ES6 ODM for Mongo-like databases."
+    },
     "Chai":{
       "imports":[
         "chai"
