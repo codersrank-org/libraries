@@ -1019,6 +1019,16 @@
       ],
       "description":"The Official MongoDB Node.js Driver"
     },
+    "node-postgres":{
+      "imports":[
+        "pg"
+      ],
+      "technologies":[
+        "Databases",
+        "PostgreSQL"
+      ],
+      "description":"node-postgres is a collection of node.js modules for interfacing with your PostgreSQL database."
+    },
     "NuxtJS":{
       "imports":[
         "nuxtjs"
@@ -1725,6 +1735,16 @@
         "MongoDB"
       ],
       "description":"The Official MongoDB Node.js Driver"
+    },
+    "node-postgres":{
+      "imports":[
+        "pg"
+      ],
+      "technologies":[
+        "Databases",
+        "PostgreSQL"
+      ],
+      "description":"node-postgres is a collection of node.js modules for interfacing with your PostgreSQL database."
     },
     "Ts.ED":{
       "imports":[
