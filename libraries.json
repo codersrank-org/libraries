@@ -1636,6 +1636,16 @@
       "description":"Pandas is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool, built on top of the Python programming language.",
       "image":"https://pandas.pydata.org/static/img/pandas_white.svg"
     },
+    "Psycopg":{
+      "imports":[
+        "psycopg2"
+      ],
+      "technologies":[
+        "Databases",
+        "PostgreSQL"
+      ],
+      "description":"Psycopg is the most popular PostgreSQL database adapter for the Python programming language."
+    },
     "Pygame":{
       "imports":[
         "pygame"
