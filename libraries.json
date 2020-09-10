@@ -1069,6 +1069,16 @@
       ],
       "description":"Javascript library for PostgreSQL and node.js"
     },
+    "Postgres.js":{
+      "imports":[
+        "postgres"
+      ],
+      "technologies":[
+        "Databases",
+        "PostgreSQL"
+      ],
+      "description":"The Fastest full featured PostgreSQL client for Node.js"
+    },
     "Proton Native":{
       "imports":[
         "proton-native"
@@ -1795,6 +1805,16 @@
         "PostgreSQL"
       ],
       "description":"node-postgres is a collection of node.js modules for interfacing with your PostgreSQL database."
+    },
+    "Postgres.js":{
+      "imports":[
+        "postgres"
+      ],
+      "technologies":[
+        "Databases",
+        "PostgreSQL"
+      ],
+      "description":"The Fastest full featured PostgreSQL client for Node.js"
     },
     "Slonik":{
       "imports":[
