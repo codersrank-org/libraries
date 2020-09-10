@@ -1503,6 +1503,16 @@
       "description":"Pyglet is a cross-platform windowing and multimedia library for Python, intended for developing games and other visually rich applications.",
       "image":"https://pyglet.readthedocs.io/en/stable/_static/logo.png"
     },
+    "PyMongo":{
+      "imports":[
+        "pymongo"
+      ],
+      "technologies":[
+        "Databases",
+        "MongoDB"
+      ],
+      "description":"PyMongo - the Python driver for MongoDB"
+    },
     "PyQt":{
       "imports":[
         "PyQt5",
