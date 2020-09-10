@@ -259,6 +259,17 @@
         "PostgreSQL"
       ],
       "description":"A pure Go postgres driver for Go's database/sql package"
+    },
+    "pgx":{
+      "imports":[
+        "github.com/jackc/pgx/v4",
+        "github.com/jackc/pgx"
+      ],
+      "technologies":[
+        "Databases",
+        "PostgreSQL"
+      ],
+      "description":"PostgreSQL Driver and Toolkit"
     }
   },
   "Groovy":{
