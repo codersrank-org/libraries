@@ -830,6 +830,16 @@
       ],
       "description":"MobX is a battle tested library that makes state management simple and scalable by transparently applying functional reactive programming (TFRP)"
     },
+    "mongoose":{
+      "imports":[
+        "mongoose"
+      ],
+      "technologies":[
+        "Databases",
+        "MongoDB"
+      ],
+      "description":"MongoDB object modeling designed to work in an asynchronous environment."
+    },
     "NativeScript":{
       "imports":[
         "nativescript"
