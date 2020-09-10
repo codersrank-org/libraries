@@ -1457,6 +1457,16 @@
       "description":"Matplotlib is a comprehensive library for creating static, animated, and interactive visualizations in Python.",
       "image":"https://matplotlib.org/_static/logo2_compressed.svg"
     },
+    "MongoEngine":{
+      "imports":[
+        "mongoengine"
+      ],
+      "technologies":[
+        "Databases",
+        "MongoDB"
+      ],
+      "description":"A Python Object-Document-Mapper for working with MongoDB"
+    },
     "NumPy":{
       "imports":[
         "numpy"
