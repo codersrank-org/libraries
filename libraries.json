@@ -927,6 +927,16 @@
       "description":"JavaScript runtime built on V8 engine and libuv",
       "image":"https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg"
     },
+    "node-mongodb-native":{
+      "imports":[
+        "mongodb"
+      ],
+      "technologies":[
+        "Databases",
+        "MongoDB"
+      ],
+      "description":"The Official MongoDB Node.js Driver"
+    },
     "NuxtJS":{
       "imports":[
         "nuxtjs"
@@ -1583,6 +1593,16 @@
         "SPA"
       ],
       "description":"RxJS powered state management for Angular applications, inspired by Redux"
+    },
+    "node-mongodb-native":{
+      "imports":[
+        "mongodb"
+      ],
+      "technologies":[
+        "Databases",
+        "MongoDB"
+      ],
+      "description":"The Official MongoDB Node.js Driver"
     },
     "Ts.ED":{
       "imports":[
