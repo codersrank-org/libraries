@@ -249,6 +249,16 @@
         "CMS"
       ],
       "description":"Headless CMS with automatic JSON API. Featuring auto-HTTPS from Let's Encrypt, HTTP/2 Server Push, and flexible server framework written in Go."
+    },
+    "pq":{
+      "imports":[
+        "github.com/lib/pq"
+      ],
+      "technologies":[
+        "Databases",
+        "PostgreSQL"
+      ],
+      "description":"A pure Go postgres driver for Go's database/sql package"
     }
   },
   "Groovy":{
