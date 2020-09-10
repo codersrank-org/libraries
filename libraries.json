@@ -212,6 +212,16 @@
       ],
       "description":"Go Micro provides the core requirements for distributed systems development including RPC and Event driven communication."
     },
+    "Go-MySQL-Driver":{
+      "imports":[
+        "github.com/go-sql-driver/mysql"
+      ],
+      "technologies":[
+        "Databases",
+        "MySQL"
+      ],
+      "description":"Go MySQL Driver is a MySQL driver for Go's (golang) database/sql package"
+    },
     "GORM":{
       "imports":[
         "github.com/jinzhu/gorm"
