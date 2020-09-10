@@ -1157,6 +1157,16 @@
       ],
       "description":"Featuring the fastest and most reliable real-time engine."
     },
+    "Slonik":{
+      "imports":[
+        "slonik"
+      ],
+      "technologies":[
+        "Databases",
+        "PostgreSQL"
+      ],
+      "description":"A PostgreSQL client with strict types, detailed logging and assertions."
+    },
     "Styled Components":{
       "imports":[
         "styled-components"
@@ -1785,6 +1795,16 @@
         "PostgreSQL"
       ],
       "description":"node-postgres is a collection of node.js modules for interfacing with your PostgreSQL database."
+    },
+    "Slonik":{
+      "imports":[
+        "slonik"
+      ],
+      "technologies":[
+        "Databases",
+        "PostgreSQL"
+      ],
+      "description":"A PostgreSQL client with strict types, detailed logging and assertions."
     },
     "Ts.ED":{
       "imports":[
