@@ -1289,6 +1289,16 @@
       "description":"A PHP framework for web artisans.",
       "image":"https://user-images.githubusercontent.com/10347617/73778440-479a8280-479c-11ea-8446-1ab4b0f5c7fd.png"
     },
+    "Laravel MongoDB":{
+      "imports":[
+        "Jenssegers\\"
+      ],
+      "technologies":[
+        "Databases",
+        "MongoDB"
+      ],
+      "description":"A MongoDB based Eloquent model and Query builder for Laravel"
+    },
     "Phalcon":{
       "imports":[
         "Phalcon\\"
