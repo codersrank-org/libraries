@@ -1455,6 +1455,18 @@
       "description":"Open Source Digital Experience Platform: MDM/PIM, CDP, DAM, CMS/UX and eCommerce",
       "image":"https://github.com/pimcore/pimcore/raw/master/doc/Development_Documentation/img/logo-readme.svg"
     },
+    "Pomm":{
+      "imports":[
+        "PommProject\\",
+        "pomm/pomm",
+        "pomm-project/pomm-bundle"
+      ],
+      "technologies":[
+        "Databases",
+        "PostgreSQL"
+      ],
+      "description":"O"
+    },
     "ReactPHP":{
       "imports":[
         "React\\",
