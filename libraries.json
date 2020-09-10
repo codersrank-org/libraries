@@ -1,4 +1,16 @@
 {
+  "C": {
+    "mongoose":{
+      "imports":[
+        "mongoose.h"
+      ],
+      "technologies":[
+        "Databases",
+        "MongoDB"
+      ],
+      "description":"MongoDB object modeling designed to work in an asynchronous environment."
+    }
+  },
   "CSS":{
     "Bootstrap":{
       "imports":[
