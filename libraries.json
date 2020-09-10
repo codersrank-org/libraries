@@ -276,6 +276,17 @@
       "description":"Unified analytics engine for large-scale data processing.",
       "image":"https://spark.apache.org/images/spark-logo-trademark.png"
     },
+    "Cayenne":{
+      "imports":[
+        "org.apache.cayenne"
+      ],
+      "technologies":[
+        "Databases",
+        "ORM",
+        "MySQL"
+      ],
+      "description":"Apache Cayenne™ is an open source Java object-to-relational mapping framework"
+    },
     "Gson":{
       "imports":[
         "com.google.gson"
