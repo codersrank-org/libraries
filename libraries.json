@@ -1519,6 +1519,16 @@
     }
   },
   "Python":{
+    "asyncpg":{
+      "imports":[
+        "asyncpg"
+      ],
+      "technologies":[
+        "Databases",
+        "PostgreSQL"
+      ],
+      "description":"asyncpg is a database interface library designed specifically for PostgreSQL and Python/asyncio."
+    },
     "Behave":{
       "imports":[
         "behave"
