@@ -842,6 +842,16 @@
       ],
       "description":"MobX is a battle tested library that makes state management simple and scalable by transparently applying functional reactive programming (TFRP)"
     },
+    "mongodb-core":{
+      "imports":[
+        "mongodb-core"
+      ],
+      "technologies":[
+        "Databases",
+        "MongoDB"
+      ],
+      "description":"MongoDB core driver functionality aims to make the smallest viable driver api"
+    },
     "mongoose":{
       "imports":[
         "mongoose"
