@@ -1543,6 +1543,16 @@
       ],
       "description":"PyMongo - the Python driver for MongoDB"
     },
+    "PyMySQL":{
+      "imports":[
+        "PyMySQL"
+      ],
+      "technologies":[
+        "Databases",
+        "MySQL"
+      ],
+      "description":"Pure Python MySQL Client"
+    },
     "PyQt":{
       "imports":[
         "PyQt5",
