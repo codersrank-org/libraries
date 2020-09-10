@@ -1059,6 +1059,16 @@
       ],
       "description":"PostgreSQL interface for Node.js"
     },
+    "pogi":{
+      "imports":[
+        "pogi"
+      ],
+      "technologies":[
+        "Databases",
+        "PostgreSQL"
+      ],
+      "description":"Javascript library for PostgreSQL and node.js"
+    },
     "Proton Native":{
       "imports":[
         "proton-native"
@@ -1715,6 +1725,16 @@
         "PostgreSQL"
       ],
       "description":"PostgreSQL interface for Node.js"
+    },
+    "pogi":{
+      "imports":[
+        "pogi"
+      ],
+      "technologies":[
+        "Databases",
+        "PostgreSQL"
+      ],
+      "description":"Javascript library for PostgreSQL and node.js"
     },
     "mongoose":{
       "imports":[
