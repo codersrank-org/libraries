@@ -1767,8 +1767,28 @@
       "technologies":[
         "telegram framework"
       ],
-      "description":"SPyrogram is a modern, elegant and easy-to-use Telegram framework written from the ground up in Python and C.",
+      "description":"Pyrogram is a modern, elegant and easy-to-use Telegram framework written from the ground up in Python and C.",
       "image":"https://docs.pyrogram.org/_static/pyrogram.png"
+    },
+    "Sklearn":{
+      "imports":[
+        "sklearn"
+      ],
+      "technologies":[
+        "Machine Learning library"
+      ],
+      "description":"Scikit-learn is a free software machine learning library for the Python programming language.",
+      "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/220px-Scikit_learn_logo_small.svg.png"
+    },
+    "BeautyfulSoup":{
+      "imports":[
+        "bs4"
+      ],
+      "technologies":[
+        "Web Scrapping"
+      ],
+      "description":"Beautiful Soup is a Python package for parsing HTML and XML documents.",
+      "image":"https://funthon.files.wordpress.com/2017/05/bs.png"
     },
   },
   "Ruby":{
