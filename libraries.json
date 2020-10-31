@@ -1822,6 +1822,11 @@
     }
   },
   "SQL":{
+	"imports":[
+        "sql",
+	"plpgsql",
+	"psql"
+      	],
     "PL/pgSQL":{
       "technologies":[
         "Procedural Language"
