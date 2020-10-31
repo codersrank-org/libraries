@@ -1,6 +1,6 @@
-# Overview
+# How does it work?
 When a repository is analyzed two repositories are used: [repo_info_extractor](https://github.com/codersrank-org/repo_info_extractor/) and this repository. 
-The [repo_info_extractor](https://github.com/codersrank-org/repo_info_extractor/) is responsible ro recognize the languages and export the imported libraries.
+The [repo_info_extractor](https://github.com/codersrank-org/repo_info_extractor/) is responsible to recognize the languages and export the imported libraries.
 This repository contains a list of supported libraries, imports and technologies they belong to. 
 
 ## In short
