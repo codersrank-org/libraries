@@ -1822,12 +1822,8 @@
     }
   },
   "SQL":{
-	"imports":[
-        "sql",
-	"plpgsql",
-	"psql"
-      	],
     "PL/pgSQL":{
+      "imports":["plpgsql"],
       "technologies":[
         "Procedural Language"
       ],
@@ -1835,6 +1831,7 @@
       "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/120px-Postgresql_elephant.svg.png"
     },
     "PL/SQL":{
+      "imports":["plsql"],
       "technologies":[
         "Procedural Language"
       ],
@@ -1842,6 +1839,7 @@
       "image":"https://www.oracle.com/a/ocom/img/pl-sql.svg"
     },
     "Transact-SQL":{
+      "imports":["tsql"],
       "technologies":[
         "Procedural Language"
       ],
