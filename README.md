@@ -1,5 +1,11 @@
 # Overview
-This repository contains a list of supported libraries, imports and technologies they belong to.
+When a repository is analyzed two repositories are used: [repo_info_extractor](https://github.com/codersrank-org/repo_info_extractor/) and this repository. 
+The [repo_info_extractor](https://github.com/codersrank-org/repo_info_extractor/) is responsible ro recognize the languages and export the imported libraries.
+This repository contains a list of supported libraries, imports and technologies they belong to. 
+
+## In short
+- Language recognition: [repo_info_extractor](https://github.com/codersrank-org/repo_info_extractor/).
+- Library recognition: [libraries](https://github.com/codersrank-org/libraries)
 
 ## Structure
 The entire list stored as a JSON object, top level key is the language, inside that there are library objects where 
@@ -64,6 +70,5 @@ All contributions are welcome, and CodersRank relies on such support. The rules 
 
 ## TODO
 * Enforce the rules above in the continious integration. Again, any contribution with a handy bash script for this would be greatly appreciated.
-* Ensure correct JSON during the Continious Intergration pipeline.
 * Currently the image is not used anywhere, but once it is displayed, particular restrictions on format and dimenstions need to be introduced. 
-* More languages and more libraries 😀
+* More libraries 😀
