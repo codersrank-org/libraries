@@ -1842,7 +1842,7 @@
       ],
       "description":"Transact-SQL (T-SQL) is Microsoft's and Sybase's proprietary extension to the SQL (Structured Query Language) used to interact with relational databases.",
 	  "image":"https://networkencyclopedia.com/wp-content/uploads/2020/04/transact-sql.jpg"
-    },
+    }
   },
   "TypeScript":{
     "Angular":{
