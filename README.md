@@ -58,7 +58,7 @@ mapped to one of more technologies, as in the original example.
 ## Contributing
 All contributions are welcome, and CodersRank relies on such support. The rules are few, but essential:
 
-- All fields apart of `description` and `image` are required.
+- All fields apart of `imports`, `description` and `image` are required.
 - Maintain alphabetical order for `libraries` and `languages`. Think SQL `ORDER BY library`.
 - If providing description, make sure to include the dot `.` at the end of the line. Also make sure the spelling is correct and the description is accurate.
 
