@@ -1827,7 +1827,7 @@
       "technologies":[
         "Procedural Language"
       ],
-      "description":"PL/pgSQL (Procedural Language/PostgreSQL) is a procedural programming language supported by the PostgreSQL ORDBMS.",
+      "description":"PL/pgSQL (Procedural Language for PostgreSQL) is a procedural programming language supported by the PostgreSQL ORDBMS.",
       "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/2/29/Postgresql_elephant.svg/120px-Postgresql_elephant.svg.png"
     },
     "PL/SQL":{
