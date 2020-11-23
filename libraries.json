@@ -1549,6 +1549,28 @@
       "description":"Behave is behaviour-driven development, Python style.",
       "image":"https://camo.githubusercontent.com/cf89b9309dfd7ca1fa954bdd7f63ca29b6c4497c/68747470733a2f2f7261772e6769746875622e636f6d2f6265686176652f6265686176652f6d61737465722f646f63732f5f7374617469632f6265686176655f6c6f676f312e706e67"
     },
+	"Bigflow":{
+      "imports":[
+        "biggerquery",
+        "bigflow"
+      ],
+      "technologies":[
+        "Data Engineering"
+      ],
+      "description":"BigFlow is a Python framework for data processing pipelines on the Google Cloud Platform."
+    },
+	 "Dash":{
+      "imports":[
+        "dash"
+      ],
+      "technologies":[
+        "Data Visualization",
+        "Frontend",
+        "Web Development"
+      ],
+      "description":"Dash is the most downloaded, trusted framework for building ML & data science web apps.",
+      "image": "https://prismic-io.s3.amazonaws.com/plotly-marketing-website/bd1f702a-b623-48ab-a459-3ee92a7499b4_logo-plotly.svg"
+    },
     "Django":{
       "imports":[
         "django"
@@ -1656,6 +1678,18 @@
       "description":"Pandas is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool, built on top of the Python programming language.",
       "image":"https://pandas.pydata.org/static/img/pandas_white.svg"
     },
+	"Plotly":{
+      "imports":[
+        "plotly",
+        "plotly.figure_factory",
+        "plotly.express"
+      ],
+      "technologies":[
+        "Data Visualization"
+      ],
+      "description":"The plotly Python library is an interactive, open-source plotting library that supports over 40 unique chart types covering a wide range of statistical, financial, geographic, scientific, and 3-dimensional use-cases.",
+      "image":"https://plotly.com/all_static/images/plotly_graphing_libraries_1.png"
+    },
     "Psycopg":{
       "imports":[
         "psycopg2"
@@ -1747,25 +1781,30 @@
       "description":"Pytest is a framework that makes building simple and scalable tests easy.",
       "image":"https://docs.pytest.org/en/stable/_static/pytest1.png"
     },
-    "Sklearn":{
+
+	"Scikit-Learn":{
       "imports":[
         "sklearn"
       ],
       "technologies":[
-        "Machine Learning library"
+
+        "Machine Learning",
+        "Data Analysis"
       ],
-      "description":"Scikit-learn is a free software machine learning library for the Python programming language.",
-      "image":"https://upload.wikimedia.org/wikipedia/commons/thumb/0/05/Scikit_learn_logo_small.svg/220px-Scikit_learn_logo_small.svg.png"
+      "description":"Scikit-Learn is a simple and efficient Python library for predictive data analysis and machine learning.",
+      "image":"https://scikit-learn.org/stable/_static/scikit-learn-logo-small.png"
     },
-    "Streamlit":{
+    "Scipy":{
       "imports":[
-        "streamlit"
+        "scipy"
       ],
       "technologies":[
-        "app framework"
+        "Statistics",
+        "Data Analysis",
+        "Mathematics"
       ],
-      "description":"Streamlit’s open-source app framework is the easiest way for data scientists and machine learning engineers to create beautiful, performant apps in only a few hours!  All in pure Python. All for free.",
-      "image":"https://assets.website-files.com/5dc3b47ddc6c0c2a1af74ad0/5e18182db827fa0659541754_RGB_Logo_Vertical_Color_Light_Bg.png"
+      "description":"The SciPy library is one of the core packages that make up the SciPy stack. It provides many user-friendly and efficient numerical routines, such as routines for numerical integration, interpolation, optimization, linear algebra, and statistics.",
+      "image":"https://www.scipy.org/_static/logo.png"
     },
     "Tensorflow":{
       "imports":[
