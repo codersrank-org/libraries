@@ -168,6 +168,17 @@
         "SPA"
       ],
       "description":"User Interface is the language of the web."
+    },
+    "Tailwind CSS":{
+      "imports":[
+        "tailwindcss"
+      ],
+      "technologies":[
+        "Frontend",
+        "CSS frameworks"
+      ],
+      "description":"A utility-first CSS framework for rapidly building custom user interfaces.",
+      "image":"https://refactoringui.nyc3.cdn.digitaloceanspaces.com/tailwind-logo.svg"
     }
   },
   "Dart":{
