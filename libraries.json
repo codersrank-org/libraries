@@ -980,14 +980,16 @@
     },
     "NextJS":{
       "imports":[
-        "nextjs"
+        "next"
       ],
       "technologies":[
         "Web Development",
         "SPA",
-        "Server side rendering"
+        "Server Side Rendering",
+        "Server Side Generation"
       ],
-      "description":"Production grade React applications that scale. The world's leading companies use Next.js to build server-rendered applications, static websites, and more."
+      "description":"Production grade React applications that scale. The world's leading companies use Next.js to build server-rendered applications, static websites, and more.",
+      "image": "https://camo.githubusercontent.com/0bbf728fe4c8b213f3723eaac321fbb30e68be19/68747470733a2f2f6173736574732e76657263656c2e636f6d2f696d6167652f75706c6f61642f76313533383336313039312f7265706f7369746f726965732f6e6578742d6a732f6e6578742d6a732e706e67"
     },
     "node-mongodb-native":{
       "imports":[
