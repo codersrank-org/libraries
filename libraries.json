@@ -1540,6 +1540,16 @@
       ],
       "description":"asyncpg is a database interface library designed specifically for PostgreSQL and Python/asyncio."
     },
+    "BeautyfulSoup":{
+      "imports":[
+        "bs4"
+      ],
+      "technologies":[
+        "Web Scrapping"
+      ],
+      "description":"Beautiful Soup is a Python package for parsing HTML and XML documents.",
+      "image":"https://funthon.files.wordpress.com/2017/05/bs.png"
+    },
     "Behave":{
       "imports":[
         "behave"
@@ -1762,6 +1772,16 @@
       "description":"Pyramid makes it easy to write web applications. You can start small with this \"hello world\" minimal request/response web app. This may take you far, especially while learning. As your application grows, Pyramid offers many features that make writing complex software take less effort.",
       "image":"https://trypyramid.com/img/pyramid-60x60.png"
     },
+    "Pyrogram":{
+      "imports":[
+        "pyrogram"
+      ],
+      "technologies":[
+        "telegram framework"
+      ],
+      "description":"Pyrogram is a modern, elegant and easy-to-use Telegram framework written from the ground up in Python and C.",
+      "image":"https://docs.pyrogram.org/_static/pyrogram.png"
+    },
     "Pytest":{
       "imports":[
         "pytest"
@@ -1772,11 +1792,13 @@
       "description":"Pytest is a framework that makes building simple and scalable tests easy.",
       "image":"https://docs.pytest.org/en/stable/_static/pytest1.png"
     },
+
 	"Scikit-Learn":{
       "imports":[
         "sklearn"
       ],
       "technologies":[
+
         "Machine Learning",
         "Data Analysis"
       ],
