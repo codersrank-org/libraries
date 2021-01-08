@@ -1806,6 +1806,18 @@
       "description":"The SciPy library is one of the core packages that make up the SciPy stack. It provides many user-friendly and efficient numerical routines, such as routines for numerical integration, interpolation, optimization, linear algebra, and statistics.",
       "image":"https://www.scipy.org/_static/logo.png"
     },
+    "Streamlit":{
+      "imports":[
+        "streamlit"
+      ],
+      "technologies":[
+        "Data Visualization",
+	"Frontend",
+	"Web Development"
+      ],
+      "description":"Turn data scripts into sharable web apps in minutes. All in Python. All for free. No front-end experience required.",
+      "image":"https://assets.website-files.com/5dc3b47ddc6c0c2a1af74ad0/5e0a328bedb754beb8a973f9_logomark_website.png"
+    },
     "Tensorflow":{
       "imports":[
         "tensorflow"
