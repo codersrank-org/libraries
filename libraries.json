@@ -1795,6 +1795,19 @@
       "image":"https://docs.pytest.org/en/stable/_static/pytest1.png"
     },
 
+    "PyTorch":{
+      "imports":[
+        "torch",
+        "torchvision"
+      ],
+      "technologies":[
+        "Machine Learning",
+        "Deep Learning"
+      ],
+      "description":"PyTorch is an optimized tensor library for deep learning using GPUs and CPUs.",
+      "image":"https://pytorch.org/assets/images/pytorch-logo.png"
+    },
+
 	"Scikit-Learn":{
       "imports":[
         "sklearn"
