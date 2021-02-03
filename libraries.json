@@ -184,7 +184,7 @@
   "Dart":{
     "Flutter":{
       "imports":[
-        "package:flutter",
+        "package:flutter"
       ],
       "technologies":[
         "Mobile Development"
