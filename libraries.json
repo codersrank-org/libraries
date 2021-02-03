@@ -194,8 +194,8 @@
     }, 
     "fl_chart":{
       "imports":[
-	"package:fl_chart/fl_chart.dart"
-	"package:fl_chart"
+	"package:fl_chart/fl_chart.dart",
+	"package:fl_chart",
         "bar_chart",
 	"line_chart",
 	"pie_chart",
