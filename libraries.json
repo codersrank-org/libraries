@@ -182,16 +182,6 @@
     }
   },
   "Dart":{
-    "Flutter":{
-      "imports":[
-        "package:flutter"
-      ],
-      "technologies":[
-        "Mobile Development"
-      ],
-      "description":"Flutter is Google's UI toolkit for crafting beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.",
-      "image":"https://upload.wikimedia.org/wikipedia/commons/1/17/Google-flutter-logo.png"
-    }, 
     "fl_chart":{
       "imports":[
 	"package:fl_chart/fl_chart.dart",
@@ -206,6 +196,16 @@
       ],
       "description":"A powerful Flutter chart library, currently supporting Line Chart, Bar Chart and Pie Chart."
     }
+    "Flutter":{
+      "imports":[
+        "package:flutter"
+      ],
+      "technologies":[
+        "Mobile Development"
+      ],
+      "description":"Flutter is Google's UI toolkit for crafting beautiful, natively compiled applications for mobile, web, and desktop from a single codebase.",
+      "image":"https://upload.wikimedia.org/wikipedia/commons/1/17/Google-flutter-logo.png"
+    }, 
   },
   "Go":{
     "Echo":{
