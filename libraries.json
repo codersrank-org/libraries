@@ -83,10 +83,24 @@
     }
   },
   "CSS":{
+    "AdminLTE":{
+      "imports":[
+     	"AdminLTE.css",
+	"AdminLTE.min.css"
+      ],
+      "technologies":[
+	"Frontend",
+	"CSS frameworks"
+      ],
+      "description": "Best open source admin dashboard & control panel theme. Built on top of Bootstrap, AdminLTE provides a range of responsive, reusable, and commonly used components.",
+      "language":"CSS"    
+    },
     "Bootstrap":{
       "imports":[
         "bootstrap.css",
-        "boostrap.min.css"
+        "boostrap.min.css",
+	"AdminLTE.css",
+	"AdminLTE.min.css"
       ],
       "technologies":[
         "Frontend",
