@@ -196,6 +196,20 @@
     }
   },
   "Dart":{
+    "fl_chart":{
+      "imports":[
+	"package:fl_chart/fl_chart.dart",
+	"package:fl_chart",
+        "bar_chart",
+	"line_chart",
+	"pie_chart",
+	"scatter_chart"
+      ],
+      "technologies":[
+        "Data Visualization"
+      ],
+      "description":"A powerful Flutter chart library, currently supporting Line Chart, Bar Chart and Pie Chart."
+    },
     "Flutter":{
       "imports":[
         "package:flutter"
@@ -1615,6 +1629,16 @@
         "Web Development"
       ],
       "description":"Django REST framework is a powerful and flexible toolkit for building Web APIs."
+    },
+    "Fastapi":{
+      "imports":[
+        "fastapi"
+      ],
+      "technologies":[
+        "Web Development",
+        "API"
+      ],
+      "description":"FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints."
     },
     "Flask":{
       "imports":[
