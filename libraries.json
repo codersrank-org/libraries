@@ -1468,6 +1468,21 @@
     }
   },
   "PHP":{
+    "Drupal":{
+      "imports":[
+        "Drupal\\",
+        "drupal/"
+      ],
+      "technologies":[
+        "Web Development",
+        "PHP Frameworks",
+	"Content Management Framework",
+	"CMS",
+        "MVC"
+      ],
+      "description":"Drupal, open source content management framework.",
+      "image":"https://www.drupal.org/files/EL_blue_RGB%281%29.png"
+    },	  
     "Laravel":{
       "imports":[
         "Illuminate\\",
