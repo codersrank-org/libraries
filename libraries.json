@@ -100,7 +100,8 @@
         "bootstrap.css",
         "boostrap.min.css",
 	"AdminLTE.css",
-	"AdminLTE.min.css"
+	"AdminLTE.min.css",
+	"yii\bootstrap"
       ],
       "technologies":[
         "Frontend",
