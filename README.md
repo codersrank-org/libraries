@@ -67,8 +67,8 @@ All contributions are welcome, and CodersRank relies on such support. The rules 
 - All fields apart of `description` and `image` are required.
 - Maintain alphabetical order for `libraries` and `languages`. Think SQL `ORDER BY library`.
 - If providing description, make sure to include the dot `.` at the end of the line. Also make sure the spelling is correct and the description is accurate.
+- `JavaScript` and `TypeScript` must be identical.
 
 ## TODO
-* Enforce the rules above in the continious integration. Again, any contribution with a handy bash script for this would be greatly appreciated.
 * Currently the image is not used anywhere, but once it is displayed, particular restrictions on format and dimenstions need to be introduced. 
 * More libraries 😀

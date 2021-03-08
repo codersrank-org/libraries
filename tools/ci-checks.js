@@ -1,4 +1,5 @@
-var fs = require('fs');
+let fs = require('fs')
+
 fs.readFile( __dirname + '/../libraries.json', function (err, data) {
   if (err) {
     throw err; 
@@ -6,36 +7,46 @@ fs.readFile( __dirname + '/../libraries.json', function (err, data) {
   data = JSON.parse(data)
 
   let previousLanguage = ""
+  let error = []
+
+  // javaScript and TypeScript must be the same
+  if (JSON.stringify(data["JavaScript"]) !==  JSON.stringify(data["TypeScript"])) {
+    error.push('ERROR: JavaScript and TypeScript must have the same libraries and same values.')
+  }
+
   Object.keys(data).forEach(function(language) {
     // Check alphabetical order of languages
     if (language.toLowerCase() < previousLanguage.toLowerCase()) {
-      console.log('ERROR: Languages are not in alphabetical order. ' + previousLanguage + ' is before ' + language)
-      process.exit(1)
+      error.push('ERROR: Languages are not in alphabetical order. ' + previousLanguage + ' is before ' + language)
     }
+
     previousLanguage = language
 
     let previousLibrary = ""
     for (library in data[language]){
       // Check alphabetical order of libraries
       if (library.toLowerCase() < previousLibrary.toLowerCase()) {
-        console.log('ERROR: Libraries are not in alphabetical order. ' + previousLibrary + ' is before ' + library + ' for ' + language)
-        process.exit(1)
+        error.push('ERROR: Libraries are not in alphabetical order. ' + previousLibrary + ' is before ' + library + ' for ' + language)
       }
       previousLibrary = library
 
       // Check expected structure
       if (!Array.isArray(data[language][library].imports) || data[language][library].imports.length === 0) {
-        console.log('ERROR: ' + language + '.'  + library + '.imports must exist, must be an array and must have at least one element.')
-        process.exit(1)
+        error.push('ERROR: ' + language + '.'  + library + '.imports must exist, must be an array and must have at least one element.')
       }
       if (!Array.isArray(data[language][library].technologies)  || data[language][library].technologies.length === 0) {
-        console.log('ERROR: ' + language + '.'  + library + '.technologies must exist, must be an array and must have at least one element')
-        process.exit(1)
+        error.push('ERROR: ' + language + '.'  + library + '.technologies must exist, must be an array and must have at least one element')
       }
       if (typeof data[language][library].description === 'undefined' || data[language][library].description === '') {
-        console.log('ERROR: ' + language + '.' + library + '.description must exist and cannot be empty')
-        process.exit(1)
+        error.push('ERROR: ' + language + '.' + library + '.description must exist and cannot be empty')
       }
     }
   })
+
+  if (error.length !== 0) {
+    for (i in error) {
+      console.log(error[i])
+    }
+  }
+
 });
