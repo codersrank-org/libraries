@@ -680,6 +680,19 @@
       ],
       "description":"After.js enables Next.js-like data fetching with any React SSR app that uses React Router 4."
     },
+    "Angular":{
+        "imports":[
+          "@angular/",
+          "angular2"
+        ],
+        "technologies":[
+          "Frontend",
+          "Web Development",
+          "SPA"
+        ],
+        "description":"Angular is an open source web application platform.",
+        "image":"https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png"
+    },
     "Angular Universal":{
       "imports":[
         "@nguniversal/"
@@ -1039,6 +1052,16 @@
       "description":"Production grade React applications that scale. The world's leading companies use Next.js to build server-rendered applications, static websites, and more.",
       "image": "https://camo.githubusercontent.com/0bbf728fe4c8b213f3723eaac321fbb30e68be19/68747470733a2f2f6173736574732e76657263656c2e636f6d2f696d6167652f75706c6f61642f76313533383336313039312f7265706f7369746f726965732f6e6578742d6a732f6e6578742d6a732e706e67"
     },
+    "NgRx":{
+        "imports":[
+          "@ngrx"
+        ],
+        "technologies":[
+          "Web Development",
+          "SPA"
+        ],
+        "description":"RxJS powered state management for Angular applications, inspired by Redux"
+    },
     "node-mongodb-native":{
       "imports":[
         "mongodb"
@@ -1266,6 +1289,16 @@
         "WebGL"
       ],
       "description":"Three.js is a cross-browser JavaScript library and Application Programming Interface used to create and display animated 3D computer graphics in a web browser."
+    },
+    "Ts.ED":{
+        "imports":[
+          "@tsed/"
+        ],
+        "technologies":[
+          "Web Development",
+          "MVC"
+        ],
+        "description":"A Node.js and TypeScript Framework on top of ExpressJS."
     },
     "VueJS":{
       "imports":[
@@ -1994,18 +2027,320 @@
     }
   },
   "TypeScript":{
-    "Angular":{
+    "AfterJS":{
       "imports":[
-        "@angular/",
-        "angular2"
+        "@jaredpalmer/after"
+      ],
+      "technologies":[
+        "Server side rendering"
+      ],
+      "description":"After.js enables Next.js-like data fetching with any React SSR app that uses React Router 4."
+    },
+    "Angular":{
+        "imports":[
+          "@angular/",
+          "angular2"
+        ],
+        "technologies":[
+          "Frontend",
+          "Web Development",
+          "SPA"
+        ],
+        "description":"Angular is an open source web application platform.",
+        "image":"https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png"
+    },
+    "Angular Universal":{
+      "imports":[
+        "@nguniversal/"
+      ],
+      "technologies":[
+        "Web Development",
+        "SPA",
+        "Server side rendering"
+      ],
+      "description":"A technology that renders Angular applications on the server."
+    },
+    "AngularJS":{
+      "imports":[
+        "angular"
       ],
       "technologies":[
         "Frontend",
         "Web Development",
         "SPA"
       ],
-      "description":"Angular is an open source web application platform.",
+      "description":"AngularJS is a predecessor of Angular, an open source web application platform.",
       "image":"https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/angular/angular.png"
+    },
+    "AnimeJS":{
+      "imports":[
+        "anime.js"
+      ],
+      "technologies":[
+        "Frontend",
+        "Animation"
+      ],
+      "description":"Anime.js is a lightweight JavaScript animation library with a simple, yet powerful API. It works with CSS properties, SVG, DOM attributes and JavaScript Objects.",
+      "image":"https://animejs.com/documentation/assets/img/anime-mini-logo.svg"
+    },
+    "BabylonJS":{
+      "imports":[
+        "babylonjs"
+      ],
+      "technologies":[
+        "WebGL"
+      ],
+      "description":"Powerful, beautiful, simple, open, web-based 3D at its best"
+    },
+    "camo":{
+      "imports":[
+        "camo"
+      ],
+      "technologies":[
+        "Databases",
+        "MongoDB"
+      ],
+      "description":"A class-based ES6 ODM for Mongo-like databases."
+    },
+    "Carlo":{
+      "imports":[
+        "carlo"
+      ],
+      "technologies":[
+        "Desktop applications"
+      ],
+      "description":"Carlo provides Node applications with Google Chrome rendering capabilities, communicates with the locally-installed browser instance using the Puppeteer project, and implements a remote call infrastructure for communication between Node and the browser."
+    },
+    "Chai":{
+      "imports":[
+        "chai"
+      ],
+      "technologies":[
+        "Testing"
+      ],
+      "description":"Chai is a BDD / TDD assertion library for Node.js and the browser.",
+      "image":"https://www.chaijs.com/img/chai-logo.png"
+    },
+    "ChartJS":{
+      "imports":[
+        "chart.js"
+      ],
+      "technologies":[
+        "Frontend",
+        "Data Visualization"
+      ],
+      "description":"A simple yet flexible Javascript charting library for Designers and Developers.",
+      "image":"https://www.chartjs.org/media/logo-title.svg"
+    },
+    "Cypress":{
+      "imports":[
+        "cypress"
+      ],
+      "technologies":[
+        "Testing"
+      ],
+      "description":"Cypress is a Javascript End to End testing framework"
+    },
+    "D3":{
+      "imports":[
+        "d3"
+      ],
+      "technologies":[
+        "Frontend",
+        "Data Visualization"
+      ],
+      "description":"D3 (or D3.js) is a JavaScript library for visualizing data using web standards. D3 helps you bring data to life using SVG, Canvas and HTML DOM manipulation.",
+      "image":"https://d3js.org/logo.svg"
+    },
+    "Effector":{
+      "imports":[
+        "effector"
+      ],
+      "technologies":[
+        "Web Development",
+        "SPA"
+      ],
+      "description":"Effective multi-store state manager for Javascript apps"
+    },
+    "Electron":{
+      "imports":[
+        "electron"
+      ],
+      "technologies":[
+        "Desktop applications"
+      ],
+      "description":"Build cross platform desktop apps with JavaScript, HTML, and CSS"
+    },
+    "Enzyme":{
+      "imports":[
+        "enzyme"
+      ],
+      "technologies":[
+        "Testing"
+      ],
+      "description":"Enzyme is a JavaScript Testing utility for React that makes it easier to test your React Components' output"
+    },
+    "ExpressJS":{
+      "imports":[
+        "express"
+      ],
+      "technologies":[
+        "Web Development",
+        "JavaScript Frameworks",
+        "Backend"
+      ],
+      "description":"Express is a minimal Node.js framework for web.",
+      "image":"https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/express/express.png"
+    },
+    "Flow":{
+      "imports":[
+        "flowjs"
+      ],
+      "_comment":"This is a special keyword, see repo info extractor JavaScript parser",
+      "technologies":[
+        "Web Development"
+      ],
+      "description":"Flow is a static type checker for JavaScript, it works in a similar way that a linter does."
+    },
+    "Framework7":{
+      "imports":[
+        "framework7"
+      ],
+      "technologies":[
+        "Mobile applications",
+        "Desktop applications",
+        "Progressive Web Apps",
+        "CSS frameworks"
+      ],
+      "description":"A free and open source framework to develop mobile, desktop or web apps with native look and feel"
+    },
+    "GraphQL":{
+      "imports":[
+        "graphql-express",
+        "graphql"
+      ],
+      "technologies":[
+        "Web Development",
+        "JavaScript Frameworks"
+      ],
+      "description":"A query language for your API",
+      "image":"https://uploads.getpop.org/wp-content/uploads/2019/07/graphql-480x480.png"
+    },
+    "Gulp":{
+      "imports":[
+        "gulp"
+      ],
+      "technologies":[
+        "Build tools"
+      ],
+      "description":"Gulp is an open-source JavaScript toolkit created by Eric Schoffstall used as a streaming build system in front-end web development."
+    },
+    "Hapi":{
+      "imports":[
+        "@hapi/",
+        "hapi"
+      ],
+      "technologies":[
+        "Web Development",
+        "JavaScript Frameworks",
+        "Backend"
+      ],
+      "description":"Hapi is a simple, secure web framework for Node.js.",
+      "image":"https://raw.githubusercontent.com/hapijs/assets/master/images/hapi.png"
+    },
+    "Impress":{
+      "imports":[
+        "impress"
+      ],
+      "technologies":[
+        "Backend",
+        "Private Cloud",
+        "Application Server"
+      ],
+      "description":"Application Server for Node.js Private Cloud",
+      "image":"https://github.com/metarhia/Metarhia/blob/master/Logos/impress-with-text.svg"
+    },
+    "Ionic":{
+      "imports":[
+        "@ionic/"
+      ],
+      "technologies":[
+        "Mobile applications"
+      ],
+      "description":"Ionic is the app development platform for web developers"
+    },
+    "Jest":{
+      "imports":[
+        "jest"
+      ],
+      "technologies":[
+        "Testing"
+      ],
+      "description":"Jest is a delightful JavaScript Testing Framework with a focus on simplicity"
+    },
+    "KiwiJS":{
+      "imports":[
+        "kiwi-js"
+      ],
+      "technologies":[
+        "Web Development",
+        "Mobile Development",
+        "Game Development"
+      ],
+      "description":"Kiwi.js is a mobile first HTML5 and Javascript game engine supporting both Canvas and WebGL rendering.",
+      "image":"http://www.kiwijs.org/wp-content/themes/kiwijs/assets/logo.png"
+    },
+    "Koa":{
+      "imports":[
+        "koa"
+      ],
+      "technologies":[
+        "Web Development"
+      ],
+      "description":"Next generation web framework for Node.js",
+      "image":"https://raw.githubusercontent.com/koajs/koa/f3ede44ffa6b59dcdc4d94d1faaa223aa6c60a51/docs/logo.png"
+    },
+    "Material UI":{
+      "imports":[
+        "@material-ui"
+      ],
+      "technologies":[
+        "Frontend"
+      ],
+      "description":"React components for faster and easier web development.",
+      "image":"https://material-ui.com/static/logo_raw.svg"
+    },
+    "MeteorJS":{
+      "imports":[
+        "meteor"
+      ],
+      "technologies":[
+        "Web Development",
+        "SPA",
+        "Full Stack"
+      ],
+      "description":"Meteor.js is a full stack framework. It means that you can control everything from the database to the UI with the same language and the same framework, and it is one of Meteor’s primary advantages.",
+      "image":"https://user-images.githubusercontent.com/841294/26841702-0902bbee-4af3-11e7-9805-0618da66a246.png"
+    },
+    "MobX":{
+      "imports":[
+        "mobx"
+      ],
+      "technologies":[
+        "Web Development",
+        "SPA"
+      ],
+      "description":"MobX is a battle tested library that makes state management simple and scalable by transparently applying functional reactive programming (TFRP)"
+    },
+    "mongodb-core":{
+      "imports":[
+        "mongodb-core"
+      ],
+      "technologies":[
+        "Databases",
+        "MongoDB"
+      ],
+      "description":"MongoDB core driver functionality aims to make the smallest viable driver api"
     },
     "mongoose":{
       "imports":[
@@ -2017,25 +2352,71 @@
       ],
       "description":"MongoDB object modeling designed to work in an asynchronous environment."
     },
-    "NestJS":{
+    "mysql":{
       "imports":[
-        "@nestjs/"
+        "mysql"
       ],
       "technologies":[
-        "Web Development"
+        "Databases",
+        "MySQL"
       ],
-      "description":"A progressive Node.js framework for building efficient, reliable and scalable server-side applications.",
-      "image":"https://nestjs.com/img/logo-small.svg"
+      "description":"A pure node.js JavaScript Client implementing the MySQL protocol."
     },
-    "NgRx":{
+    "NativeScript":{
       "imports":[
-        "@ngrx"
+        "nativescript"
+      ],
+      "technologies":[
+        "Mobile applications"
+      ],
+      "description":"Open source framework for building truly native mobile apps with Angular, Vue.js, TypeScript, or JavaScript."
+    },
+    "NativeScriptVue":{
+      "imports":[
+        "nativescript-vue"
+      ],
+      "technologies":[
+        "Mobile applications",
+        "JavaScript Frameworks"
+      ],
+      "description":"Open source framework for building truly native mobile apps with Vue.js.",
+      "image":"https://art.nativescript-vue.org/NativeScript-Vue-White-Green.svg"
+    },
+    "Neo4j":{
+      "imports":[
+        "neo4j",
+        "neo4j-driver"
+      ],
+      "technologies":[
+        "Java",
+        "JavaScript",
+        "Databases"
+      ],
+      "description":"Neo4j is a graph database management system developed by Neo4j, Inc.",
+      "image":"https://go.neo4j.com/rs/710-RRC-335/images/neo4j_logo_globe.png"
+    },
+    "NextJS":{
+      "imports":[
+        "next"
       ],
       "technologies":[
         "Web Development",
-        "SPA"
+        "SPA",
+        "Server Side Rendering",
+        "Server Side Generation"
       ],
-      "description":"RxJS powered state management for Angular applications, inspired by Redux"
+      "description":"Production grade React applications that scale. The world's leading companies use Next.js to build server-rendered applications, static websites, and more.",
+      "image": "https://camo.githubusercontent.com/0bbf728fe4c8b213f3723eaac321fbb30e68be19/68747470733a2f2f6173736574732e76657263656c2e636f6d2f696d6167652f75706c6f61642f76313533383336313039312f7265706f7369746f726965732f6e6578742d6a732f6e6578742d6a732e706e67"
+    },
+    "NgRx":{
+        "imports":[
+          "@ngrx"
+        ],
+        "technologies":[
+          "Web Development",
+          "SPA"
+        ],
+        "description":"RxJS powered state management for Angular applications, inspired by Redux"
     },
     "node-mongodb-native":{
       "imports":[
@@ -2056,6 +2437,57 @@
         "PostgreSQL"
       ],
       "description":"node-postgres is a collection of node.js modules for interfacing with your PostgreSQL database."
+    },
+    "NodeJS":{
+      "imports":[
+        "child_process",
+        "cluster",
+        "crypto",
+        "dns",
+        "events",
+        "fs",
+        "http",
+        "http2",
+        "https",
+        "net",
+        "os",
+        "path",
+        "stream",
+        "tls",
+        "udp",
+        "url",
+        "util",
+        "v8",
+        "vm",
+        "worker_threads",
+        "zlib"
+      ],
+      "technologies":[
+        "Frontend",
+        "Backend"
+      ],
+      "description":"JavaScript runtime built on V8 engine and libuv",
+      "image":"https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg"
+    },
+    "NuxtJS":{
+      "imports":[
+        "nuxtjs"
+      ],
+      "technologies":[
+        "Web Development",
+        "SPA",
+        "Server side rendering"
+      ],
+      "description":"Nuxt.js is a free and open source web application framework based on Vue.js, Node.js, Webpack and Babel.js."
+    },
+    "Parcel":{
+      "imports":[
+        "parcel"
+      ],
+      "technologies":[
+        "Build tools"
+      ],
+      "description":"Blazing fast, zero configuration web application bundler."
     },
     "pg-promise":{
       "imports":[
@@ -2087,6 +2519,85 @@
       ],
       "description":"The Fastest full featured PostgreSQL client for Node.js"
     },
+    "Proton Native":{
+      "imports":[
+        "proton-native"
+      ],
+      "technologies":[
+        "Desktop applications"
+      ],
+      "description":"Create native desktop applications through a React syntax, on all platforms"
+    },
+    "React Native":{
+      "imports":[
+        "react-native"
+      ],
+      "technologies":[
+        "Mobile applications"
+      ],
+      "description":"React Native combines the best parts of native development with React, a best-in-class JavaScript library for building user interfaces."
+    },
+    "ReactJS":{
+      "imports":[
+        "react"
+      ],
+      "technologies":[
+        "Frontend",
+        "Web Development",
+        "SPA",
+        "JavaScript Frameworks"
+      ],
+      "description":"A JavaScript library for building user interfaces",
+      "image":"https://cdn4.iconfinder.com/data/icons/logos-3/600/React.js_logo-512.png"
+    },
+    "Redux":{
+      "imports":[
+        "redux"
+      ],
+      "technologies":[
+        "Web Development"
+      ],
+      "description":"A predictable state container for JavaScript apps."
+    },
+    "Redux Saga":{
+      "imports":[
+        "redux-saga"
+      ],
+      "technologies":[
+        "Web Development",
+        "Frontend"
+      ],
+      "description":"An alternative side effect model for Redux apps."
+    },
+    "Rollup":{
+      "imports":[
+        "rollup"
+      ],
+      "technologies":[
+        "Build tools"
+      ],
+      "description":"Parcel is a web application bundler, differentiated by its developer experience. It offers blazing fast performance utilizing multicore processing, and requires zero configuration."
+    },
+    "RxJS":{
+      "imports":[
+        "rxjs"
+      ],
+      "technologies":[
+        "Web Development"
+      ],
+      "description":"Reactive Extensions Library for JavaScript"
+    },
+    "Sequelize":{
+      "imports":[
+        "sequelize"
+      ],
+      "technologies":[
+        "ORM",
+        "NodeJS"
+      ],
+      "description":"Sequelize is a promise-based Node.js ORM for Postgres, MySQL, MariaDB, SQLite and Microsoft SQL Server.",
+      "image":"https://avatars1.githubusercontent.com/u/3591786"
+    },
     "Slonik":{
       "imports":[
         "slonik"
@@ -2097,15 +2608,86 @@
       ],
       "description":"A PostgreSQL client with strict types, detailed logging and assertions."
     },
-    "Ts.ED":{
+    "Socket.io":{
       "imports":[
-        "@tsed/"
+        "socket.io"
+      ],
+      "technologies":[
+        "Websockets"
+      ],
+      "description":"Featuring the fastest and most reliable real-time engine."
+    },
+    "Styled Components":{
+      "imports":[
+        "styled-components"
+      ],
+      "technologies":[
+        "Frontend"
+      ],
+      "description":"Styled components is a way to write modular CSS in modern JavaScript."
+    },
+    "Svelte":{
+      "imports":[
+        "svelte"
       ],
       "technologies":[
         "Web Development",
-        "MVC"
+        "SPA"
       ],
-      "description":"A Node.js and TypeScript Framework on top of ExpressJS."
+      "description":"Svelte is a radical new approach to building user interfaces. Whereas traditional frameworks like React and Vue do the bulk of their work in the browser, Svelte shifts that work into a compile step that happens when you build your app.",
+      "image":"https://raw.githubusercontent.com/sveltejs/branding/master/svelte-logo.png"
+    },
+    "ThreeJS":{
+      "imports":[
+        "three"
+      ],
+      "technologies":[
+        "WebGL"
+      ],
+      "description":"Three.js is a cross-browser JavaScript library and Application Programming Interface used to create and display animated 3D computer graphics in a web browser."
+    },
+    "Ts.ED":{
+        "imports":[
+          "@tsed/"
+        ],
+        "technologies":[
+          "Web Development",
+          "MVC"
+        ],
+        "description":"A Node.js and TypeScript Framework on top of ExpressJS."
+    },
+    "VueJS":{
+      "imports":[
+        "vue"
+      ],
+      "technologies":[
+        "Frontend",
+        "Web Development",
+        "SPA",
+        "JavaScript Frameworks"
+      ],
+      "description":"The Progressive JavaScript Framework",
+      "image":"https://raw.githubusercontent.com/vuejs/art/master/logo.png"
+    },
+    "VueX":{
+      "imports":[
+        "vuex"
+      ],
+      "technologies":[
+        "Web Development",
+        "SPA",
+        "JavaScript Frameworks"
+      ],
+      "description":"Centralized State Management for Vue.js."
+    },
+    "Webpack":{
+      "imports":[
+        "webpack"
+      ],
+      "technologies":[
+        "Build tools"
+      ],
+      "description":"Webpack is an open-source JavaScript module bundler. It is a module bundler primarily for JavaScript, but it can transform front-end assets like HTML, CSS, and images if the corresponding loaders are included."
     }
   }
 }
