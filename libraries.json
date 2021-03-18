@@ -347,6 +347,15 @@
       ],
       "description":"Apache Cayenne™ is an open source Java object-to-relational mapping framework"
     },
+    "Eureka":{
+     "imports":[
+      "org.springframework.cloud.netflix.eureka"
+     ],
+     "technologies":[
+      "Service Discovery"
+     ],
+     "description":"A service discovery agent that can be leveraged in the development of microservices where service discovery is preferred over direct http/https interactions."
+    },
     "Gson":{
       "imports":[
         "com.google.gson"
@@ -509,8 +518,7 @@
       "org.springframework.cloud.openfeign"
      ],
      "technologies":[
-      "Http/Https",
-      "Microservices"
+      "Http/Https"
      ],
      "description":"Convenience http/https library."
     },
