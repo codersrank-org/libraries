@@ -347,6 +347,15 @@
       ],
       "description":"Apache Cayenne™ is an open source Java object-to-relational mapping framework"
     },
+    "Eureka":{
+     "imports":[
+      "org.springframework.cloud.netflix.eureka"
+     ],
+     "technologies":[
+      "Service Discovery"
+     ],
+     "description":"A service discovery agent that can be leveraged in the development of microservices where service discovery is preferred over direct http/https interactions."
+    },
     "Gson":{
       "imports":[
         "com.google.gson"
@@ -504,6 +513,15 @@
       ],
       "description":"A modern I/O library for Android, Kotlin, and Java."
     },
+    "OpenFeign":{
+     "imports":[
+      "org.springframework.cloud.openfeign"
+     ],
+     "technologies":[
+      "Http/Https"
+     ],
+     "description":"Convenience http/https library."
+    },
     "PgJDBC":{
       "imports":[
         "org.postgresql"
@@ -610,6 +628,19 @@
       "description":"Bootstrap a Spring application with little or no configuration.",
       "image":"https://spring.io/images/spring-logo-9146a4d3298760c2e7e49595184e1975.svg"
     },
+    "Spring Cloud":{
+     "imports":[
+      "org.springframework.cloud"
+     ],
+     "technologies":[
+      "Java Frameworks",
+      "Web Development",
+      "Backend",
+      "Microservices"
+     ],
+     "description":"A set of libraries within the Spring ecosystem for the development of cloud native apps.",
+     "image":"https://spring.io/images/spring-logo-9146a4d3298760c2e7e49595184e1975.svg"
+    },
     "spring-data-mongodb": {
       "imports":[
         "com.mongodb.client"
@@ -668,6 +699,15 @@
       ],
       "description":"Tool-kit for building reactive applications on the JVM.",
       "image":"https://vertx.io/assets/logo-sm.png"
+    },
+    "WireMock":{
+     "imports":[
+      "com.github.tomakehurst.wiremock"
+     ],
+     "technologies":[
+      "Testing"
+     ],
+     "description": "Mock services while writing integration tests."
     }
   },
   "JavaScript":{

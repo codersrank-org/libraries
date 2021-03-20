@@ -4,7 +4,11 @@ fs.readFile( __dirname + '/../libraries.json', function (err, data) {
   if (err) {
     throw err; 
   }
-  data = JSON.parse(data)
+  data = JSON.parse(data.toString());
+
+  if (typeof data !== 'object') {
+    throw new Error('Expected JSON object');
+  }
 
   let previousLanguage = ""
   let error = []
@@ -40,12 +44,22 @@ fs.readFile( __dirname + '/../libraries.json', function (err, data) {
       if (typeof data[language][library].description === 'undefined' || data[language][library].description === '') {
         error.push('ERROR: ' + language + '.' + library + '.description must exist and cannot be empty')
       }
+      if (data[language][library].description) {
+        if (typeof data[language][library].description !== 'string') {
+          error.push('ERROR: ' + language + '.' + library + '.description must be of type string');
+        }
+      }
+      if (data[language][library].image) {
+        if (typeof data[language][library].image !== 'string') {
+          error.push('ERROR: ' + language + '.' + library + '.image must be of type string');
+        }
+      }
     }
   })
 
-  if (error.length !== 0) {
-    for (i in error) {
-      console.log(error[i])
+  if (error.length > 0) {
+    for (let i of error) {
+      console.log(i);
     }
   }
 
