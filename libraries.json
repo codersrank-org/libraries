@@ -93,7 +93,7 @@
 	"CSS frameworks"
       ],
       "description": "Best open source admin dashboard & control panel theme. Built on top of Bootstrap, AdminLTE provides a range of responsive, reusable, and commonly used components.",
-      "language":"CSS"    
+      "language":"CSS"
     },
     "Bootstrap":{
       "imports":[
@@ -674,7 +674,7 @@
       ],
       "description":"Inspired from JUnit and NUnit but introducing some new functionalities that make it more powerful and easier to use.",
       "image":"https://i0.wp.com/testingfreak.com/wp-content/uploads/2015/01/testng1.png?resize=568%2C201"
-    },  
+    },
     "Vaadin":{
       "imports":[
         "com.vaadin"
@@ -1555,7 +1555,7 @@
       ],
       "description":"Drupal, open source content management framework.",
       "image":"https://www.drupal.org/files/EL_blue_RGB%281%29.png"
-    },	  
+    },
     "Laravel":{
       "imports":[
         "Illuminate\\",
@@ -1746,7 +1746,8 @@
         "Web Development",
         "API"
       ],
-      "description":"FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints."
+      "description":"FastAPI is a modern, fast (high-performance), web framework for building APIs with Python 3.6+ based on standard Python type hints.",
+      "image": "https://raw.githubusercontent.com/tiangolo/fastapi/22528373bba6a654323de416ad5c867cbadb81bb/docs/en/docs/img/logo-teal.svg"
     },
     "Flask":{
       "imports":[
@@ -1836,6 +1837,18 @@
       ],
       "description":"Pandas is a fast, powerful, flexible and easy to use open source data analysis and manipulation tool, built on top of the Python programming language.",
       "image":"https://pandas.pydata.org/static/img/pandas_white.svg"
+    },
+    "Plone":{
+        "imports":[
+          "plone"
+        ],
+        "technologies":[
+          "Web Development",
+          "Content Management Framework",
+          "CMS"
+        ],
+        "description":"A powerful, flexible Content Management Solution and framework that is easy to install, use and extend.",
+        "image":"https://github.com/plone/documentation/blob/5.2/_static/logo.png?raw=true"
     },
 	"Plotly":{
       "imports":[
@@ -1978,6 +1991,15 @@
       "description":"The SciPy library is one of the core packages that make up the SciPy stack. It provides many user-friendly and efficient numerical routines, such as routines for numerical integration, interpolation, optimization, linear algebra, and statistics.",
       "image":"https://www.scipy.org/_static/logo.png"
     },
+    "Starlette":{
+        "imports":[
+          "starlette"
+        ],
+        "technologies":[
+          "Web Development"
+        ],
+        "description":"Starlette is a lightweight ASGI framework/toolkit, which is ideal for building high performance asyncio services."
+    },
     "Streamlit":{
       "imports":[
         "streamlit"
@@ -2032,6 +2054,16 @@
       ],
       "description":"Typer is a library for building CLI applications that users will love using and developers will love creating. Based on Python 3.6+ type hints.",
       "image":"https://typer.tiangolo.com/img/icon-white.svg"
+    },
+    "Zope":{
+        "imports":[
+          "zope"
+        ],
+        "technologies":[
+          "Web Development"
+        ],
+        "description":"Zope is a free and open source web application server written in the object-oriented programming language Python. Since its release in 1998, Zope continues to grow into many distinct applications, frameworks, libraries and tools. ",
+        "image":"https://avatars.githubusercontent.com/u/1163184"
     }
   },
   "Ruby":{
