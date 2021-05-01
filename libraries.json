@@ -366,6 +366,23 @@
       "description":"Gson is a Java library that can be used to convert Java Objects into their JSON representation.",
       "image":"https://s.appbrain.com/static/202005201421235/blob/sdk-logos/google_gson.png"
     },
+    "Guardian":{
+      "imports":[
+        "org.comroid.guardian-core",
+        "org.comroid.mutatio",
+        "org.comroid.uniform",
+        "org.comroid.varbind",
+        "org.comroid.restless",
+        "org.comroid.webkit"
+      ],
+      "technologies":[
+        "Web Development",
+        "Java Frameworks",
+        "Backend"
+      ],
+      "description":"The guardian Framework aims at supplying simple, yet powerful solutions for REST related tasks.",
+      "image":"https://cdn.comroid.org/img/guardian-small.png"
+    },
     "GWT":{
       "imports":[
         "com.google.gwt"
