@@ -1096,6 +1096,18 @@
       "description":"Neo4j is a graph database management system developed by Neo4j, Inc.",
       "image":"https://go.neo4j.com/rs/710-RRC-335/images/neo4j_logo_globe.png"
     },
+    "NestJS": {
+      "imports": [
+        "@nestjs/"
+      ],
+      "technologies": [
+        "Web Development",
+        "JavaScript Frameworks",
+        "Backend"
+      ],
+      "description": "A progressive Node.js framework for building efficient, reliable and scalable server-side applications.",
+      "image": "https://i.imgur.com/jRdGBEk.png"
+    },
     "NextJS":{
       "imports":[
         "next"
