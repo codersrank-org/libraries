@@ -2507,6 +2507,18 @@
       "description":"Neo4j is a graph database management system developed by Neo4j, Inc.",
       "image":"https://go.neo4j.com/rs/710-RRC-335/images/neo4j_logo_globe.png"
     },
+    "NestJS": {
+      "imports": [
+        "@nestjs/"
+      ],
+      "technologies": [
+        "Web Development",
+        "JavaScript Frameworks",
+        "Backend"
+      ],
+      "description": "A progressive Node.js framework for building efficient, reliable and scalable server-side applications.",
+      "image": "https://i.imgur.com/jRdGBEk.png"
+    },
     "NextJS":{
       "imports":[
         "next"
@@ -2767,6 +2779,17 @@
           "MVC"
         ],
         "description":"A Node.js and TypeScript Framework on top of ExpressJS."
+    },
+    "TypeORM": {
+      "imports": [
+        "typeorm"
+      ],
+      "technologies": [
+        "ORM",
+        "NodeJS"
+      ],
+      "description": "TypeORM is an ORM that can run in NodeJS, Browser, Cordova, PhoneGap, Ionic, React Native, NativeScript, Expo, and Electron platforms and can be used with TypeScript and JavaScript (ES5, ES6, ES7, ES8).",
+      "image": "https://raw.githubusercontent.com/typeorm/typeorm/master/resources/logo_big.png"
     },
     "VueJS":{
       "imports":[
