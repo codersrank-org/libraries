@@ -25,7 +25,7 @@
     },
     "Blazor":{
       "imports":[
-        "Microsoft.AspNetCore.Components.Web"
+        "Microsoft.AspNetCore.Components"
       ],
       "technologies":[
         "Frontend",
@@ -34,7 +34,7 @@
       "description":"Blazor is a framework for building interactive client-side web UI with .NET",
       "image":"https://devblogs.microsoft.com/aspnet/wp-content/uploads/sites/16/2019/04/BrandBlazor_nohalo_1000x.png"
     },
-    "Entity Framework":{
+    "Entity Framework Core":{
       "imports":[
         "Microsoft.EntityFrameworkCore"
       ],
@@ -42,6 +42,16 @@
         "ORM"
       ],
       "description":"Entity Framework Core is a modern object-database mapper for .NET. It supports LINQ queries, change tracking, updates, and schema migrations."
+    },
+    "Entity Framework":{
+      "imports":[
+        "System.Data.Entity",
+        "System.ComponentModel"
+      ],
+      "technologies":[
+        "ORM"
+      ],
+      "description":"Entity Framework is Microsoft's recommended data access technology for new applications."
     },
     "NUnit":{
       "imports":[
