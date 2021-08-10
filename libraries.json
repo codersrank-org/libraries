@@ -1593,7 +1593,8 @@
   "PHP":{
     "Sulu":{
       "imports":[
-        "Sulu\\"
+        "Sulu\\",
+	"sulu/"
       ],
       "technologies":[
         "Web Development",
