@@ -1591,6 +1591,20 @@
     }
   },
   "PHP":{
+    "Sulu":{
+      "imports":[
+        "Sulu\\"
+      ],
+      "technologies":[
+        "Web Development",
+        "PHP Frameworks",
+	"Content Management Framework",
+	"CMS",
+        "MVC"
+      ],
+      "description":"Sulu is a highly extensible open-source PHP content management system based on the Symfony framework. Sulu is developed to deliver robust multi-lingual and multi-portal websites while providing an intuitive and extensible administration interface to manage the full content lifecycle.",
+      "image":"https://avatars.githubusercontent.com/u/5717006?s=200&v=4"
+    },
     "Drupal":{
       "imports":[
         "Drupal\\",
