@@ -1192,6 +1192,21 @@
       "description":"JavaScript runtime built on V8 engine and libuv",
       "image":"https://nodejs.org/static/images/logos/nodejs-new-pantone-black.svg"
     },
+    "Nullstack":{
+      "imports":[
+        "nullstack"
+      ],
+      "technologies":[
+        "Frontend",
+        "Web Development",
+        "SPA",
+        "JavaScript Frameworks",
+        "Server Side Rendering",
+        "Backend"
+      ],
+      "description":"Feature-driven full-stack javascript components",
+      "image":"https://raw.githubusercontent.com/nullstack/create-nullstack-app/master/src/template/public/icon-128x128.png"
+    },
     "NuxtJS":{
       "imports":[
         "nuxtjs"
