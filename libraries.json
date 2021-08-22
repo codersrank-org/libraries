@@ -1746,6 +1746,20 @@
       ],
       "description":"Yii2 is a fast, secure, and efficient PHP framework.",
       "image":"https://avatars.githubusercontent.com/u/993323?s=200&v=4g"
+    },
+    "CodeIgniter 4":{
+      "imports":[
+        "CodeIgniter\\",
+        "codeigniter4/codeigniter4",
+        "codeigniter4/framework"
+      ],
+      "technologies":[
+        "Web Development",
+        "PHP Frameworks",
+        "MVC"
+      ],
+      "description":"CodeIgniter is a powerful PHP framework with a very small footprint, built for developers who need a simple and elegant toolkit.",
+      "image":"https://avatars.githubusercontent.com/u/44521256?s=200&v=4"
     }
   },
   "Python":{
