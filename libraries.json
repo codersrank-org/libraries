@@ -1661,6 +1661,17 @@
       ],
       "description":"A MongoDB based Eloquent model and Query builder for Laravel"
     },
+    "Livewire":{
+      "imports":[
+        "Livewire\\"
+      ],
+      "technologies":[
+        "Frontend",
+        "Web Development"
+      ],
+      "description":"A full-stack framework for Laravel that takes the pain out of building dynamic UIs.",
+      "image":"https://avatars.githubusercontent.com/u/51960834?s=200"
+    },
     "Phalcon":{
       "imports":[
         "Phalcon\\"
