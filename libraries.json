@@ -2204,6 +2204,38 @@
       "image":"https://rspec.info/images/logo.png"
     }
   },
+  "Swift":{
+    "SpriteKit":{
+      "imports":[
+        "SpriteKit"
+      ],
+      "technologies":[
+        "Mobile applications",
+        "Game Development"
+      ],
+      "description":"Add high-performance 2D content with smooth animations to your app, or create a game with a high-level set of 2D game-based tools."
+    },
+    "SwiftUI":{
+      "imports":[
+        "SwiftUI"
+      ],
+      "technologies":[
+        "Mobile applications",
+        "Desktop applications"
+      ],
+      "description":"Declare the user interface and behavior for your app on every platform.",
+      "image":"https://developer.apple.com/assets/elements/icons/swiftui/swiftui-96x96_2x.png"
+    },
+    "UIKit":{
+      "imports":[
+        "UIKit"
+      ],
+      "technologies":[
+        "Mobile applications"
+      ],
+      "description":"Construct and manage a graphical, event-driven user interface for your iOS or tvOS app."
+    }
+  },
   "TypeScript":{
     "AfterJS":{
       "imports":[
