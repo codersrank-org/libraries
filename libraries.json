@@ -1290,7 +1290,8 @@
     },
     "Redux":{
       "imports":[
-        "redux"
+        "redux",
+        "@reduxjs"
       ],
       "technologies":[
         "Web Development"
@@ -2742,7 +2743,8 @@
     },
     "Redux":{
       "imports":[
-        "redux"
+        "redux",
+        "@reduxjs"
       ],
       "technologies":[
         "Web Development"
