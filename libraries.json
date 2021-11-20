@@ -1013,13 +1013,14 @@
     },
     "Material UI":{
       "imports":[
-        "@material-ui"
+        "@material-ui",
+        "@mui"
       ],
       "technologies":[
         "Frontend"
       ],
       "description":"React components for faster and easier web development.",
-      "image":"https://material-ui.com/static/logo_raw.svg"
+      "image":"https://mui.com/static/logo.png"
     },
     "MeteorJS":{
       "imports":[
@@ -2480,13 +2481,14 @@
     },
     "Material UI":{
       "imports":[
-        "@material-ui"
+        "@material-ui",
+        "@mui"
       ],
       "technologies":[
         "Frontend"
       ],
       "description":"React components for faster and easier web development.",
-      "image":"https://material-ui.com/static/logo_raw.svg"
+      "image":"https://mui.com/static/logo.png"
     },
     "MeteorJS":{
       "imports":[
