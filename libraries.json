@@ -925,6 +925,19 @@
       ],
       "description":"A free and open source framework to develop mobile, desktop or web apps with native look and feel"
     },
+    "Gatsby":{
+      "imports":[
+        "gatsby"
+      ],
+      "technologies":[
+        "Frontend",
+        "Web Development",
+        "SSG",
+        "JavaScript Frameworks"
+      ],
+      "description":"A frameworks for creating static sites.",
+      "image":"https://i.imgur.com/namE7Sp.png"
+    },
     "GraphQL":{
       "imports":[
         "graphql-express",
