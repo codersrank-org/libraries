@@ -863,6 +863,18 @@
       "description":"D3 (or D3.js) is a JavaScript library for visualizing data using web standards. D3 helps you bring data to life using SVG, Canvas and HTML DOM manipulation.",
       "image":"https://d3js.org/logo.svg"
     },
+    "DevExtreme":{
+      "imports":[
+        "devextreme",
+        "devextreme-angular",
+        "devextreme-react",
+        "devextreme-vue"
+      ],
+      "technologies":[
+        "Frontend"
+      ],
+      "description":"JavaScript Component Suite for Responsive Web Development"
+    },
     "Effector":{
       "imports":[
         "effector"
@@ -2343,6 +2355,18 @@
       ],
       "description":"D3 (or D3.js) is a JavaScript library for visualizing data using web standards. D3 helps you bring data to life using SVG, Canvas and HTML DOM manipulation.",
       "image":"https://d3js.org/logo.svg"
+    },
+    "DevExtreme":{
+      "imports":[
+        "devextreme",
+        "devextreme-angular",
+        "devextreme-react",
+        "devextreme-vue"
+      ],
+      "technologies":[
+        "Frontend"
+      ],
+      "description":"JavaScript Component Suite for Responsive Web Development"
     },
     "Effector":{
       "imports":[
