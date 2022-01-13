@@ -747,6 +747,19 @@
       ],
       "description":"After.js enables Next.js-like data fetching with any React SSR app that uses React Router 4."
     },
+    "Alpine.js":{
+      "imports":[
+        "alpinejs",
+        "@alpinejs/"
+      ],
+      "technologies":[
+        "Frontend",
+        "Web Development",
+        "JavaScript Frameworks"
+      ],
+      "description":"A rugged, minimal framework for composing JavaScript behavior in your markup.",
+      "image":"https://avatars.githubusercontent.com/u/59030169?s=200&v=4"
+    },
     "Angular":{
         "imports":[
           "@angular/",
@@ -1249,14 +1262,16 @@
     },
     "NuxtJS":{
       "imports":[
-        "nuxtjs"
+        "nuxtjs",
+        "@nuxt/"
       ],
       "technologies":[
         "Web Development",
         "SPA",
         "Server side rendering"
       ],
-      "description":"Nuxt.js is a free and open source web application framework based on Vue.js, Node.js, Webpack and Babel.js."
+      "description":"Nuxt.js is a free and open source web application framework based on Vue.js, Node.js, Webpack and Babel.js.",
+      "image":"https://avatars.githubusercontent.com/u/23360933?s=200&v=4"
     },
     "Parcel":{
       "imports":[
@@ -1317,7 +1332,8 @@
     },
     "ReactJS":{
       "imports":[
-        "react"
+        "react",
+        "react-dom"
       ],
       "technologies":[
         "Frontend",
@@ -1347,6 +1363,20 @@
         "Frontend"
       ],
       "description":"An alternative side effect model for Redux apps."
+    },
+    "Remix":{
+      "imports":[
+        "remix",
+        "@remix-run/"
+      ],
+      "technologies":[
+        "Web Development",
+        "Server Side Rendering",
+        "Server Side Generation",
+        "JavaScript Frameworks"
+      ],
+      "description":"Full stack web framework.",
+      "image":"https://avatars.githubusercontent.com/u/64235328?s=200&v=4"
     },
     "Rollup":{
       "imports":[
@@ -1395,6 +1425,19 @@
         "Websockets"
       ],
       "description":"Featuring the fastest and most reliable real-time engine."
+    },
+    "SolidJS":{
+      "imports":[
+        "solid-js",
+        "solid-ssr"
+      ],
+      "technologies":[
+        "Frontend",
+        "Web Development",
+        "JavaScript Frameworks"
+      ],
+      "description":"A declarative, efficient, and flexible JavaScript library for building user interfaces.",
+      "image":"https://avatars.githubusercontent.com/u/79226042?s=200&v=4"
     },
     "Styled Components":{
       "imports":[
@@ -2255,6 +2298,19 @@
       ],
       "description":"After.js enables Next.js-like data fetching with any React SSR app that uses React Router 4."
     },
+    "Alpine.js":{
+      "imports":[
+        "alpinejs",
+        "@alpinejs/"
+      ],
+      "technologies":[
+        "Frontend",
+        "Web Development",
+        "JavaScript Frameworks"
+      ],
+      "description":"A rugged, minimal framework for composing JavaScript behavior in your markup.",
+      "image":"https://avatars.githubusercontent.com/u/59030169?s=200&v=4"
+    },
     "Angular":{
         "imports":[
           "@angular/",
@@ -2729,14 +2785,16 @@
     },
     "NuxtJS":{
       "imports":[
-        "nuxtjs"
+        "nuxtjs",
+        "@nuxt/"
       ],
       "technologies":[
         "Web Development",
         "SPA",
         "Server side rendering"
       ],
-      "description":"Nuxt.js is a free and open source web application framework based on Vue.js, Node.js, Webpack and Babel.js."
+      "description":"Nuxt.js is a free and open source web application framework based on Vue.js, Node.js, Webpack and Babel.js.",
+      "image":"https://avatars.githubusercontent.com/u/23360933?s=200&v=4"
     },
     "Parcel":{
       "imports":[
@@ -2797,7 +2855,8 @@
     },
     "ReactJS":{
       "imports":[
-        "react"
+        "react",
+        "react-dom"
       ],
       "technologies":[
         "Frontend",
@@ -2827,6 +2886,20 @@
         "Frontend"
       ],
       "description":"An alternative side effect model for Redux apps."
+    },
+    "Remix":{
+      "imports":[
+        "remix",
+        "@remix-run/"
+      ],
+      "technologies":[
+        "Web Development",
+        "Server Side Rendering",
+        "Server Side Generation",
+        "JavaScript Frameworks"
+      ],
+      "description":"Full stack web framework.",
+      "image":"https://avatars.githubusercontent.com/u/64235328?s=200&v=4"
     },
     "Rollup":{
       "imports":[
@@ -2875,6 +2948,19 @@
         "Websockets"
       ],
       "description":"Featuring the fastest and most reliable real-time engine."
+    },
+    "SolidJS":{
+      "imports":[
+        "solid-js",
+        "solid-ssr"
+      ],
+      "technologies":[
+        "Frontend",
+        "Web Development",
+        "JavaScript Frameworks"
+      ],
+      "description":"A declarative, efficient, and flexible JavaScript library for building user interfaces.",
+      "image":"https://avatars.githubusercontent.com/u/79226042?s=200&v=4"
     },
     "Styled Components":{
       "imports":[
