@@ -1072,6 +1072,17 @@
       "description":"Meteor.js is a full stack framework. It means that you can control everything from the database to the UI with the same language and the same framework, and it is one of Meteor’s primary advantages.",
       "image":"https://user-images.githubusercontent.com/841294/26841702-0902bbee-4af3-11e7-9805-0618da66a246.png"
     },
+    "MikroORM":{
+      "imports":[
+        "@mikro-orm/"
+      ],
+      "technologies":[
+        "ORM",
+        "NodeJS"
+      ],
+      "description":"TypeScript ORM for Node.js based on Data Mapper, Unit of Work and Identity Map patterns",
+      "image":"https://user-images.githubusercontent.com/38690835/150596419-0b421fc6-7f5d-48a0-8b81-a59a5a6100a5.png"
+    },
     "MobX":{
       "imports":[
         "mobx"
@@ -2609,6 +2620,17 @@
       ],
       "description":"Meteor.js is a full stack framework. It means that you can control everything from the database to the UI with the same language and the same framework, and it is one of Meteor’s primary advantages.",
       "image":"https://user-images.githubusercontent.com/841294/26841702-0902bbee-4af3-11e7-9805-0618da66a246.png"
+    },
+    "MikroORM":{
+      "imports":[
+        "@mikro-orm/"
+      ],
+      "technologies":[
+        "ORM",
+        "NodeJS"
+      ],
+      "description":"TypeScript ORM for Node.js based on Data Mapper, Unit of Work and Identity Map patterns",
+      "image":"https://user-images.githubusercontent.com/38690835/150596419-0b421fc6-7f5d-48a0-8b81-a59a5a6100a5.png"
     },
     "MobX":{
       "imports":[
