@@ -290,6 +290,17 @@
       ],
       "description":"MongoDB driver for Go"
     },
+    "mongo-go-driver": {
+      "imports":[
+        "github.com/mongodb/mongo-go-driver"
+      ],
+      "technologies":[
+        "Databases",
+        "MongoDB"
+      ],
+      "description":"Official MongoDB driver for Go",
+      "image":"https://github.com/mongodb/mongo-go-driver/raw/master/etc/assets/mongo-gopher.png"
+    },
     "pgx":{
       "imports":[
         "github.com/jackc/pgx/v4",
