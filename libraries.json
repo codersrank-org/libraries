@@ -243,6 +243,17 @@
       "description":"chi is a lightweight, idiomatic and composable router for building Go HTTP services.",
       "image":"https://camo.githubusercontent.com/f72d07b7d898f8935d557867df17416a1b430a2572f8ea1bae57d1700f5c754b/68747470733a2f2f63646e2e7261776769742e636f6d2f676f2d6368692f6368692f6d61737465722f5f6578616d706c65732f6368692e737667"
     },
+    "discordgo":{
+      "imports":[
+        "github.com/bwmarrin/discordgo"
+      ],
+      "technologies":[
+        "framework",
+        "API"
+      ],
+      "description":"DiscordGo is a Go package that provides low level bindings to the Discord chat client API.",
+      "image":"https://github.com/bwmarrin/discordgo/raw/master/docs/img/discordgo.png"
+    },
     "Echo":{
       "imports":[
         "github.com/labstack/echo"
@@ -290,6 +301,26 @@
         "ORM"
       ],
       "description":"GORM is a fully-featured ORM library for Golang supporting MySQL, SQLite3, PostgreSQL and Microsoft SQL Server."
+    },
+    "jwt":{
+      "imports":[
+        "github.com/golang-jwt/jwt"
+      ],
+      "technologies":[
+        "Web Development",
+        "Security",
+        "Backend"
+      ],
+      "description":"A go implementation of JSON Web Tokens."
+    },
+    "logrus":{
+      "imports":[
+        "github.com/sirupsen/logrus"
+      ],
+      "technologies":[
+        "Logging"
+      ],
+      "description":"Logrus is a structured logger for Go (golang), completely API compatible with the standard library logger."
     },
     "mgo": {
       "imports":[
@@ -341,6 +372,16 @@
         "PostgreSQL"
       ],
       "description":"A pure Go postgres driver for Go's database/sql package"
+    },
+    "yaml":{
+      "imports":[
+        "gopkg.in/yaml.v2"
+      ],
+      "technologies":[
+        "Web Development",
+        "Backend"
+      ],
+      "description":"YAML support for the Go language"
     }
   },
   "Groovy":{
