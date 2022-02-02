@@ -332,9 +332,9 @@
       ],
       "description":"MongoDB driver for Go"
     },
-    "mongo-go-driver": {
+    "mongo-driver": {
       "imports":[
-        "github.com/mongodb/mongo-go-driver"
+        "go.mongodb.org/mongo-driver/mongo"
       ],
       "technologies":[
         "Databases",
