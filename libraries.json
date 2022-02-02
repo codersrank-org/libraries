@@ -232,6 +232,17 @@
     }
   },
   "Go":{
+    "bleve":{
+      "imports":[
+        "github.com/blevesearch/bleve"
+      ],
+      "technologies":[
+        "Databases",
+        "Search Engines"
+      ],
+      "description":"A modern text indexing library for go.",
+      "image":"https://github.com/blevesearch/bleve/raw/master/docs/bleve.png"
+    },
     "chi":{
       "imports":[
         "github.com/go-chi/chi"
@@ -242,6 +253,15 @@
       ],
       "description":"chi is a lightweight, idiomatic and composable router for building Go HTTP services.",
       "image":"https://camo.githubusercontent.com/f72d07b7d898f8935d557867df17416a1b430a2572f8ea1bae57d1700f5c754b/68747470733a2f2f63646e2e7261776769742e636f6d2f676f2d6368692f6368692f6d61737465722f5f6578616d706c65732f6368692e737667"
+    },
+    "Cobra":{
+      "imports":[
+        "github.com/spf13/cobra"
+      ],
+      "technologies":[
+        "CLI"
+      ],
+      "description":"Cobra is both a library for creating powerful modern CLI applications as well as a program to generate applications and command files."
     },
     "discordgo":{
       "imports":[
@@ -273,6 +293,17 @@
       ],
       "description":"Gin is a HTTP web framework written in Go (Golang).",
       "image":"https://raw.githubusercontent.com/gin-gonic/logo/master/color.png"
+    },
+    "go-elasticsearch":{
+      "imports":[
+        "github.com/elastic/go-elasticsearch"
+      ],
+      "technologies":[
+        "Databases",
+        "Search Engines"
+      ],
+      "description":"The official Go client for Elasticsearch.",
+      "image":"https://avatars.githubusercontent.com/u/6764390?s=200&v=4"
     },
     "Go Micro":{
       "imports":[
@@ -373,11 +404,33 @@
       ],
       "description":"A pure Go postgres driver for Go's database/sql package"
     },
+    "Prometheus Client":{
+      "imports":[
+        "github.com/prometheus/client_golang/prometheus"
+      ],
+      "technologies":[
+        "Backend",
+        "Instrumentation"
+      ],
+      "description":"Prometheus instrumentation library for Go applications.",
+      "image":"https://avatars.githubusercontent.com/u/3380462?s=200&v=4"
+    },
+    "Viper":{
+      "imports":[
+        "github.com/spf13/viper"
+      ],
+      "technologies":[
+        "Configuration",
+        "Backend"
+      ],
+      "description":"Viper is a complete configuration solution for Go applications including 12-Factor apps."
+    },
     "yaml":{
       "imports":[
         "gopkg.in/yaml.v2"
       ],
       "technologies":[
+        "Configuration",
         "Web Development",
         "Backend"
       ],
