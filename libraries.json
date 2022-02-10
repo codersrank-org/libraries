@@ -2362,6 +2362,83 @@
       "image":"https://rspec.info/images/logo.png"
     }
   },
+  "Rust":{
+    "BigDecimal":{
+      "imports":[
+        "bigdecimal"
+      ],
+      "technologies":[
+        "Mathematics"
+      ],
+      "description":"Arbitrary precision decimal numbers."
+    },
+    "Chrono":{
+      "imports":[
+        "chrono"
+      ],
+      "technologies":[
+        "Time",
+        "Date",
+        "Calendar"
+      ],
+      "description":"Date and time library for Rust."
+    },
+    "Clap":{
+      "imports":[
+        "clap"
+      ],
+      "technologies":[
+        "CLI"
+      ],
+      "description":"A simple to use, efficient, and full-featured Command Line Argument Parser."
+    },
+    "Env_Logger":{
+      "imports":[
+        "env_logger"
+      ],
+      "technologies":[
+        "Logging"
+      ],
+      "description":"A logging implementation for `log` which is configured via an environment variable."
+    },
+    "Log":{
+      "imports":[
+        "log"
+      ],
+      "technologies":[
+        "Logging"
+      ],
+      "description":"A lightweight logging facade for Rust."
+    },
+    "Serde":{
+      "imports":[
+        "serde"
+      ],
+      "technologies":[
+        "Serialization",
+        "Deserialization"
+      ],
+      "description":"A generic serialization/deserialization framework."
+    },
+    "SQLx":{
+      "imports":[
+        "sqlx"
+      ],
+      "technologies":[
+        "Databases",
+      ],
+      "description":"The Rust SQL Toolkit. An async, pure Rust SQL crate featuring compile-time checked queries without a DSL."
+    },
+    "Tokio":{
+      "imports":[
+        "tokio"
+      ],
+      "technologies":[
+        "Asynchronous"
+      ],
+      "description":"An event-driven, non-blocking I/O platform for writing asynchronous I/O backed applications."
+    }
+  },
   "TypeScript":{
     "AfterJS":{
       "imports":[
