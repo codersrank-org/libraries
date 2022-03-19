@@ -2255,6 +2255,20 @@
       "description":"The SciPy library is one of the core packages that make up the SciPy stack. It provides many user-friendly and efficient numerical routines, such as routines for numerical integration, interpolation, optimization, linear algebra, and statistics.",
       "image":"https://www.scipy.org/_static/logo.png"
     },
+    "SQLAlchemy": {
+      "imports": [
+        "SQLAlchemy",
+        "sqlalchemy",
+        "flask_sqlalchemy"
+      ],
+      "technologies": [
+        "Databases",
+        "ORM",
+        "SQL"
+      ],
+      "description": "SQLAlchemy is a Python SQL toolkit and Object Relational Mapper (ORM) that gives application developers the full power and flexibility of SQL.",
+      "image": "https://www.sqlalchemy.org/img/sqla_logo.png"
+    },
     "Starlette":{
         "imports":[
           "starlette"
