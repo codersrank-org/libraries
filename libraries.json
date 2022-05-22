@@ -1191,6 +1191,12 @@
       "description": "GraphQL in Python Made Easy.",
       "image": "https://avatars2.githubusercontent.com/u/15002022?s=200&v=4"
     },
+    "Strawberry GraphQL":{
+      "imports": ["strawberry"],
+      "technologies":["Web Development", "Python Library"],
+      "description":"Python GraphQL library based on dataclasses.",
+      "image":"https://github.com/strawberry-graphql/strawberry/raw/main/.github/logo.png"
+    },
     "Keras": {
       "imports": ["keras", "tensorflow.keras"],
       "technologies": ["Machine Learning", "Deep Learning", "Backend"],
