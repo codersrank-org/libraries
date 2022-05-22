@@ -15,7 +15,13 @@ fs.readFile( __dirname + '/../libraries.json', function (err, data) {
 
   // javaScript and TypeScript must be the same
   if (JSON.stringify(data["JavaScript"]) !==  JSON.stringify(data["TypeScript"])) {
-    error.push('ERROR: JavaScript and TypeScript must have the same libraries and same values.')
+    error.push('ERROR: JavaScript and TypeScript must have the same libraries and same values.');
+
+    for (let i of Object.keys(data["JavaScript"])) {
+      if (!data["TypeScript"][i]) {
+        error.push('Key JavaScript.' + i + ' not found in TypeScript');
+      }
+    }
   }
 
   Object.keys(data).forEach(function(language) {
