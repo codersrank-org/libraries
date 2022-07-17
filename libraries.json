@@ -1148,7 +1148,7 @@
     },
     "BeautyfulSoup": {
       "imports": ["bs4"],
-      "technologies": ["Web Scrapping"],
+      "technologies": ["Web Scraping"],
       "description": "Beautiful Soup is a Python package for parsing HTML and XML documents.",
       "image": "https://funthon.files.wordpress.com/2017/05/bs.png"
     },
