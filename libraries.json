@@ -1380,6 +1380,23 @@
       "image": "https://avatars.githubusercontent.com/u/1163184"
     }
   },
+  "R": {
+    "Bioconductor": {
+      "imports": ["BiocManager"],
+      "technologies": ["Data Analysis", "Data Visualization", "Statistics", "Bioinformatics"],
+      "description": " The mission of the Bioconductor project is to develop, support, and disseminate free open source software that facilitates rigorous and reproducible analysis of data from current and emerging biological assays. We are dedicated to building a diverse, collaborative, and welcoming community of developers and data scientists."
+    },
+    "Shiny": {
+      "imports": ["shiny"],
+      "technologies": ["Data Visualization", "Frontend", "Web Development"],
+      "description": "Shiny is an R package that makes it easy to build interactive web apps straight from R. You can host standalone apps on a webpage or embed them in R Markdown documents or build dashboards. You can also extend your Shiny apps with CSS themes, htmlwidgets, and JavaScript actions."
+    },
+    "Tidyverse": {
+      "imports": ["tidyverse"],
+      "technologies": ["Data Analysis", "Data Visualization", "Statistics"],
+      "description": "The tidyverse is an opinionated collection of R packages designed for data science. All packages share an underlying design philosophy, grammar, and data structures."
+    }
+  },
   "Ruby": {
     "Cucumber": {
       "imports": ["cucumber"],
