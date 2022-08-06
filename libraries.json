@@ -1393,6 +1393,46 @@
       "description": " The mission of the Bioconductor project is to develop, support, and disseminate free open source software that facilitates rigorous and reproducible analysis of data from current and emerging biological assays. We are dedicated to building a diverse, collaborative, and welcoming community of developers and data scientists.",
       "image": "https://bioconductor.org/images/logo_bioconductor.gif"
     },
+    "Dplyr": {
+      "imports": ["dplyr", "tidyverse"],
+      "technologies": ["Data Analysis", "Data Processing"],
+      "description": "Dplyr is a grammar of data manipulation, providing a consistent set of verbs that help you solve the most common data manipulation challenges.",
+      "image": "https://dplyr.tidyverse.org/logo.png"
+    },
+    "Ggplot2": {
+      "imports": ["ggplot2", "tidyverse"],
+      "technologies": ["Data Visualization"],
+      "description": "Ggplot2 is a system for declaratively creating graphics, based on The Grammar of Graphics.",
+      "image": "https://ggplot2.tidyverse.org/logo.png"
+    },
+    "Magrittr": {
+      "imports": ["magrittr", "tidyverse"],
+      "technologies": [],
+      "description": "The magrittr package offers a set of operators which make your code more readable. Contains the famous pipe %>% operator.",
+      "image": "https://magrittr.tidyverse.org/logo.png"
+    },
+    "Quantmod": {
+      "imports": ["quantmod"],
+      "technologies": ["Data Analysis", "Data Visualization", "Data Management", "Financial Analysis"],
+      "description": "Quantmod is an R package that provides a framework for quantitative financial modeling and trading. It provides a rapid prototyping environment that makes modeling easier by removing the repetitive workflow issues surrounding data management and visualization."
+    },
+    "Rcpp": {
+      "imports": ["Rcpp"],
+      "technologies": [],
+      "description": "Rcpp provides R functions as well as C++ classes which offer a seamless integration of R and C++."
+    },
+    "Readr": {
+      "imports": ["readr", "tidyverse"],
+      "technologies": ["Data Management"],
+      "description": "The goal of readr is to provide a fast and friendly way to read rectangular data from delimited files, such as comma-separated values (CSV) and tab-separated values (TSV). It is designed to parse many types of data found in the wild, while providing an informative problem report when parsing leads to unexpected results.",
+      "image": "https://readr.tidyverse.org/logo.png"
+    },
+    "Reticulate": {
+      "imports": ["reticulate"],
+      "technologies": [],
+      "description": "The reticulate package provides a comprehensive set of tools for interoperability between Python and R.",
+      "image": "https://rstudio.github.io/reticulate/reference/figures/reticulated_python.png"
+    },
     "Shiny": {
       "imports": ["shiny"],
       "technologies": ["Data Visualization", "Frontend", "Web Development"],
