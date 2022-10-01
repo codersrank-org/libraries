@@ -572,6 +572,12 @@
       "description": "Express is a minimal Node.js framework for web.",
       "image": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/express/express.png"
     },
+    "Fastify":{
+      "imports": ["fastify"],
+      "technologies": ["Web Development", "JavaScript Frameworks", "Backend"],
+      "description": "Fastify is a web framework highly focused on providing the best developer experience with the least overhead and a powerful plugin architecture.",
+      "image": "https://avatars.githubusercontent.com/u/24939410"
+    },
     "Flow": {
       "imports": ["flowjs"],
       "_comment": "This is a special keyword, see repo info extractor JavaScript parser",
@@ -1617,6 +1623,12 @@
       "technologies": ["Web Development", "JavaScript Frameworks", "Backend"],
       "description": "Express is a minimal Node.js framework for web.",
       "image": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/express/express.png"
+    },
+    "Fastify":{
+      "imports": ["fastify"],
+      "technologies": ["Web Development", "JavaScript Frameworks", "Backend"],
+      "description": "Fastify is a web framework highly focused on providing the best developer experience with the least overhead and a powerful plugin architecture.",
+      "image": "https://avatars.githubusercontent.com/u/24939410"
     },
     "Flow": {
       "imports": ["flowjs"],
