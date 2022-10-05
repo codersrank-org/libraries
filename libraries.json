@@ -213,6 +213,11 @@
       "technologies": ["Databases", "PostgreSQL"],
       "description": "A pure Go postgres driver for Go's database/sql package"
     },
+    "Prometheus Go Client": {
+      "imports": ["github.com/prometheus/client_golang/prometheus"],
+      "technologies": ["Instrumentation"],
+      "description": "This is the Go client library for Prometheus."
+    },
     "yaml": {
       "imports": ["gopkg.in/yaml.v2"],
       "technologies": ["Web Development", "Backend"],
