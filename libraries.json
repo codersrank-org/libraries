@@ -151,6 +151,11 @@
       "technologies": ["framework"],
       "description": "High performance, minimalist Go web framework."
     },
+    "Elastic": {
+      "imports": ["github.com/olivere/elastic"],
+      "technologies": ["Databases", "ElasticSearch"],
+      "description": "Elastic is an Elasticsearch client for the Go programming language."
+    },
     "Gin": {
       "imports": ["github.com/gin-gonic/gin"],
       "technologies": ["Web Development", "Backend"],
@@ -896,15 +901,15 @@
       "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
       "image": "https://avatars.githubusercontent.com/u/79226042?s=200&v=4"
     },
-    "Supertest": {
-      "imports": ["supertest"],
-      "technologies": ["Testing"],
-      "description": "Super-agent driven library for testing node.js HTTP servers using a fluent API."
-    },
     "Styled Components": {
       "imports": ["styled-components"],
       "technologies": ["Frontend"],
       "description": "Styled components is a way to write modular CSS in modern JavaScript."
+    },
+    "Supertest": {
+      "imports": ["supertest"],
+      "technologies": ["Testing"],
+      "description": "Super-agent driven library for testing node.js HTTP servers using a fluent API."
     },
     "Svelte": {
       "imports": ["svelte"],
@@ -1202,12 +1207,6 @@
       "description": "GraphQL in Python Made Easy.",
       "image": "https://avatars2.githubusercontent.com/u/15002022?s=200&v=4"
     },
-    "Strawberry GraphQL":{
-      "imports": ["strawberry"],
-      "technologies":["Web Development", "Python Library"],
-      "description":"Python GraphQL library based on dataclasses.",
-      "image":"https://github.com/strawberry-graphql/strawberry/raw/main/.github/logo.png"
-    },
     "Keras": {
       "imports": ["keras", "tensorflow.keras"],
       "technologies": ["Machine Learning", "Deep Learning", "Backend"],
@@ -1349,6 +1348,12 @@
       "technologies": ["Web Development"],
       "description": "Starlette is a lightweight ASGI framework/toolkit, which is ideal for building high performance asyncio services."
     },
+    "Strawberry GraphQL":{
+      "imports": ["strawberry"],
+      "technologies":["Web Development", "Python Library"],
+      "description":"Python GraphQL library based on dataclasses.",
+      "image":"https://github.com/strawberry-graphql/strawberry/raw/main/.github/logo.png"
+    },
     "Streamlit": {
       "imports": ["streamlit"],
       "technologies": ["Data Visualization", "Frontend", "Web Development"],
@@ -1407,7 +1412,7 @@
     },
     "Magrittr": {
       "imports": ["magrittr", "tidyverse"],
-      "technologies": [],
+      "technologies": ["Pipeline"],
       "description": "The magrittr package offers a set of operators which make your code more readable. Contains the famous pipe %>% operator.",
       "image": "https://magrittr.tidyverse.org/logo.png"
     },
@@ -1418,7 +1423,7 @@
     },
     "Rcpp": {
       "imports": ["Rcpp"],
-      "technologies": [],
+      "technologies": ["Packages"],
       "description": "Rcpp provides R functions as well as C++ classes which offer a seamless integration of R and C++."
     },
     "Readr": {
@@ -1429,7 +1434,7 @@
     },
     "Reticulate": {
       "imports": ["reticulate"],
-      "technologies": [],
+      "technologies": ["Interoperability"],
       "description": "The reticulate package provides a comprehensive set of tools for interoperability between Python and R.",
       "image": "https://rstudio.github.io/reticulate/reference/figures/reticulated_python.png"
     },
@@ -1661,6 +1666,12 @@
       "technologies": ["Web Development", "JavaScript Frameworks", "Backend"],
       "description": "Hapi is a simple, secure web framework for Node.js.",
       "image": "https://raw.githubusercontent.com/hapijs/assets/master/images/hapi.png"
+    },
+    "HerbsJS": {
+      "imports": ["@herbsjs/herbs"],
+      "technologies": ["Backend", "JavaScript Frameworks", "Web Development"],
+      "description": "Herbs is an library for backend applications, allowing you to build your microservices in Node.js faster and future-proof.",
+      "image": "https://herbsjs.org/img/logo-herbsjs.svg"
     },
     "Impress": {
       "imports": ["impress"],
@@ -1936,15 +1947,15 @@
       "description": "A declarative, efficient, and flexible JavaScript library for building user interfaces.",
       "image": "https://avatars.githubusercontent.com/u/79226042?s=200&v=4"
     },
-    "Supertest": {
-      "imports": ["supertest"],
-      "technologies": ["Testing"],
-      "description": "Super-agent driven library for testing node.js HTTP servers using a fluent API."
-    },
     "Styled Components": {
       "imports": ["styled-components"],
       "technologies": ["Frontend"],
       "description": "Styled components is a way to write modular CSS in modern JavaScript."
+    },
+    "Supertest": {
+      "imports": ["supertest"],
+      "technologies": ["Testing"],
+      "description": "Super-agent driven library for testing node.js HTTP servers using a fluent API."
     },
     "Svelte": {
       "imports": ["svelte"],
