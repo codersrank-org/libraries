@@ -1,29 +1,42 @@
-# Overview
-This repository contains a list of supported libraries, imports and technologies they belong to.
+# How does it work?
+When a repository is analyzed two repositories are used: [repo_info_extractor](https://github.com/codersrank-org/repo_info_extractor/) and this repository. 
+The [repo_info_extractor](https://github.com/codersrank-org/repo_info_extractor/) is responsible to recognize the languages and export the imported libraries.
+This repository contains a list of supported libraries, imports and technologies they belong to. 
+
+## In short
+- Language recognition: [repo_info_extractor](https://github.com/codersrank-org/repo_info_extractor/).
+- Library recognition: [libraries](https://github.com/codersrank-org/libraries)
 
 ## Structure
-The entire list as stored as a JSON object, where the library name is the key, and the value of such
-property is a number of attributes such as import pattern, language, description, etc.
+The entire list stored as a JSON object, top level key is the language, inside that there are library objects where 
+names are the keys, and the value of such property is a number of attributes such as import pattern, description, etc.
 
-One library can be mapped to one single language only, but have multiple import patterns or technologies.
+One library can appear in multiple languages and can have multiple import patterns or technologies.
 
 An example entry looks like:
 ```
-	"Express": {
-        "language": "JavaScript"
-		"imports": ["express"],
-		"technologies": ["MVC", "Web Development"],
-		"description": "Express is a minimal Node.js framework for web and mobile applications.",
-		"image": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/express/express.png",
-	}
+"JavaScript": {
+  ..
+  "Express": {
+    "imports": ["express"],
+    "technologies": ["MVC", "Web Development"],
+    "description": "Express is a minimal Node.js framework for web and mobile applications.",
+    "image": "https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/express/express.png"
+  },
+  ..
+}
 ```
 
 ### Deep dive into structure
-As mentioned before, the key of the object is the ***library name***.
+As mentioned before, top level objects are the languages. Inside a language, 
+there are libraries which are belong to the that language and the key of that object is the ***library name***.
 
 ***Language*** defines what language this library belongs to. One library can be mapped to one language only, so in case of 
 ambiguous libraries like Bootstrap, the choice has to be made which language it is mainly. Bootstrap is mainly CSS, even
 though it involves some JavaScript. 
+
+One exception to this rule is, when the same library has different wrappers for different languages. For example `mongoose` can be used in JavaScript, TypeScript and C. So there are 3 
+`mongoose` objects (for each language), with their own import styles.
 
 ***Imports*** is an array of strings, that all map to this library. During the analysis of the repository, CodersRank extracts
 imports that were used in the commits authored by the user. This may have a form of
@@ -52,11 +65,10 @@ mapped to one of more technologies, as in the original example.
 All contributions are welcome, and CodersRank relies on such support. The rules are few, but essential:
 
 - All fields apart of `description` and `image` are required.
-- Please group Libraries by languages and maintain alphabetical order for both `libraries` and `languages`. Think SQL `ORDER BY language, library`.
+- Maintain alphabetical order for `libraries` and `languages`. Think SQL `ORDER BY library`.
 - If providing description, make sure to include the dot `.` at the end of the line. Also make sure the spelling is correct and the description is accurate.
+- `JavaScript` and `TypeScript` must be identical.
 
 ## TODO
-* Enforce the rules above in the continious integration. Again, any contribution with a handy bash script for this would be greatly appreciated.
-* Ensure correct JSON during the Continious Intergration pipeline.
 * Currently the image is not used anywhere, but once it is displayed, particular restrictions on format and dimenstions need to be introduced. 
-* More languages and more libraries 😀
+* More libraries 😀
