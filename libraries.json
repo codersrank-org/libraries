@@ -162,6 +162,11 @@
       "description": "Gin is a HTTP web framework written in Go (Golang).",
       "image": "https://raw.githubusercontent.com/gin-gonic/logo/master/color.png"
     },
+    "Ginkgo": {
+      "imports": ["github.com/onsi/gomega"],
+      "technologies": ["Testing"],
+      "description": "Ginkgo is a mature testing framework for Go designed to help you write expressive specs"
+    },
     "Go Micro": {
       "imports": ["github.com/micro/go-micro"],
       "technologies": ["microservice"],
