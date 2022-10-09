@@ -895,6 +895,12 @@
       "description": "Sequelize is a promise-based Node.js ORM for Postgres, MySQL, MariaDB, SQLite and Microsoft SQL Server.",
       "image": "https://avatars1.githubusercontent.com/u/3591786"
     },
+    "Sinon": {
+      "imports": ["sinon"],
+      "technologies": ["Testing"],
+      "description": "Standalone test spies, stubs and mocks for JavaScript.",
+      "image": "https://sinonjs.org/assets/images/logo.png"
+    },
     "Slonik": {
       "imports": ["slonik"],
       "technologies": ["Databases", "PostgreSQL"],
@@ -1940,6 +1946,12 @@
       "technologies": ["ORM", "NodeJS"],
       "description": "Sequelize is a promise-based Node.js ORM for Postgres, MySQL, MariaDB, SQLite and Microsoft SQL Server.",
       "image": "https://avatars1.githubusercontent.com/u/3591786"
+    },
+    "Sinon": {
+      "imports": ["sinon"],
+      "technologies": ["Testing"],
+      "description": "Standalone test spies, stubs and mocks for JavaScript.",
+      "image": "https://sinonjs.org/assets/images/logo.png"
     },
     "Slonik": {
       "imports": ["slonik"],
