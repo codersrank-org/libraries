@@ -376,6 +376,11 @@
       "technologies": ["Mobile Development"],
       "description": "A powerful image downloading and caching library for Android."
     },
+    "Quarkus": {
+      "imports": ["io.quarkus"],
+      "technologies": ["Java Frameworks", "REST"],
+      "description": "Supersonic Subatomic Java."
+    },
     "Retrofit": {
       "imports": ["com.squareup.retrofit"],
       "technologies": ["Mobile Development", "Java Frameworks"],
