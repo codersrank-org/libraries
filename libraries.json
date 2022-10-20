@@ -301,6 +301,11 @@
       "description": "Web services framework to create RESTful services.",
       "image": "https://eclipse-ee4j.github.io/jersey.github.io/images/jersey_logo.png"
     },
+    "jsoup": {
+      "imports": ["org.jsoup"],
+      "technologies": ["Web Scraping"],
+      "description": "Java HTML Parser."
+    },
     "JUnit": {
       "imports": ["org.junit", "junit"],
       "technologies": ["Testing"],
