@@ -1193,7 +1193,7 @@
       "technologies": ["Web Development", "PHP Frameworks", "MVC"],
       "description": "Zend Framework is a collection of professional PHP packages with more than 570 million installations. It can be used to develop web applications and services using PHP 5.6+, and provides 100% object-oriented code using a broad spectrum of language features. ",
       "image": "https://cdn.iconscout.com/icon/free/png-256/zend-282904.png"
-    },
+    }
   },
   "Python": {
     "asyncpg": {
