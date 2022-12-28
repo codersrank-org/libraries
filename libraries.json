@@ -6,6 +6,18 @@
       "description": "MongoDB object modeling designed to work in an asynchronous environment."
     }
   },
+  "C++": {
+    "Boost": {
+      "imports": ["boost/"],
+      "technologies": ["C++ Libraries"],
+      "description": "Boost provides free peer-reviewed portable C++ source libraries."
+    },
+    "Qt": {
+      "imports": ["QApplication", "QCoreApplication", "QGuiApplication"],
+      "technologies": ["C++ Libraries", "Desktop Applications"],
+      "description": "Qt is a cross-platform application and UI framework."
+    }
+  },
   "C#": {
     "ASP.NET": {
       "imports": ["Microsoft.AspNetCore.Mvc"],
