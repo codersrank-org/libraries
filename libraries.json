@@ -51,6 +51,18 @@
       "image": "https://avatars2.githubusercontent.com/u/2092016?s=200&v=4"
     }
   },
+  "C++": {
+    "Boost": {
+      "imports": ["boost/"],
+      "technologies": ["C++ Libraries"],
+      "description": "Boost provides free peer-reviewed portable C++ source libraries."
+    },
+    "Qt": {
+      "imports": ["QApplication", "QCoreApplication", "QGuiApplication"],
+      "technologies": ["C++ Libraries", "Desktop Applications"],
+      "description": "Qt is a cross-platform application and UI framework."
+    }
+  },
   "CSS": {
     "AdminLTE": {
       "imports": ["AdminLTE.css", "AdminLTE.min.css"],
@@ -1151,6 +1163,12 @@
       "description": "ReactPHP is a low-level library for event-driven programming in PHP.",
       "image": "https://avatars3.githubusercontent.com/u/1696866"
     },
+    "Spiral": {
+      "imports": ["Spiral\\", "spiral/framework"],
+      "technologies": ["Web Development", "PHP Frameworks", "MVC", "Long Living"],
+      "description": "Spiral Framework is a modern PHP framework designed to power faster, cleaner, superior software development.",
+      "image": "https://user-images.githubusercontent.com/44509066/199559869-62fec1b0-bf55-4165-b692-f11f7fc45d42.png"
+    },
     "Sulu": {
       "imports": ["Sulu\\", "sulu/"],
       "technologies": [
@@ -1181,12 +1199,6 @@
       "technologies": ["Web Development", "PHP Frameworks", "MVC"],
       "description": "Yii2 is a fast, secure, and efficient PHP framework.",
       "image": "https://avatars.githubusercontent.com/u/993323"
-    },
-    "Spiral": {
-      "imports": ["Spiral\\", "spiral/framework"],
-      "technologies": ["Web Development", "PHP Frameworks", "MVC", "Long Living"],
-      "description": "Spiral Framework is a modern PHP framework designed to power faster, cleaner, superior software development.",
-      "image": "https://user-images.githubusercontent.com/44509066/199559869-62fec1b0-bf55-4165-b692-f11f7fc45d42.png"
     },
     "Zend Framework 1": {
       "imports": ["Zend_"],
