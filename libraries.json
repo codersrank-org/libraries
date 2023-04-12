@@ -60,7 +60,8 @@
     "Qt": {
       "imports": ["QApplication", "QCoreApplication", "QGuiApplication"],
       "technologies": ["C++ Libraries", "Desktop Applications"],
-      "description": "Qt is a cross-platform application and UI framework."
+      "description": "Qt is a cross-platform application and UI framework.",
+      "image": "https://upload.wikimedia.org/wikipedia/commons/8/81/Qt_logo_neon_2022.svg"
     }
   },
   "CSS": {
@@ -269,8 +270,7 @@
     "Gson": {
       "imports": ["com.google.gson"],
       "technologies": ["JSon"],
-      "description": "Gson is a Java library that can be used to convert Java Objects into their JSON representation.",
-      "image": "https://s.appbrain.com/static/202005201421235/blob/sdk-logos/google_gson.png"
+      "description": "Gson is a Java library that can be used to convert Java Objects into their JSON representation."
     },
     "Guardian": {
       "imports": [
@@ -305,7 +305,7 @@
         "Backend"
       ],
       "description": "MVC framework for building user interfaces for web applications.",
-      "image": "https://jakarta.ee/images/jakarta/jakarta-ee-logo.svg"
+      "image": "https://jakarta.ee/images/jakarta/jakarta-ee-logo-color.svg"
     },
     "Jersey": {
       "imports": ["org.glassfish.jersey"],
@@ -418,7 +418,7 @@
       "imports": ["org.openqa.selenium"],
       "technologies": ["Test Automation"],
       "description": "A collection of language specific bindings to drive a browser",
-      "image": "https://camo.githubusercontent.com/4b95df4d6ca7a01afc25d27159804dc5a7d0df41d8131aaf50c9f84847dfda21/68747470733a2f2f73656c656e69756d2e6465762f696d616765732f73656c656e69756d5f6c6f676f5f7371756172655f677265656e2e706e67"
+      "image": "https://raw.githubusercontent.com/SeleniumHQ/seleniumhq.github.io/trunk/website_and_docs/static/images/logos/webdriver.svg"
     },
     "SLF4J": {
       "imports": ["org.slf4j"],
@@ -436,13 +436,13 @@
       "imports": ["org.springframework"],
       "technologies": ["Web Development", "Java Frameworks", "Backend"],
       "description": "Comprehensive programming and configuration model for modern Java-based enterprise applications.",
-      "image": "https://spring.io/images/spring-logo-9146a4d3298760c2e7e49595184e1975.svg"
+      "image": "https://spring.io/img/spring.svg"
     },
     "Spring Boot": {
       "imports": ["org.springframework.boot"],
       "technologies": ["Web Development", "Java Frameworks", "Backend"],
       "description": "Bootstrap a Spring application with little or no configuration.",
-      "image": "https://spring.io/images/spring-logo-9146a4d3298760c2e7e49595184e1975.svg"
+      "image": "https://spring.io/img/spring.svg"
     },
     "Spring Cloud": {
       "imports": ["org.springframework.cloud"],
@@ -453,7 +453,7 @@
         "Microservices"
       ],
       "description": "A set of libraries within the Spring ecosystem for the development of cloud native apps.",
-      "image": "https://spring.io/images/spring-logo-9146a4d3298760c2e7e49595184e1975.svg"
+      "image": "https://spring.io/img/spring.svg"
     },
     "spring-data-mongodb": {
       "imports": ["com.mongodb.client"],
