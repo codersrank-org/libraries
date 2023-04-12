@@ -57,6 +57,11 @@
       "technologies": ["C++ Libraries"],
       "description": "Boost provides free peer-reviewed portable C++ source libraries."
     },
+    "DCMTK": {
+        "imports":["dcmtk/"],
+        "technologies":["C++ Libraries", "Medical Imaging" ],
+        "description":"DCMTK is a collection of libraries and applications implementing large parts the DICOM standard."
+    },
     "FLTK":{
         "imports": ["FL/"],
         "technologies":["C++ Libraries", "Desktop Applications", "User Interfaces"],
