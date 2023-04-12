@@ -1367,6 +1367,12 @@
       "description": "Pyrogram is a modern, elegant and easy-to-use Telegram framework written from the ground up in Python and C.",
       "image": "https://docs.pyrogram.org/_static/pyrogram.png"
     },
+    "PySpark": {
+      "imports": ["pyspark"],
+      "technologies": ["Big Data", "Data Processing", "Data Science"],
+      "description": "PySpark is an interface for Apache Spark in Python. It not only allows you to write Spark applications using Python APIs, but also provides the PySpark shell for interactively analyzing your data in a distributed environment.",
+      "image": "https://spark.apache.org/images/spark-logo-trademark.png"
+    },
     "Pytest": {
       "imports": ["pytest"],
       "technologies": ["Testing"],
