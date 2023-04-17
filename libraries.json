@@ -67,11 +67,31 @@
         "technologies":["C++ Libraries", "Desktop Applications", "User Interfaces"],
         "description": "The Fast Light Tool Kit is a cross-platform C++ GUI toolkit for  UNIX®/Linux® (X11 or Wayland), Microsoft® Windows®, and macOS®."
     },
+    "json-cpp": {
+      "imports": ["json-cpp"],
+      "technologies": ["C++ Libraries", "JSON"],
+      "description": "json-cpp is a C++11 JSON serialization library."
+    },
+    "OpenCV": {
+      "imports": ["opencv2/"],
+      "technologies": ["C++ Libraries", "Image Processing", "Computer Vision"],
+      "description": "OpenCV (Open Source Computer Vision Library: http://opencv.org) is an open-source library that includes several hundreds of computer vision algorithms."
+    },
     "Qt": {
       "imports": ["QApplication", "QCoreApplication", "QGuiApplication"],
       "technologies": ["C++ Libraries", "Desktop Applications"],
       "description": "Qt is a cross-platform application and UI framework.",
       "image": "https://upload.wikimedia.org/wikipedia/commons/8/81/Qt_logo_neon_2022.svg"
+    },
+    "TinyXML-2": {
+      "imports": ["tinyxml2"],
+      "technologies": ["C++ Libraries", "XML"],
+      "description": "TinyXML-2 is a simple, small, efficient, C++ XML parser that can be easily integrated into other programs."
+    },
+    "VTK": {
+      "imports": ["vtk"],
+      "technologies": ["C++ Libraries", "Image Processing", "3D Graphics", "Modelling", "Volume Rendering", "2D Plotting"],
+      "description": "The Visualization Toolkit (VTK) is an open-source, freely available software system for 3D computer graphics, modeling, image processing, volume rendering, scientific visualization, and 2D plotting."
     }
   },
   "CSS": {
