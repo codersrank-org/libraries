@@ -1108,7 +1108,8 @@
   "PHP": {
     "Algolia": {
       "imports": [
-        "Algolia\AlgoliaSearch"
+        "Algolia\\AlgoliaSearch\\",
+        "algolia/algoliasearch-client-php"
       ],
       "technologies": ["Web Development", "Search Engine"],
       "description": "Fast, reliable and modern Search & Discovery",
