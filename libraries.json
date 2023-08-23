@@ -144,6 +144,12 @@
       "technologies": ["Data Visualization"],
       "description": "A powerful Flutter chart library, currently supporting Line Chart, Bar Chart and Pie Chart."
     },
+    "Dask": {
+      "imports": ["dask"],
+      "technologies": ["Big Data", "Scientific Computing", "Data Processing", "Data Science"],
+      "description": "Dask is a flexible library for parallel computing in Python.",
+      "image": "https://docs.dask.org/en/stable/_static/images/dask-horizontal-white.svg"
+    },
     "Flutter": {
       "imports": ["package:flutter"],
       "technologies": ["Mobile Development"],
@@ -669,6 +675,12 @@
       "technologies": ["Backend", "JavaScript Frameworks", "Web Development"],
       "description": "Herbs is an library for backend applications, allowing you to build your microservices in Node.js faster and future-proof.",
       "image": "https://herbsjs.org/img/logo-herbsjs.svg"
+    },
+    "Holoviews": {
+      "imports": ["holoviews"],
+      "technologies": ["Scientific Computing", "Data Science", "Data Visualization"],
+      "description": "HoloViews is an open-source Python library for data analysis and visualization.",
+      "image": "https://holoviews.org/_static/logo_horizontal.png"
     },
     "Impress": {
       "imports": ["impress"],
@@ -2106,6 +2118,15 @@
       "imports": ["webpack"],
       "technologies": ["Build tools"],
       "description": "Webpack is an open-source JavaScript module bundler. It is a module bundler primarily for JavaScript, but it can transform front-end assets like HTML, CSS, and images if the corresponding loaders are included."
-    }
+    },
+    "Xarray": {
+      "imports": ["xarray"],
+      "technologies": [
+        "Scientific Computing",
+        "Data Processing",
+        "Data Science"
+      ],
+      "description": "Xarray: N-D labeled arrays and datasets in Python. Xarray is an open source project and Python package that introduces labels in the form of dimensions, coordinates, and attributes on top of raw NumPy-like arrays, which allows for more intuitive, more concise, and less error-prone user experience."
+    }     
   }
 }
