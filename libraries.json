@@ -1145,6 +1145,15 @@
       "description": "A full-stack framework for Laravel that takes the pain out of building dynamic UIs.",
       "image": "https://avatars.githubusercontent.com/u/51960834?s=200"
     },
+    "OpenAI": {
+      "imports": [
+        "OpenAI\\",
+        "openai-php/client"
+      ],
+      "technologies": ["IA", "NLP", "Text Generation", "Language Models", "Machine Learning", "API"],
+      "description": "PHP API client that allows you to interact with the Open AI API",
+      "image":"https://avatars.githubusercontent.com/u/114351357"
+    },
     "Phalcon": {
       "imports": ["Phalcon\\"],
       "technologies": ["Web Development", "PHP Frameworks"],
