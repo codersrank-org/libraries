@@ -122,8 +122,23 @@
     },
     "arsd": {
       "imports": ["arsd"],
-      "technologies": ["D Libraries", "Desktop Applications", "D frameworks", "XML", "Databases", "Web Development"],
+      "technologies": ["D Libraries", "Desktop Applications", "Frameworks", "XML", "Databases", "Web Development"],
       "description": "This is a collection of modules written on D."
+    },
+    "vibed": {
+      "imports": ["vibe"],
+      "technologies": ["D Libraries", "Frameworks", "Databases", "Web Development"],
+      "description": "high-performance asynchronous I/O, concurrency and web application toolkit written in D."
+    },
+    "dlangui": {
+      "imports": ["dlangui"],
+      "technologies": ["D Libraries", "Desktop Applications"],
+      "description": "Cross Platform GUI for D programming language (not binding)."
+    },
+    "gtkd": {
+      "imports": ["gtk", "gtkc", "gio", "glib", "gstreamer", "gobject"],
+      "technologies": ["D Libraries", "Frameworks", "Desktop Applications"],
+      "description": "GtkD is a D binding and OO wrapper of GTK+."
     },
   },
   "CSS": {
