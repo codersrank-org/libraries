@@ -1273,7 +1273,7 @@
       "technologies": ["Databases", "PostgreSQL"],
       "description": "asyncpg is a database interface library designed specifically for PostgreSQL and Python/asyncio."
     },
-    "BeautyfulSoup": {
+    "BeautifulSoup": {
       "imports": ["bs4"],
       "technologies": ["Web Scraping"],
       "description": "Beautiful Soup is a Python package for parsing HTML and XML documents.",
