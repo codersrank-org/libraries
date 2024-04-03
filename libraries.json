@@ -94,53 +94,6 @@
       "description": "The Visualization Toolkit (VTK) is an open-source, freely available software system for 3D computer graphics, modeling, image processing, volume rendering, scientific visualization, and 2D plotting."
     }
   },
-  "D": {
-    "DCompute": {
-      "imports": ["dcompute"],
-      "technologies": ["Machine Learning", "Deep Learning", "D Libraries"],
-      "description": "DCompute is Native execution of D on GPUs and other Accelerators."
-    },
-    "dcv": {
-      "imports": ["dcv"],
-      "technologies": ["Image Processing", "Computer Vision", "D Libraries"],
-      "description": "Computer Vision Library for D Programming Language."
-    },
-    "libmir": {
-      "imports": ["mir"],
-      "technologies": [
-        "Scientific Computing",
-        "Data Processing",
-        "Data Science",
-        "D Libraries"
-      ],
-      "description": "Mir Algorithm in Dlang."
-    },
-    "libdparse": {
-      "imports": ["dparse"],
-      "technologies": ["D Libraries"],
-      "description": "Library for lexing and parsing D source code."
-    },
-    "arsd": {
-      "imports": ["arsd"],
-      "technologies": ["D Libraries", "Desktop Applications", "Frameworks", "XML", "Databases", "Web Development"],
-      "description": "This is a collection of modules written on D."
-    },
-    "vibed": {
-      "imports": ["vibe"],
-      "technologies": ["D Libraries", "Frameworks", "Databases", "Web Development"],
-      "description": "high-performance asynchronous I/O, concurrency and web application toolkit written in D."
-    },
-    "dlangui": {
-      "imports": ["dlangui"],
-      "technologies": ["D Libraries", "Desktop Applications"],
-      "description": "Cross Platform GUI for D programming language (not binding)."
-    },
-    "gtkd": {
-      "imports": ["gtk", "gtkc", "gio", "glib", "gstreamer", "gobject"],
-      "technologies": ["D Libraries", "Frameworks", "Desktop Applications"],
-      "description": "GtkD is a D binding and OO wrapper of GTK+."
-    },
-  },
   "CSS": {
     "AdminLTE": {
       "imports": ["AdminLTE.css", "AdminLTE.min.css"],
@@ -203,7 +156,60 @@
       "image": "https://refactoringui.nyc3.cdn.digitaloceanspaces.com/tailwind-logo.svg"
     }
   },
+  "D": {
+    "arsd": {
+      "imports": ["arsd"],
+      "technologies": ["D Libraries", "Desktop Applications", "Frameworks", "XML", "Databases", "Web Development"],
+      "description": "This is a collection of modules written on D."
+    },
+    "DCompute": {
+      "imports": ["dcompute"],
+      "technologies": ["Machine Learning", "Deep Learning", "D Libraries"],
+      "description": "DCompute is Native execution of D on GPUs and other Accelerators."
+    },
+    "dcv": {
+      "imports": ["dcv"],
+      "technologies": ["Image Processing", "Computer Vision", "D Libraries"],
+      "description": "Computer Vision Library for D Programming Language."
+    },
+    "dlangui": {
+      "imports": ["dlangui"],
+      "technologies": ["D Libraries", "Desktop Applications"],
+      "description": "Cross Platform GUI for D programming language (not binding)."
+    },
+    "gtkd": {
+      "imports": ["gtk", "gtkc", "gio", "glib", "gstreamer", "gobject"],
+      "technologies": ["D Libraries", "Frameworks", "Desktop Applications"],
+      "description": "GtkD is a D binding and OO wrapper of GTK+."
+    },
+    "libdparse": {
+      "imports": ["dparse"],
+      "technologies": ["D Libraries"],
+      "description": "Library for lexing and parsing D source code."
+    },
+    "libmir": {
+      "imports": ["mir"],
+      "technologies": [
+        "Scientific Computing",
+        "Data Processing",
+        "Data Science",
+        "D Libraries"
+      ],
+      "description": "Mir Algorithm in Dlang."
+    },
+    "vibed": {
+      "imports": ["vibe"],
+      "technologies": ["D Libraries", "Frameworks", "Databases", "Web Development"],
+      "description": "high-performance asynchronous I/O, concurrency and web application toolkit written in D."
+    }
+  },
   "Dart": {
+    "Dask": {
+      "imports": ["dask"],
+      "technologies": ["Big Data", "Scientific Computing", "Data Processing", "Data Science"],
+      "description": "Dask is a flexible library for parallel computing in Python.",
+      "image": "https://docs.dask.org/en/stable/_static/images/dask-horizontal-white.svg"
+    },
     "fl_chart": {
       "imports": [
         "package:fl_chart/fl_chart.dart",
@@ -215,12 +221,6 @@
       ],
       "technologies": ["Data Visualization"],
       "description": "A powerful Flutter chart library, currently supporting Line Chart, Bar Chart and Pie Chart."
-    },
-    "Dask": {
-      "imports": ["dask"],
-      "technologies": ["Big Data", "Scientific Computing", "Data Processing", "Data Science"],
-      "description": "Dask is a flexible library for parallel computing in Python.",
-      "image": "https://docs.dask.org/en/stable/_static/images/dask-horizontal-white.svg"
     },
     "Flutter": {
       "imports": ["package:flutter"],
@@ -1096,6 +1096,15 @@
       "imports": ["webpack"],
       "technologies": ["Build tools"],
       "description": "Webpack is an open-source JavaScript module bundler. It is a module bundler primarily for JavaScript, but it can transform front-end assets like HTML, CSS, and images if the corresponding loaders are included."
+    },
+    "Xarray": {
+      "imports": ["xarray"],
+      "technologies": [
+        "Scientific Computing",
+        "Data Processing",
+        "Data Science"
+      ],
+      "description": "Xarray: N-D labeled arrays and datasets in Python. Xarray is an open source project and Python package that introduces labels in the form of dimensions, coordinates, and attributes on top of raw NumPy-like arrays, which allows for more intuitive, more concise, and less error-prone user experience."
     }
   },
   "OpenEdge ABL": {
@@ -1857,6 +1866,12 @@
       "technologies": ["Backend", "JavaScript Frameworks", "Web Development"],
       "description": "Herbs is an library for backend applications, allowing you to build your microservices in Node.js faster and future-proof.",
       "image": "https://herbsjs.org/img/logo-herbsjs.svg"
+    },
+    "Holoviews": {
+      "imports": ["holoviews"],
+      "technologies": ["Scientific Computing", "Data Science", "Data Visualization"],
+      "description": "HoloViews is an open-source Python library for data analysis and visualization.",
+      "image": "https://holoviews.org/_static/logo_horizontal.png"
     },
     "Impress": {
       "imports": ["impress"],

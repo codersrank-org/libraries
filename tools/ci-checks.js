@@ -1,5 +1,36 @@
 let fs = require('fs')
 
+function compareJSON(obj1, obj2, path = '') {
+  let diff = {};
+
+  // Check keys in obj1
+  for (let key in obj1) {
+      if (obj1.hasOwnProperty(key)) {
+          const fullPath = (path ? path + '.' : '') + key;
+          if (!obj2.hasOwnProperty(key)) {
+              diff[fullPath] = { oldValue: obj1[key], newValue: undefined };
+          } else if (typeof obj1[key] === 'object' && typeof obj2[key] === 'object') {
+              const nestedDiff = compareJSON(obj1[key], obj2[key], fullPath);
+              if (Object.keys(nestedDiff).length > 0) {
+                  diff[fullPath] = nestedDiff;
+              }
+          } else if (obj1[key] !== obj2[key]) {
+              diff[fullPath] = { oldValue: obj1[key], newValue: obj2[key] };
+          }
+      }
+  }
+
+  // Check keys in obj2 to find any additional keys
+  for (let key in obj2) {
+      if (obj2.hasOwnProperty(key) && !obj1.hasOwnProperty(key)) {
+          const fullPath = (path ? path + '.' : '') + key;
+          diff[fullPath] = { oldValue: undefined, newValue: obj2[key] };
+      }
+  }
+
+  return diff;
+}
+
 fs.readFile( __dirname + '/../libraries.json', function (err, data) {
   if (err) {
     throw err; 
@@ -15,7 +46,8 @@ fs.readFile( __dirname + '/../libraries.json', function (err, data) {
 
   // javaScript and TypeScript must be the same
   if (JSON.stringify(data["JavaScript"]) !==  JSON.stringify(data["TypeScript"])) {
-    error.push('ERROR: JavaScript and TypeScript must have the same libraries and same values.');
+    const diff = compareJSON(data["JavaScript"], data["TypeScript"]);
+    error.push('ERROR: JavaScript and TypeScript must have the same libraries and same values. Diff: ' + JSON.stringify(diff));
 
     for (let i of Object.keys(data["JavaScript"])) {
       if (!data["TypeScript"][i]) {
