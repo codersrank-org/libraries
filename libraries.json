@@ -1356,6 +1356,16 @@
       "description": "The fundamental package for scientific computing with Python.",
       "image": "https://numpy.org/images/logos/numpy.svg"
     },
+    "Odoo": {
+      "imports": ["odoo"],
+      "technologies": [
+        "Web Development",
+        "Enterprise Resource Planning Framework",
+        "ERP"
+      ],
+      "description": "Odoo is suite of business management software tools including, for example, CRM, e-commerce, billing, accounting, manufacturing, warehouse, project management, and inventory management.",
+      "image": "https://odoocdn.com/openerp_website/static/src/img/assets/svg/odoo_logo.svg"
+    },
     "Pandas": {
       "imports": ["pandas"],
       "technologies": [
