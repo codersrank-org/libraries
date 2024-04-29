@@ -72,6 +72,12 @@
       "technologies": ["C++ Libraries", "JSON"],
       "description": "json-cpp is a C++11 JSON serialization library."
     },
+    "ns-3": {
+      "imports": ["ns3/"],
+      "technologies": ["C++ Libraries", "Computer Networks", "Simulation"],
+      "description": "ns-3 is a discrete-event network simulator for Internet systems, targeted primarily for research and educational use. ns-3 is free, open-source software, licensed under the GNU GPLv2 license, and maintained by a worldwide community.",
+      "image": "https://www.nsnam.org/assets/img/ns-3-notext.png"
+    },
     "OpenCV": {
       "imports": ["opencv2/"],
       "technologies": ["C++ Libraries", "Image Processing", "Computer Vision"],
