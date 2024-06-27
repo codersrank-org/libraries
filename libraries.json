@@ -1512,7 +1512,12 @@
       "description": "PyTorch is an optimized tensor library for deep learning using GPUs and CPUs.",
       "image": "https://pytorch.org/assets/images/pytorch-logo.png"
     },
-
+    "ROS": {
+      "imports": ["rospy", "rospkg", "rosbag", "rosunit", "rostest"],
+      "technologies": ["Robotic"],
+      "description": "Robot Operating System (ROS) is a set of software libraries and tools that help you build robot applications.",
+      "image": "https://pytorch.org/assets/images/pytorch-logo.png"
+    },
     "Scikit-Learn": {
       "imports": ["sklearn"],
       "technologies": ["Machine Learning", "Data Analysis"],
